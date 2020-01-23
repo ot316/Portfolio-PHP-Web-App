@@ -1,5 +1,5 @@
 Media/
-/rollercoaster_optimisation.php
 /linear_regression.php
 /server.key
 /server.pass.key
+*.pem
