@@ -133,7 +133,7 @@ xfgoalattain = fgoalattain(funfgoalattain,x0,goal,weight,A,b,Aeq,beq,LB,UB) ;
                                     <p> Having obtained the optimal values I modelled the geometry in Solidworks as a visual sanity check. I conducted a sensitivity analysis on the model to establish correlations between variables and how they affected the optimal value. <p>
                                     <h3 style="padding-top: 20px;"> Visual Sanity Check</h3>        
                                     <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/model screenshotjpg2.jpg">
-                                            <h3 style="padding-top: 20px;"> Report</h3>
+                                            <h3 style="padding-top: 20px;"> Report (my contribution is subsection 3)</h3>
 
 
         </div>
