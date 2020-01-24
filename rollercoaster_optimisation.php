@@ -27,7 +27,7 @@
                 </li>
             </ul>
             <h3 style="padding-top: 20px;"> Web Scraping</h3>
-            <p> Before the optimisation study I conducted analytical research in support of the main project; I analysed the html of www.RCDB.com and appended the characteristics of each rollercoaster to a database and used box plots to visualise the data. All unabridged code for this project is available on my Github.</p>
+            <p> Before the optimisation study I conducted analytical research in support of the main project; I analysed the html of www.RCDB.com and appended the characteristics of each rollercoaster to a database and used box plots to visualise the data. Full code for this project is available on my Github.</p>
             <PRE class="code">
 def scrapedata(retrievals,df):
     for i in range(retrievals):   #refresh page to retrieve random rollercoaster

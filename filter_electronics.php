@@ -23,12 +23,14 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/gizmo.php') ?>
                 <?php include('project_partials/programmable_pet_feeder.php') ?>
-                <?php include('project_partials/diy_ambilight.php') ?>
+                <?php include('project_partials/smart_mirror.php') ?>
+
+
             </div>
             <div class="picwrapper" id="picwrapper">
+                <?php include('project_partials/diy_ambilight.php') ?>
                 <?php include('project_partials/double_necked_guitar.php') ?>
                 <?php include('project_partials/diy_desklamp.php') ?>
-                <?php include('project_partials/empty.php') ?>
             </div>
         </div>
     </div>

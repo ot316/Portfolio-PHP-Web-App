@@ -17,26 +17,26 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/zero_gravity_garden.php') ?>
                 <?php include('project_partials/jumping_robot.php') ?>
+                <?php include('project_partials/baxter_robot.php') ?>
+            </div>
+
+
+            <div class="picwrapper" id="picwrapper">
+                <?php include('project_partials/smart_mirror.php') ?>
+                <?php include('project_partials/illumuitar.php') ?>
                 <?php include('project_partials/ball_launcher.php') ?>
             </div>
 
 
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/baxter_robot.php') ?>
-                <?php include('project_partials/illumuitar.php') ?>
-                <?php include('project_partials/gizmo.php') ?>
-            </div>
-
-
-            <div class="picwrapper" id="picwrapper">
+                <?php include('project_partials/rollercoaster_optimisation.php') ?>
                 <?php include('project_partials/autonomous_drone.php') ?>
                 <?php include('project_partials/matlab_robotic_arm.php') ?>
-                <?php include('project_partials/embla.php') ?>
             </div>
 
 
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/rollercoaster_optimisation.php') ?>
+                <?php include('project_partials/gizmo.php') ?>
                 <?php include('project_partials/portfolio_webapp.php') ?>
                 <?php include('project_partials/big_data.php') ?>
             </div>
@@ -44,15 +44,15 @@
 
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/ISS_tracker.php') ?>
-                <?php include('project_partials/perfume_bracelet.php') ?>
+                <?php include('project_partials/embla.php') ?>
                 <?php include('project_partials/double_necked_guitar.php') ?>
             </div>
 
 
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/programmable_pet_feeder.php') ?>
+                <?php include('project_partials/perfume_bracelet.php') ?>
                 <?php include('project_partials/gyrocopter_chassis.php') ?>
-                <?php include('project_partials/custom_vpn.php') ?>
             </div>
 
 
@@ -60,6 +60,10 @@
                 <?php include('project_partials/game_of_life.php') ?>
                 <?php include('project_partials/custom_computer.php') ?>
                 <?php include('project_partials/diy_ambilight.php') ?>
+            </div>
+
+            <div class="picwrapper" id="picwrapper">
+                <?php include('project_partials/custom_vpn.php') ?>
             </div>
 
             <h2>Smaller Projects</h2>

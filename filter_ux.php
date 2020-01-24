@@ -15,7 +15,7 @@
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/embla.php') ?>
-                <?php include('project_partials/portfolio_website.php') ?>
+                <?php include('project_partials/portfolio_webapp.php') ?>
                 <?php include('project_partials/submarine_interior.php') ?>
             </div>
             <div class="picwrapper" id="picwrapper">

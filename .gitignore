@@ -3,3 +3,4 @@ Media/
 /server.key
 /server.pass.key
 *.pem
+.vscode
