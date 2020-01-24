@@ -22,7 +22,7 @@
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>My group of 4 conducted an optimsation study on the design of a rollercoaster.</li>
-                <li>Firstly logistic regression was applied to a rollercoaster database scraped from the web using Python </li>
+                <li>Firstly I applied logistic regression to a rollercoaster database scraped from the web using Python. </li>
                 <li>I then developed a multiobjective formulation from first principles, used design of experiments and implemented various optimisation algorithms to improve the design.
                 </li>
             </ul>
@@ -64,8 +64,7 @@ test=logreg.predict(pd.DataFrame({"Inversions": [input_inversions],"Speed /mph":
                 </div>
             </div>
             <h3 style="padding-top: 20px;"> Design of Experiments</h3>
-            <p>I was examining the geometry of the drop section of the rollercoaster and I derived the equations from first principles.
-                Given that air resistance was considered the system of equations could not be solved analytically. I therefore used Matlab to build a dataset of physical values to fit a linear regression model to. The equations are implemented in the generate data function below, which is run several thousand times for different values. </p>
+            <p>I was examining the geometry of the drop section of the rollercoaster and I derived the equations from first principles. Given that air resistance was considered the system of equations could not be solved analytically. I therefore used Matlab to build a dataset of physical values to fit a linear regression model to. The equations are implemented in the generate data function below, which is run several thousand times for different values. </p>
             <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/oliscatterplot.png">
             <PRE class="code">
 function [max_velocity, drop_distance, start_slope_velocity, g_force] = GenerateData(total_time, time_of_top_curve, theta, radius, rho, A, CD, g, mass, mu, flag)
@@ -90,7 +89,7 @@ for i = 1:points
               data_base(count,:) = [max_velocity, drop_distance, start_slope_velocity, g_force, lhs_total_time(i), lhs_time_of_top_curve(ii), lhs_theta(iii), lhs_radius(iiii)];
               count= count+1;
               points^4;</PRE>
-              <h3 style="padding-top: 20px;"> Logistic Regression</h3>        
+            <h3 style="padding-top: 20px;"> Logistic Regression</h3>
 
             <p>I normalised and shuffled the data before using Matlab's multivariate linear regression function to plot a function to the data. I also computed the R squared value and plotted the residuals.<p>
                     <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/Oliresiduals.png">
@@ -107,17 +106,17 @@ database_y_test = data_base_y(splitPt:end,:);
 beta = mvregress(database_X_train, database_y_train) %% Linear Regression
 Rsq_data_base = 1 - norm(database_X_test*beta - database_y_test)^2/norm(database_y_test-mean(database_y_test))^2 % R squared Value
 </PRE>
-                    <p>I then formulated the optimisation problem using the boundaries, equality and inequality constraints derived earlier and taking insight from the analysis of existing rollercoasters. I began with a single objective optimisation to maximise maximum speed. I tested sequential quadratic programming and genetic algorithm. <p>
-                            <PRE class="code">fun = @(x) -(beta(1,1)*x(1) + beta(2,1)*x(2) + beta(3,1)*x(3) + beta(4,1)*x(4) + beta(5,1)*x(5) + beta(6,1)*x(6) + beta(7,1)*x(7));
+                    <p>I then formulated the optimisation problem using the boundaries, equality and inequality constraints derived earlier and taking insight from the analysis of existing rollercoasters. I began with a single objective optimisation to maximise maximum speed. I tested sequential quadratic programming and genetic algorithm. </p>
+                    <PRE class="code">fun = @(x) -(beta(1,1)*x(1) + beta(2,1)*x(2) + beta(3,1)*x(3) + beta(4,1)*x(4) + beta(5,1)*x(5) + beta(6,1)*x(6) + beta(7,1)*x(7));
 fminoptions = optimoptions('fmincon','Algorithm','sqp');
 gaoptions = optimoptions('ga','PlotFcn', @gaplotbestf);
 [xfmin, MaximumVelocityscaledfmin] = fmincon(fun, x0, A, b, Aeq, beq, LB, UB, nonlcon, fminoptions);
 [xga, MaximumVelocityscaledga] = ga(fun,7,A,b,Aeq,beq,LB,UB,[],gaoptions);
 </PRE>
-                            <p>I reformulated the problem as multi-objective optimisation, maximising speed during the drop and G-force (within safe limits) as the track levelelled out. I tested a pareto search algorithm and plotted the pareto front. I then tested the fgoalattain function that weights the 2 objectives to return a single value from the pareto front. <p>
-                                    <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/olipareto.png">
+                    <p>I reformulated the problem as multi-objective optimisation, maximising speed during the drop and G-force (within safe limits) as the track levelelled out. I tested a pareto search algorithm and plotted the pareto front. I then tested the fgoalattain function that weights the 2 objectives to return a single value from the pareto front. </p>
+                    <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/olipareto.png">
 
-                                    <PRE class="code">
+                    <PRE class="code">
 optionspareto = optimoptions('paretosearch','PlotFcn','psplotparetof')
 funpareto = @(x) [-(beta(1,1)*x(1) + beta(2,1)*x(2) + beta(3,1)*x(3) + beta(4,1)*x(4) + beta(5,1)*x(5) + beta(6,1)*x(6) + beta(7,1)*x(7));
                   (((beta(1,1)*x(1) + beta(2,1)*x(2) + beta(3,1)*x(3) + beta(4,1)*x(4) + beta(5,1)*x(5) + beta(6,1)*x(6) + beta(7,1)*x(7)))^2)/(g*x((7))) ]
@@ -130,10 +129,10 @@ goal = [1,1];
 weight = [0.8,1];
 xfgoalattain = fgoalattain(funfgoalattain,x0,goal,weight,A,b,Aeq,beq,LB,UB) ;
 </PRE>
-                                    <p> Having obtained the optimal values I modelled the geometry in Solidworks as a visual sanity check. I conducted a sensitivity analysis on the model to establish correlations between variables and how they affected the optimal value. <p>
-                                    <h3 style="padding-top: 20px;"> Visual Sanity Check</h3>        
-                                    <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/model screenshotjpg2.jpg">
-                                            <h3 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h3>
+                    <p> Having obtained the optimal values I modelled the geometry in Solidworks as a visual sanity check. I conducted a sensitivity analysis on the model to establish correlations between variables and how they affected the optimal value. </p>
+                    <h3 style="padding-top: 20px;"> Visual Sanity Check</h3>
+                    <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/model screenshotjpg2.jpg">
+                    <h3 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h3>
 
 
         </div>
