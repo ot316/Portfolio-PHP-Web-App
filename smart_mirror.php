@@ -48,7 +48,7 @@ with open("model.json", "w") as json_file:
     json_file.write(model_json)
 model.save_weights("model_weights.h5")</PRE>
         <h3 style="padding-top: 20px;"> Computer Vision</h3>
-        <p>This model was transferred to the smart mirror and accepts an openCV video frame should a face be detected. The outputs of the neural network are saved to a CSV file and uploaded periodically to an S3 bucket. </p>
+        <p>This model was transferred to the smart mirror. The code below accepts an openCV video frame. Should a face be detected, the outputs of the neural network are saved to a CSV file and uploaded periodically to an S3 bucket. </p>
         <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 750px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/faces.jpg">
         <PRE class="code"> for (x,y,w,h) in faces_detected:
             face=gray_img[y:y+w,x:x+h] #cropping region of interest 
