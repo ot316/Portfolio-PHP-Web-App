@@ -24,7 +24,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I designed an alterntive packaging concept for single-use disposable perfume bottles, which are costly and non recyclable.</li>
+                <li>I designed an alternative packaging concept for single-use disposable perfume bottles, which are costly and non recyclable.</li>
                 <li>My design maintains a premium brand image through a bracelet designed for extended use. By comparing materials, manufacture and transport to a typical perfume bottle, I calculated a reduction of C02 and embodied energy of over 90%.
                 </li>
             </ul>
