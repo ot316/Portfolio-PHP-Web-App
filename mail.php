@@ -6,7 +6,7 @@ $mail->SMTPAuth = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port     = 587;  
 $mail->Username = "olithompsonwebsite@gmail.com";
-$mail->Password = "$6Y7cehUKsjU*";
+$mail->Password = getenv('GMAIL_PASSWORD');
 $mail->Host     = "smtp.gmail.com";
 $mail->Mailer   = "smtp";
 $mail->SetFrom("Your from email", "from name");
