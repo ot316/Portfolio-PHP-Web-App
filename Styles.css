@@ -452,6 +452,13 @@ a {
     height: 26vw;
 }
 
+.survey {
+    max-width: 60%;
+    border-style: solid;
+    margin: auto;
+    padding: 20px;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     .smallgear {
         margin-left: 73px;
@@ -800,6 +807,12 @@ a {
         width: 100%;
         height: 35vw;
     }
+
+    .survey {
+        max-width: 85%;
+    }
+
+
     @keyframes fastspin {
         0% {
             transform: rotate(60deg);

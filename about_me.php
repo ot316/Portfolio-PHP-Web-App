@@ -50,7 +50,7 @@
 <div class="navbarwrapper">
     <div class="navbar">
         <ul>
-            <li><a href="index.php">Projects</a></li>
+            <li><a class="active" href="index.php">Projects</a></li>
             <li><a class="active" href="about_me.php">About Me</a></li>
             <li><a href="render_gallery.php"> Render Gallery</a></li>
             <li><a href="digital_art.php">Digital Art</a></li>
@@ -74,11 +74,11 @@
                 <br><br>
         <h3>Contact Form </h3>
         <br>
-        <div style="border-style: solid; margin: auto; padding: 20px; max-width: 40%";>
+        <div class="survey";>
             <form action="mail.php" method="POST">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
-                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="30"></textarea><br />
+                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
             </form>
         </div>
