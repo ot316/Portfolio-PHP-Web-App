@@ -25,7 +25,7 @@
         <h3 style="padding-top: 0px; padding-bottom: 40px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 here</a> to download my CV</h3>
         <div style="border-style: solid; margin: auto; padding: 30px; max-width: 60%";>
-        <h3">Contact Form </h3>
+        <h3>Contact Form </h3>
             <form action="mail.php" method="POST">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
