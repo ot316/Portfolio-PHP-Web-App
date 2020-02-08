@@ -8,7 +8,7 @@
     <script src="javascript/p5/p5.min.js"></script>
 </head>
 
-<div class="background" style="min-width: 120vh">
+<div class="background">
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <div>
@@ -66,7 +66,7 @@ model.save_weights("model_weights.h5")</PRE>
         <br>
         <br>
         <div class="graphcontainer">
-            <canvas id="Chart2" width="60vw" height="20vw"></canvas>
+            <canvas id="Chart2" width="60vw"></canvas>
             <div style="padding-top: 10px;">
                 <br>
                 <div style="float: left; padding-left: 40px;">
