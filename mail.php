@@ -54,7 +54,7 @@ $mail->send();
         </p>
         <h3 style="padding-top: 0px; padding-bottom: 60px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 here</a> to download my CV</h3>
-                <h3> Thanks for your message </h3>
+                <h2> Thanks for your message </h2>
                 <img class="hero " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
     </div>
 </div>
