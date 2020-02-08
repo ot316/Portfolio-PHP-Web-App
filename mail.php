@@ -4,11 +4,11 @@ require('vendor/autoload.php');
 
 $name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
 
-$email = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["email"]);
+$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
 
 $message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
 
-$message = '<h2>Name:</h2><p>'.$name.'</p><br><br><h2>Email:</h2><p>'.$email.'</p><br><br><h2>Message:</h2><p>'.$message.'</p>';
+$message = '<h2>Name:</h2><p>'.$name.'</p><h2>Email:</h2><p>'.$email.'</p><h2>Message:</h2><p>'.$message.'</p>';
 
 $mail = new PHPMailer\PHPMailer\PHPMailer(true);
 $mail->isSMTP();
