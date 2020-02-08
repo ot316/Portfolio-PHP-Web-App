@@ -1,33 +1,4 @@
 
-<?php
-require('vendor/autoload.php');
-
-$name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
-
-$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
-
-$message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
-
-$message = '<h2>Name:</h2><p>'.$name.'</p><h2>Email:</h2><p>'.$email.'</p><h2>Message:</h2><p>'.$message.'</p>';
-
-$mail = new PHPMailer\PHPMailer\PHPMailer(true);
-$mail->isSMTP();
-//$mail->SMTPDebug = 1;
-$mail->CharSet = 'UTF-8';
-$mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.gmail.com';
-$mail->Port = '587';
-$mail->Username = "isstracker2019@gmail.com";
-$mail->Password = $bucket = getenv('GMAIL_PASSWORD')?: die('No "GMAIL_PASSWORD" config var in found in env!');
-$mail->SetFrom('isstracker2019@gmail.com');
-$mail->addAddress('olithompson@rocketmail.com');
-$mail->Subject = 'New Contact Form Submission';
-$mail->Body = $message;
-$mail->IsHTML(true);
-$mail->send();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,4 +91,33 @@ $mail->send();
 <script src="navbar.js"></script>
 
 </html>
+<?php
+require('vendor/autoload.php');
+
+$name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
+
+$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
+
+$message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
+
+$message = '<h2>Name:</h2><p>'.$name.'</p><h2>Email:</h2><p>'.$email.'</p><h2>Message:</h2><p>'.$message.'</p>';
+
+$mail = new PHPMailer\PHPMailer\PHPMailer(true);
+$mail->isSMTP();
+//$mail->SMTPDebug = 1;
+$mail->CharSet = 'UTF-8';
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'tls';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '587';
+$mail->Username = "isstracker2019@gmail.com";
+$mail->Password = $bucket = getenv('GMAIL_PASSWORD')?: die('No "GMAIL_PASSWORD" config var in found in env!');
+$mail->SetFrom('isstracker2019@gmail.com');
+$mail->addAddress('olithompson@rocketmail.com');
+$mail->Subject = 'New Contact Form Submission';
+$mail->Body = $message;
+$mail->IsHTML(true);
+$mail->send();
+?>
+
 
