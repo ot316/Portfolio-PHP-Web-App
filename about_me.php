@@ -95,6 +95,6 @@
     </div>
 </div>
 <?php include('partials/footer.php') ?>
-<script src="navbar.js"></script>
+<script src="javascript/navbar.js"></script>
 
 </html>
