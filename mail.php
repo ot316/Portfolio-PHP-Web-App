@@ -56,6 +56,8 @@ $mail->send();
                 here</a> to download my CV</h3>
                 <h3 style ="font-size: 20px;"> Thanks for your message </h3>
                 <br>
+                <br>
+                <br>
                 <img class="hero " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
     </div>
 </div>
