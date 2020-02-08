@@ -51,9 +51,8 @@ $mail->send();
  
         <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
         <strong> here </strong></a> to download my CV.</p>
-        <br>
-        <br>
-        <br>
+                <br><br>
+                <h3 style ="font-size: 20px;"> Thanks for your message </h3>
         <br>
         <h3>Software Competencies</h3>
         <br>
