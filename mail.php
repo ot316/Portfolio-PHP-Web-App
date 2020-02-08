@@ -32,6 +32,10 @@ $mail->send();
 <html lang="en">
 
 <head>
+    <?php include('partials/head.php') ?>
+    <title>About Me</title>
+</head>
+
 <div class="background">
     <!-- Banner, Navigation bar and Sidenav Bar -->
 <div class="banner">
@@ -84,11 +88,6 @@ $mail->send();
     </div>
 </div>
 <br>
-    <title>About Me</title>
-</head>
-
-<div class="background">
-    <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <!-- Heading -->
         <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-top: 20px; padding-right: 25px; padding-bottom: 15px; max-width: 18%;">
@@ -102,6 +101,7 @@ $mail->send();
  
         <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
         <strong> here </strong></a> to download my CV.</p>
+                <br><br>
                 <br><br>
                 <h3 style ="font-size: 20px;"> Thanks for your message </h3>
                 <br>
