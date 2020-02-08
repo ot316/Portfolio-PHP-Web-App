@@ -53,6 +53,9 @@ $mail->send();
         <strong> here </strong></a> to download my CV.</p>
                 <br><br>
                 <h3 style ="font-size: 20px;"> Thanks for your message </h3>
+                <br>
+        <br>
+        <br>
         <br>
         <h3>Software Competencies</h3>
         <br>
