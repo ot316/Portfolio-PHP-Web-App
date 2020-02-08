@@ -24,12 +24,14 @@
         </p>
         <h3 style="padding-top: 0px; padding-bottom: 60px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 here</a> to download my CV</h3>
-        <form action="mail.php" method="POST">
-            <p>Name</p> <input type="text" name="name">
-            <p>Email</p> <input type="text" name="email">
-            <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-            <input type="submit" value="Send"><input type="reset" value="Clear">
-        </form>
+        <div style="border-style: solid; margin: auto";>
+            <form action="mail.php" method="POST">
+                <p>Name</p> <input type="text" name="name">
+                <p>Email</p> <input type="text" name="email">
+                <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                <input type="submit" value="Send"><input type="reset" value="Clear">
+            </form>
+        </div>
         <img class="hero " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
     </div>
 </div>
