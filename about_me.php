@@ -16,14 +16,15 @@
         <p style="display: block"> I have a deep passion for learning about robotics, technology and engineering and am always working to broaden and deepen my knowledge through self-directed study and personal project work.
         </p>
         <p style="display: block; ">
-            I can carry engineering projects through each level of development, from ideation and user experience design through mechanical and electronic challenges down to the algorithms that make it work and a final prototype.
+            I enjoy carrying engineering projects through each level of development, from ideation and user experience design through mechanical and electronic challenges down to the software that make it work and a final prototype.
         </p>
-        <p style="display: block; padding-bottom: 10px;">
-            If you think my engineering and prototyping skills could be of use to your project or you have any questions about my work, please contact me at <a href=" mailto: olithompson@rocketmail.com ">
-                olithompson@rocketmail.com.</a>
-        </p>
+
+        <br>
+        <br>
         <h3 style="padding-top: 0px; padding-bottom: 40px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 here</a> to download my CV</h3>
+                <br>
+        <br>
         <div style="border-style: solid; margin: auto; padding: 20px; max-width: 60%";>
         <h3>Contact Form </h3>
             <form action="mail.php" method="POST">
