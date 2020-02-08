@@ -22,17 +22,27 @@
             If you think my engineering and prototyping skills could be of use to your project or you have any questions about my work, please contact me at <a href=" mailto: olithompson@rocketmail.com ">
                 olithompson@rocketmail.com.</a>
         </p>
-        <h3 style="padding-top: 0px; padding-bottom: 60px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
+        <h3 style="padding-top: 0px; padding-bottom: 40px; display: block; font-size: 14px; ">Click <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 here</a> to download my CV</h3>
-        <div style="border-style: solid; margin: auto";>
+        <div style="border-style: solid; margin: auto; padding: 30px; max-width: 60%";>
+        <h3">Contact Form </h3>
             <form action="mail.php" method="POST">
-                <p>Name</p> <input type="text" name="name">
-                <p>Email</p> <input type="text" name="email">
-                <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-                <input type="submit" value="Send"><input type="reset" value="Clear">
+                <p style="margin: 7px;">Name</p> <input type="text" name="name">
+                <p style="margin: 7px;">Email</p> <input type="text" name="email">
+                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
+                <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
             </form>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Software Competencies</h3>
+        <br>
         <img class="hero " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
+        <br>
+        <br>
+        <br>
     </div>
 </div>
 <?php include('partials/footer.php') ?>
