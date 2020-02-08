@@ -50,7 +50,7 @@
 <div class="navbarwrapper">
     <div class="navbar">
         <ul>
-            <li><a class="active" href="index.php">Projects</a></li>
+            <li><a href="index.php">Projects</a></li>
             <li><a class="active" href="about_me.php">About Me</a></li>
             <li><a href="render_gallery.php"> Render Gallery</a></li>
             <li><a href="digital_art.php">Digital Art</a></li>
