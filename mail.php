@@ -8,7 +8,8 @@ $email = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["email"]);
 
 $message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
 
-$message = '<h2>Likes:</h2><p>'.$like. '</p><br><br><h2>Dislikes:</h2><p>'.$dislike. '</p>';
+$message = '<h2>Name:</h2><p>'.$name.'</p><br><br><h2>Email:</h2><p>'.$email.'</p><br><br><h2>Message:</h2><p>'.$message.'</p>';
+
 $mail = new PHPMailer\PHPMailer\PHPMailer(true);
 $mail->isSMTP();
 //$mail->SMTPDebug = 1;
@@ -21,8 +22,7 @@ $mail->Username = "isstracker2019@gmail.com";
 $mail->Password = $bucket = getenv('GMAIL_PASSWORD')?: die('No "GMAIL_PASSWORD" config var in found in env!');
 $mail->SetFrom('isstracker2019@gmail.com');
 $mail->addAddress('olithompson@rocketmail.com');
-$mail->addAddress('team@voxel.cc');
-$mail->Subject = 'New Survey Result';
+$mail->Subject = 'New Contact Form Submission';
 $mail->Body = $message;
 $mail->IsHTML(true);
 $mail->send();
