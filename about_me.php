@@ -74,7 +74,7 @@
                 <br><br>
         <h3>Contact Form </h3>
         <br>
-        <div class="survey";>
+        <div class="survey">
             <form action="mail.php" method="POST">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
