@@ -74,11 +74,11 @@
                 <br><br>
         <h3>Contact Form </h3>
         <br>
-        <div style="border-style: solid; margin: auto; padding: 20px; max-width: 60%";>
+        <div style="border-style: solid; margin: auto; padding: 20px; max-width: 40%";>
             <form action="mail.php" method="POST">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
-                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
+                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="30"></textarea><br />
                 <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
             </form>
         </div>
