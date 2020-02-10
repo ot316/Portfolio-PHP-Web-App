@@ -6,6 +6,53 @@
     <title>About Me</title>
 </head>
 
+<?php
+require('vendor/autoload.php');
+
+// define variables and set to empty values
+$nameErr = $emailErr  = "";
+$name = $email = $message  = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+      $nameErr = "Only letters and white space allowed";
+    }
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format";
+    }
+  }
+    
+  if (empty($_POST["website"])) {
+    $website = "";
+  } else {
+    $website = test_input($_POST["website"]);
+    // check if URL address syntax is valid
+    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+      $websiteErr = "Invalid URL";
+    }    
+  }
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
 <div class="background">
     <!-- Banner, Navigation bar and Sidenav Bar -->
 <div class="banner">
@@ -77,9 +124,40 @@
         <div class="survey">
             <form action="mail.php" method="POST">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
+                <span class="error">* <?php echo $nameErr;?></span>
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
+                <span class="error">* <?php echo $emailErr;?></span>
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
+                <?php
+if ($name <> "0" && $email <> "0") {
+$name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
+
+$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
+
+$message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
+
+$message = '<h2>Name:</h2><p>'.$name.'</p><h2>Email:</h2><p>'.$email.'</p><h2>Message:</h2><p>'.$message.'</p>';
+
+$mail = new PHPMailer\PHPMailer\PHPMailer(true);
+$mail->isSMTP();
+//$mail->SMTPDebug = 1;
+$mail->CharSet = 'UTF-8';
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'tls';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '587';
+$mail->Username = "isstracker2019@gmail.com";
+$mail->Password = $bucket = getenv('GMAIL_PASSWORD')?: die('No "GMAIL_PASSWORD" config var in found in env!');
+$mail->SetFrom('isstracker2019@gmail.com');
+$mail->addAddress('olithompson@rocketmail.com');
+$mail->Subject = 'New Contact Form Submission';
+$mail->Body = $message;
+$mail->IsHTML(true);
+$mail->send();
+echo('<h3 style ="font-size: 20px;"> Thanks for your message </h3>');
+}
+?>
             </form>
         </div>
         <br>
