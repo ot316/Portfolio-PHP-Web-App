@@ -1,33 +1,33 @@
 ﻿<!DOCTYPE html>
 <?php
 if(isset($_POST['submitbutton'])){
-require('vendor/autoload.php');
+    require('vendor/autoload.php');
 
-$name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
+    $name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
 
-$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
+    $email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
 
-$message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
+    $message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
 
-$message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
+    $message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
 
-$mail = new PHPMailer\PHPMailer\PHPMailer(true);
-$mail->isSMTP();
-//$mail->SMTPDebug = 1;
-$mail->CharSet = 'UTF-8';
-$mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.gmail.com';
-$mail->Port = '587';
-$mail->Username = "isstracker2019@gmail.com";
-$mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-$mail->SetFrom('isstracker2019@gmail.com');
-$mail->addAddress('olithompson@rocketmail.com');
-$mail->Subject = 'New Contact Form Submission';
-$mail->Body = $message;
-$mail->IsHTML(true);
-$mail->send();
-$message = '<h3 style ="font-size: 20px;">Thanks for your message</h3>';
+    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+    $mail->isSMTP();
+    //$mail->SMTPDebug = 1;
+    $mail->CharSet = 'UTF-8';
+    $mail->SMTPAuth = true;
+    $mail->SMTPSecure = 'tls';
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Port = '587';
+    $mail->Username = "isstracker2019@gmail.com";
+    $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+    $mail->SetFrom('isstracker2019@gmail.com');
+    $mail->addAddress('olithompson@rocketmail.com');
+    $mail->Subject = 'New Contact Form Submission';
+    $mail->Body = $message;
+    $mail->IsHTML(true);
+    $mail->send();
+    $message = '<h3 style ="font-size: 20px;">Thanks for your message</h3>';
 }
 ?>
 <html lang="en">
@@ -106,7 +106,7 @@ $message = '<h3 style ="font-size: 20px;">Thanks for your message</h3>';
         <h3>Contact Form </h3>
         <br>
         <div class="survey">
-            <form method="post">
+            <form actino="#" method="post">
                 <?php echo $message; ?>
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
