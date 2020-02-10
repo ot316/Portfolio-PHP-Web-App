@@ -111,7 +111,7 @@ else{
         <h3>Contact Form </h3>
         <br>
         <div class="survey">
-            <form action="#" method="post">
+            <form action="<?=$_SERVER["PHP_SELF"];?>" method="post">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
