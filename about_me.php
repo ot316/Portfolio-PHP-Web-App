@@ -113,6 +113,8 @@ if(isset($_POST['submitbutton'])){
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear" name="submitbutton">
             </form>
+            <?php echo $message; ?>
+
         </div>
         <br>
         <br>
