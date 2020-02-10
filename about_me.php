@@ -1,4 +1,35 @@
 ﻿<!DOCTYPE html>
+<?php
+if(isset($_POST['submitbutton'])){
+require('vendor/autoload.php');
+
+$name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
+
+$email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
+
+$message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
+
+$message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
+
+$mail = new PHPMailer\PHPMailer\PHPMailer(true);
+$mail->isSMTP();
+//$mail->SMTPDebug = 1;
+$mail->CharSet = 'UTF-8';
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'tls';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '587';
+$mail->Username = "isstracker2019@gmail.com";
+$mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+$mail->SetFrom('isstracker2019@gmail.com');
+$mail->addAddress('olithompson@rocketmail.com');
+$mail->Subject = 'New Contact Form Submission';
+$mail->Body = $message;
+$mail->IsHTML(true);
+$mail->send();
+$message = '<h3 style ="font-size: 20px;">Thanks for your message</h3>';
+}
+?>
 <html lang="en">
 
 <head>
@@ -75,39 +106,12 @@
         <h3>Contact Form </h3>
         <br>
         <div class="survey">
-            <form method="post" action="<?php
-                            require('vendor/autoload.php');
-
-                            $name = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["name"]);
-
-                            $email = preg_replace("/[^a-zA-Z0-9@.\s]/", "", $_POST["email"]);
-
-                            $message = preg_replace("/[^a-zA-Z0-9\s]/", "", $_POST["message"]);
-
-                            $message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
-
-                            $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                            $mail->isSMTP();
-                            //$mail->SMTPDebug = 1;
-                            $mail->CharSet = 'UTF-8';
-                            $mail->SMTPAuth = true;
-                            $mail->SMTPSecure = 'tls';
-                            $mail->Host = 'smtp.gmail.com';
-                            $mail->Port = '587';
-                            $mail->Username = "isstracker2019@gmail.com";
-                            $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                            $mail->SetFrom('isstracker2019@gmail.com');
-                            $mail->addAddress('olithompson@rocketmail.com');
-                            $mail->Subject = 'New Contact Form Submission';
-                            $mail->Body = $message;
-                            $mail->IsHTML(true);
-                            $mail->send();
-                            #echo('<h3 style ="font-size: 20px;">Thanks for your message</h3>');
-                            ?>">
+            <form method="post">
+                <?php echo $message; ?>
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
-                <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
+                <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear" name="submitbutton">
             </form>
         </div>
         <br>
