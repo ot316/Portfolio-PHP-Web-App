@@ -29,6 +29,11 @@ if(isset($_POST['submitbutton'])){
     $mail->send();
     $message = '<h3 style ="font-size: 20px;">Thanks for your message</h3>';
 }
+else{
+    $message = '';
+
+}
+
 ?>
 <html lang="en">
 
