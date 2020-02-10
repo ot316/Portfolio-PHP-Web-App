@@ -102,7 +102,7 @@
                             $mail->Body = $message;
                             $mail->IsHTML(true);
                             $mail->send();
-                            echo('<h3 style ="font-size: 20px;"> Thanks for your message </h3>');
+                            echo('<h3 style ="font-size: 20px;">Thanks for your message</h3>');
                             ?>">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
