@@ -547,6 +547,12 @@ a {
     li {
         font-size: 14px;
     }
+    .error {
+        color: darkred;
+        font-size: 12px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+    }
     .banner-content {
         color: "white";
         width: 80%;
