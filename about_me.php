@@ -119,7 +119,7 @@ function test_input($data)
 
         <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
                 <strong> here </strong></a> to download my CV.</p>
-        <br><br>
+        <br><br><br>
         <h3>Contact Form </h3>
         <br>
         <div class="survey">
