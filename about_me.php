@@ -131,7 +131,7 @@ function test_input($data)
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <input style="margin: 7px;" type="submit" value="Send"><input type="reset" value="Clear">
                 <?php
-                if ($name <> "" && $email <> "") {
+                if ($name <> "" && $email <> "" && $emailErr = "" && $nameErr = "") {
                     $message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
 
                     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
