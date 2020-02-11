@@ -150,7 +150,7 @@ function test_input($data)
                     $mail->Body = $message;
                     $mail->IsHTML(true);
                     $mail->send();
-                    echo ('<h3 style ="font-size: 20px;"> Thanks for your message </h3>');
+                    echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
                 }
                 ?>
             </form>

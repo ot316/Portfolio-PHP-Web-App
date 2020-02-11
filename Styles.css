@@ -127,6 +127,13 @@
     transition-timing-function: linear;
 }
 
+.error {
+    color: darkred;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
 p {
     color: black;
     font-size: 16px;
@@ -807,12 +814,9 @@ a {
         width: 100%;
         height: 35vw;
     }
-
     .survey {
         max-width: 85%;
     }
-
-
     @keyframes fastspin {
         0% {
             transform: rotate(60deg);
