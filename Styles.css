@@ -763,6 +763,12 @@ a {
         padding-bottom: 0px;
         margin: 0px;
     }
+    .error {
+        color: darkred;
+        font-size: 10px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+    }
     p {
         font-size: 16px;
         margin-top: 20px;
