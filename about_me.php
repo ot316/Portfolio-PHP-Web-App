@@ -122,7 +122,7 @@ function test_input($data) {
         <h3>Contact Form </h3>
         <br>
         <div class="survey">
-            <form action="mail.php" method="POST">
+            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
                 <span class="error">* <?php echo $nameErr;?></span>
                 <p style="margin: 7px;">Email</p> <input type="text" name="email">
