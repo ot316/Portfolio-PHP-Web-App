@@ -34,16 +34,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    if (empty($_POST["website"])) {
-        $website = "";
+    if (empty($_POST["message"])) {
+        $message = "";
     } else {
-        $website = test_input($_POST["website"]);
-        // check if URL address syntax is valid
-        if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $website)) {
-            $websiteErr = "Invalid URL";
+        $message = test_input($_POST["message"]);
         }
-    }
-}
+    
+
 
 function test_input($data)
 {
