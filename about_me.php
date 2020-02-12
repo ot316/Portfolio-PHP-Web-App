@@ -39,8 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $message = test_input($_POST["message"]);
         }
+    }
     
-
 
 function test_input($data)
 {
