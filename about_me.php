@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include('partials/head.php') ?>
+    <?php include('partials/head_homepage.php') ?>
     <title>About Me</title>
 </head>
 
@@ -51,7 +51,8 @@ function test_input($data)
 }
 ?>
 
-<div class="background">
+<body class="background">
+
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">

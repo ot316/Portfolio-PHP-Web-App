@@ -485,6 +485,20 @@ h3 {
     font-size: 16px;
 }
 
+.survey {
+    max-width: 400px;
+    border-style: solid;
+    margin: auto;
+    padding: 20px;
+}
+
+.error {
+    color: darkred;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
 .hero {
     display: block;
     margin-left: auto;
@@ -850,6 +864,9 @@ h3 {
         position: absolute;
         margin-left: 32px;
         max-width: 31px;
+    }
+    .survey {
+        max-width: 85%;
     }
     @keyframes fastspin {
         0% {

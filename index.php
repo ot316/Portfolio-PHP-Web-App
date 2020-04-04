@@ -66,7 +66,10 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/custom_vpn.php') ?>
             </div>
-
+            <br>
+            <br>
+            <br>
+            <br>
             <h2>Smaller Projects</h2>
 
             <div class="picwrapper" id="picwrapper">
@@ -82,6 +85,10 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php include('partials/footer.php') ?>
 </body>
 <script src="../javascript/pic_wrapper.js"></script>
