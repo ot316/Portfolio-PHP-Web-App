@@ -16,8 +16,10 @@
             <h1 style="text-align: center; padding-top: 30px;">Mood Tracking Smart Mirror with CNN and Web Interface</h1>
             <div class="tagcontainer">
                 <h2>Machine Learning</h2>
-                <h2>Web Development and Network</h2>
-                <h2>Computer Vision</h2>
+                <h2>Web&nbsp;Dev</h2>
+                <h2>Computer&nbsp;Vision</h2>
+                <h2>Python</h2>
+                <h2>JS</h2>
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">

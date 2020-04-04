@@ -15,8 +15,9 @@
             <!-- Heading -->
             <h1 style="text-align: center; padding-top: 30px;">Game of life</h1>
             <div class="tagcontainer">
-                <h2>Front End Web Development</h2>
-                <h2>Javascript</h2>
+                <h2>Software</h2>
+                <h2>Web Dev</h2>
+                <h2>JS</h2>
                 <h2>HTML</h2>
                 <h2>CSS</h2>
             </div>

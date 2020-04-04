@@ -299,7 +299,7 @@ h1 {
 .tagcontainer h2 {
     display: inline-block;
     padding: 5px 9px 5px 9px;
-    margin-left: 5px;
+    margin-left: 8px;
     font-size: 16px;
     border-style: solid;
     border-width: 1px;
@@ -654,7 +654,7 @@ h3 {
         padding-right: 20px;
     }
     .tagcontainer h2 {
-        margin: 0px;
+        margin: 5px;
         padding: 0px 8px 4px 8px;
         font-size: 10px;
     }

@@ -13,7 +13,7 @@
             <!-- Heading -->
             <h1 style="text-align: center; padding-top: 30px;">Matlab For Engineering</h1>
             <div class="tagcontainer">
-                <h2>Computing</h2>
+                <h2>Software</h2>
                 <h2>Matlab</h2>
                 <h2>Analytical Engineering</h2>
             </div>

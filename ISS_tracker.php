@@ -15,8 +15,9 @@
             <!-- Heading -->
             <h1 style="text-align: center; padding-top: 30px;">International Space Station Tracker</h1>
             <div class="tagcontainer">
-                <h2>Front End Web Development</h2>
-                <h2>Javascript</h2>
+                <h2>Software</h2>
+                <h2>Web Dev</h2>
+                <h2>JS</h2>
                 <h2>Raspberry Pi</h2>
                 <h2>Python</h2>
             </div>
@@ -32,10 +33,10 @@
         <h2>How it Works</h2>
         <h3 style="padding-top: 10px;">Flow Diagram</h3>
         <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 250px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/flow.png">
-        
+
         <p>The Javascript code below is running on the client device. It polls the ISS API every 3 seconds, converting the returned latitude and longitude into a mercator projection. Further code uses the P5 library to display the graphics on the webpage. All code can be viewed on my Github.
-            </p>
-            <PRE class="code">complete: function (data) {
+        </p>
+        <PRE class="code">complete: function (data) {
 if (data.readyState === 4 && data.status === 200) {
     Lat = data.responseJSON.latitude;
     Long = data.responseJSON.longitude;
@@ -45,10 +46,10 @@ if (data.readyState === 4 && data.status === 200) {
     var latRad = (parseFloat(Lat) * Math.PI / 180);
     var mercN = (Math.log(Math.tan((Math.PI / 4) + (latRad / 2))));
     var y = (MapHeight / 2) - (MapWidth * mercN / (2 * Math.PI));</PRE>
-            <p>The Python code below sends an email if the latitude and longitude values are within a certain range. The "findISS" function works in a very similar way to the javascript implementation above. I run the code continuously on a Raspberry Pi. </p>
-            <h3 style="padding-bottom: 20px;"> Raspberry Pi Setup</h3>
-            <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/pi.jpg">
-            <PRE class="code">server = smtplib.SMTP('smtp.gmail.com', 587)
+        <p>The Python code below sends an email if the latitude and longitude values are within a certain range. The "findISS" function works in a very similar way to the javascript implementation above. I run the code continuously on a Raspberry Pi. </p>
+        <h3 style="padding-bottom: 20px;"> Raspberry Pi Setup</h3>
+        <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/pi.jpg">
+        <PRE class="code">server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 while True:
     data = findISS()
@@ -58,7 +59,7 @@ while True:
         Subject: ISS Tracker
         ISS overhead"""
         server.sendmail(sender_email, receiver_email, message)
-        sleep(20)</PRE>          
+        sleep(20)</PRE>
     </div>
 </div>
 <?php include('partials/footer.php') ?>

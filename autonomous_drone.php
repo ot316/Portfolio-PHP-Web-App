@@ -15,7 +15,7 @@
             <h2>Robotics</h2>
             <h2>Computer Vision</h2>
             <h2>Python</h2>
-            <h2>Computing</h2>
+            <h2>Software</h2>
         </div>
         <!-- First Bullet Points -->
         <ul class="headingbullets">

@@ -15,7 +15,6 @@
             <div class="tagcontainer">
                 <h2>Machine Learning</h2>
                 <h2>Optimisation</h2>
-                <h2>Analytical Engineering</h2>
                 <h2>Python</h2>
                 <h2>Matlab</h2>
             </div>
