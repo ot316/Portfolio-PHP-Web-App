@@ -14,6 +14,14 @@ function preload() {
 function setup() {
     MapWidth = 870;
     MapHeight = 580;
+    document.getElementById("cnv").style.paddingBottom = "600px ";
+    if (windowWidth < 870) {
+        MapWidth = 0.95 * windowWidth;
+        MapHeight = 0.95 * 0.57 * MapWidth;
+        var height = 0.57 * 0.95 * windowWidth;
+        var spacer = document.getElementById("cnv");
+        spacer.style.paddingBottom = height + 40 + 'px';
+    }
     cnv = createCanvas(MapWidth, MapHeight);
     var xx = (windowWidth - width) / 2;
     cnv.position(xx, null);
@@ -22,8 +30,19 @@ function setup() {
 }
 
 function windowResized() {
+    if (windowWidth < 870) {
+        var height = 0.57 * 0.95 * windowWidth;
+        resizeCanvas(0.95 * windowWidth, height);
+        var spacer = document.getElementById("cnv");
+        spacer.style.paddingBottom = height + 40 + 'px';
+    }
+    if (windowWidth > 870) {
+        resizeCanvas(870, 500);
+        document.getElementById("cnv").style.paddingBottom = "550px";
+    }
     var xx = (windowWidth - width) / 2;
     cnv.position(xx, null);
+
 }
 
 function plot() {
@@ -35,6 +54,12 @@ function plot() {
         crossDomain: true,
         complete: function(data) {
             if (data.readyState === 4 && data.status === 200) {
+                MapWidth = 870;
+                MapHeight = 580;
+                if (windowWidth < 870) {
+                    MapWidth = 0.95 * windowWidth;
+                    MapHeight = 0.95 * 0.57 * MapWidth;
+                }
                 Lat = data.responseJSON.latitude;
                 Long = data.responseJSON.longitude;
                 Velocity = data.responseJSON.velocity.toFixed(2).toString();

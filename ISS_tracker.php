@@ -8,7 +8,7 @@
     <script src="javascript/p5/p5.min.js"></script>
 </head>
 
-<div class="background" style="min-width: 120vh">
+<div class="background" >
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <div>
@@ -27,7 +27,8 @@
                     seconds. </li>
                 <li>I setup a Raspberry Pi to send me an email whenever the International Space Station is over London.</li>
             </ul>
-            <div id="cnv" class="hero" style="min-height: 600px"></div>
+            <div id="cnv" class="hero"></div>
+            <div id="spacing"><div>
             <h3 style="padding-bottom: 20px;" id="text"></h3>
         </div>
         <h2>How it Works</h2>
