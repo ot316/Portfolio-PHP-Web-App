@@ -5,3 +5,13 @@
 <link rel="stylesheet" href="./Styles.css">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
 <link rel="icon" href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159632500-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159632500-1');
+</script>
