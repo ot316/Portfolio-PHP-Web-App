@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-    document.getElementById("cnv").style.paddingBottom = "600px ";
+    document.getElementById("cnv").style.paddingBottom = "550px ";
     if (windowWidth < 870) {
         MapWidth = 0.95 * windowWidth;
         MapHeight = 0.57 * MapWidth;
@@ -39,7 +39,7 @@ function windowResized() {
     }
     if (windowWidth > 870) {
         resizeCanvas(870, 500);
-        document.getElementById("cnv").style.paddingBottom = "600px";
+        document.getElementById("cnv").style.paddingBottom = "550px";
     }
     var xx = (windowWidth - width) / 2;
     cnv.position(xx, null);
