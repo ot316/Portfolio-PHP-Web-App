@@ -1,13 +1,6 @@
 ﻿
 <?php
-	/**
-	 * GIT DEPLOYMENT SCRIPT
-	 *
-	 */
-	// The commands
 	$commands = array(
-		'echo $PWD',
-		'whoami',
 		'git reset --hard HEAD',
 		'git pull origin test',
 		'git status',
@@ -21,7 +14,6 @@
 		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}
-	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
