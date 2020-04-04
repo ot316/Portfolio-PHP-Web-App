@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include('partials/head_homepage.php') ?>
+    <?php include('partials/head.php') ?>
     <title>Oli Thompson</title>
     <script src="javascript/jquery-3.4.1.min.js"></script>
 </head>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include('partials/head_homepage.php') ?>
+    <?php include('partials/head.php') ?>
     <title>Render Gallery</title>
 </head>
 
