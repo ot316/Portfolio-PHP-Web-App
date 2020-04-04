@@ -452,20 +452,6 @@ a {
     height: 26vw;
 }
 
-.survey {
-    max-width: 400px;
-    border-style: solid;
-    margin: auto;
-    padding: 20px;
-}
-
-.error {
-    color: darkred;
-    font-size: 13px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-}
-
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     .smallgear {
         margin-left: 73px;
