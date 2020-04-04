@@ -742,7 +742,7 @@ h3 {
         color: #f1f1f1;
         display: block;
         position: absolute;
-        top: 0;
+        top: 15px;
         z-index: 1;
         right: 200px;
         font-size: 36px;
@@ -750,7 +750,9 @@ h3 {
     }
     .socialmediacontainermobile {
         margin: 0px;
-        padding-top: 10px;
+        position: absolute;
+        bottom: 20px;
+        right: 40px;
     }
     .socialmediacontainermobile a {
         justify-content: center;
