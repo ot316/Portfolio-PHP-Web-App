@@ -4,6 +4,7 @@
     <a href="/">
         <button class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
     </a>
+    <input class="search" type="text" placeholder="Search...">
     <div id="myDropdown" class="dropdown-content">
 
         <div class="dropdownhover">
