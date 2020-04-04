@@ -796,9 +796,6 @@ a {
         width: 100%;
         height: 35vw;
     }
-    .survey {
-        max-width: 85%;
-    }
     @keyframes fastspin {
         0% {
             transform: rotate(60deg);

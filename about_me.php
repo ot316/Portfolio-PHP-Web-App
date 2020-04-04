@@ -120,7 +120,10 @@ function test_input($data)
         <br><br><br>
         <h3>Contact Form </h3>
         <br>
-        <div class="survey">
+        <div class="survey" style="    max-width: 400px;
+    border-style: solid;
+    margin: auto;
+    padding: 20px;">
             <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <?php
                 if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
