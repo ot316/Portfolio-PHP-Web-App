@@ -19,7 +19,7 @@
     position: absolute;
     margin-top: 90px;
     z-index: 12;
-    min-width: 151px;
+    max-width: 151px;
 }
 
 .largegear {
@@ -610,7 +610,7 @@ h3 {
         position: absolute;
         margin-top: 50px;
         z-index: 3;
-        width: 112px;
+        max-width: 112px;
     }
     .largegear {
         position: absolute;
@@ -854,7 +854,7 @@ h3 {
         position: absolute;
         margin-top: 32px;
         z-index: 3;
-        width: 60px;
+        max-width: 60px;
     }
     .largegear {
         position: absolute;
