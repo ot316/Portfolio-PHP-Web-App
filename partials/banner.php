@@ -26,7 +26,7 @@
         <p class="sidenavtext">Render&nbsp;Gallery</p>
     </a>
     <a href="music">
-        <p class="sidenavtext">Digital&nbsp;Art</p>
+        <p class="sidenavtext">Music</p>
     </a>
     <div class="socialmediacontainermobile">
         <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
