@@ -4,7 +4,6 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>About Me</title>
-    <link rel="stylesheet" href="./StylesHomePage.css">
 </head>
 
 <?php
