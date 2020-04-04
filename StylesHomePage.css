@@ -55,6 +55,7 @@
     width: 65%;
     text-align: center;
     padding: 20px;
+    padding-bottom: 0px;
     margin: 0px;
     display: flex;
     align-items: center
@@ -773,7 +774,7 @@ h3 {
         display: block;
     }
     .banner-content {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     .dropbtn {
         font-size: 12px;
