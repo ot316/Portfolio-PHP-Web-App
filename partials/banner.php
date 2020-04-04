@@ -23,7 +23,7 @@
         <p class="sidenavtext">About&nbsp;Me</p>
     </a>
     <a href="renders_and_art">
-        <p class="sidenavtext">Render&nbsp;Gallery</p>
+        <p class="sidenavtext">Renders&nbsp;and&nbsp;Art</p>
     </a>
     <a href="music">
         <p class="sidenavtext">Music</p>
