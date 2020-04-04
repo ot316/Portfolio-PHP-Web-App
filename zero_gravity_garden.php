@@ -12,7 +12,7 @@
         <!-- Heading -->
         <img class="title" style="width: 30%; filter: invert(100); " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Logo.png" alt="Zero Gravity Garden">
         <div class="tagcontainer">
-            <h2>Mechanical&nbsp;Design</h2>
+            <h2>Electronics</h2>
             <h2>Mechatronics</h2>
             <h2>CAD</h2>
             <h2>CFD</h2>
