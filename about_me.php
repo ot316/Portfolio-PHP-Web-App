@@ -5,7 +5,6 @@
     <?php include('partials/head_homepage.php') ?>
     <title>About Me</title>
     <link rel="stylesheet" href="./StylesHomePage.css">
-    <link rel="stylesheet" href="./Styles.css">
 </head>
 
 <?php
