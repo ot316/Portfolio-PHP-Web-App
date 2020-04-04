@@ -4,7 +4,7 @@ var res;
 let map;
 let iss;
 
-setInterval(plot, 1500);
+setInterval(plot, 900);
 
 function preload() {
     map = loadImage('https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/map.png');
