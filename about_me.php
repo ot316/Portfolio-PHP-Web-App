@@ -80,7 +80,7 @@ function test_input($data)
         <a href="renders_and_art">
             <p class="sidenavtext">Render&nbsp;Gallery</p>
         </a>
-        <a href="digital_art">
+        <a href="music">
             <p class="sidenavtext">Digital&nbsp;Art</p>
         </a>
         <div class="socialmediacontainermobile">
@@ -99,7 +99,7 @@ function test_input($data)
                 <li><a href="/">Projects</a></li>
                 <li><a class="active" href="about_me">About Me</a></li>
                 <li><a href="renders_and_art"> Renders and Art</a></li>
-                <li><a href="digital_art">Music</a></li>
+                <li><a href="music">Music</a></li>
             </ul>
         </div>
     </div>

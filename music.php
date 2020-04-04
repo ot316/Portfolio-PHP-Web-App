@@ -34,7 +34,7 @@
         <a href="renders_and_art">
             <p class="sidenavtext">Render&nbsp;Gallery</p>
         </a>
-        <a href="digital_art">
+        <a href="music">
             <p class="sidenavtext">Digital&nbsp;Art</p>
         </a>
         <div class="socialmediacontainermobile">
@@ -53,7 +53,7 @@
                 <li><a href="/">Projects</a></li>
                 <li><a href="about_me">About Me</a></li>
                 <li><a href="renders_and_art"> Renders and Art</a></li>
-                <li><a class="active" href="digital_art">Music</a></li>
+                <li><a class="active" href="music">Music</a></li>
             </ul>
         </div>
     </div>
