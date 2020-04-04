@@ -303,7 +303,7 @@ h1 {
     font-size: 16px;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: grey;
 }
 
 .bigpicwrapper {
@@ -643,9 +643,6 @@ h3 {
         display: inline;
         padding: 15px;
     }
-    .headingbullets li {
-        font-size: 16px;
-    }
     li {
         font-size: 14px;
     }
@@ -657,7 +654,8 @@ h3 {
         padding-right: 20px;
     }
     .tagcontainer h2 {
-        padding: 4px 8px 4px 8px;
+        margin: 0px;
+        padding: 0px 8px 4px 8px;
         font-size: 10px;
     }
     @keyframes fastspin {
