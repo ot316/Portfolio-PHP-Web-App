@@ -8,6 +8,7 @@
 </head>
 
 <body class="background">
+    <?php include('partials/loader.php') ?>
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <!-- Heading -->
@@ -80,8 +81,8 @@
                 <?php include('project_partials/empty.php') ?>
             </div>
         </div>
-        <?php include('partials/loader.php') ?>
-        <?php include('partials/footer.php') ?>
+    </div>
+    <?php include('partials/footer.php') ?>
 </body>
 <script src="../javascript/pic_wrapper.js"></script>
 <script src="../javascript/navbar.js"></script>
