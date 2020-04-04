@@ -14,8 +14,8 @@
             <img style="width: 40%;" class="title" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/Logo.png" alt="Baxter Research Robot">
             <div class="tagcontainer">
                 <h2>Robotics</h2>
-                <h2>Image Recognition</h2>
-                <h2>Algorithm Design</h2>
+                <h2>Computer&nbsp;Vision</h2>
+                <h2>Algorithm&nbsp;Design</h2>
                 <h2>C++</h2>
                 <h2>Python</h2>
             </div>
