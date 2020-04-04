@@ -77,7 +77,7 @@ function test_input($data)
         <a href="about_me">
             <p class="sidenavtext">About&nbsp;Me</p>
         </a>
-        <a href="render_gallery">
+        <a href="renders_and_art">
             <p class="sidenavtext">Render&nbsp;Gallery</p>
         </a>
         <a href="digital_art">
@@ -98,11 +98,13 @@ function test_input($data)
             <ul>
                 <li><a href="/">Projects</a></li>
                 <li><a class="active" href="about_me">About Me</a></li>
-                <li><a href="render_gallery"> Render Gallery</a></li>
-                <li><a href="digital_art">Digital Art</a></li>
+                <li><a href="renders_and_art"> Renders and Art</a></li>
+                <li><a href="digital_art">Music</a></li>
             </ul>
         </div>
     </div>
+    <br>
+    <br>
     <br>
     <div class="wrapper">
         <!-- Heading -->

@@ -22,7 +22,7 @@
     <a href="about_me">
         <p class="sidenavtext">About&nbsp;Me</p>
     </a>
-    <a href="render_gallery">
+    <a href="renders_and_art">
         <p class="sidenavtext">Render&nbsp;Gallery</p>
     </a>
     <a href="digital_art">
@@ -43,8 +43,8 @@
         <ul>
             <li><a class="active" href="index">Projects</a></li>
             <li><a href="about_me">About Me</a></li>
-            <li><a href="render_gallery"> Render Gallery</a></li>
-            <li><a href="digital_art">Digital Art</a></li>
+            <li><a href="renders_and_art"> Renders and Art</a></li>
+            <li><a href="digital_art">Music</a></li>
         </ul>
     </div>
 </div>
