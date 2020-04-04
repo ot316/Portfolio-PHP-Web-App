@@ -676,7 +676,7 @@ h3 {
         width: 90%;
         margin: auto;
     }
-    .wrapper p {
+    .mobilehidetext {
         display: none;
     }
     .banner-content {
