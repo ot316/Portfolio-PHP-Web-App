@@ -16,7 +16,7 @@
             <h2>Mechatronics</h2>
             <h2>CAD</h2>
             <h2>CFD</h2>
-            <h2>Control Systems</h2>
+            <h2>Control</h2>
             <h2>C++</h2>
         </div>
         <!-- First Bullet Points -->

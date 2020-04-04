@@ -10,7 +10,7 @@
             <div class="dropdown-content-hover">
                 <a href="filter_pcb_design">PCB Design</a>
                 <a href="filter_signal_processing">Signal Processing</a>
-                <a href="filter_control_systems">Control Systems</a>
+                <a href="filter_control">Control</a>
                 <a href="filter_mechatronics">Mechatronics</a>
             </div>
         </div>
