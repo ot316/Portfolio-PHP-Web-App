@@ -70,7 +70,7 @@ function test_input($data)
     <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index">
+        <a href="/">
             <p class="sidenavtext">Projects</p>
         </a>
         <a href="about_me">
@@ -95,7 +95,7 @@ function test_input($data)
     <div class="navbarwrapper">
         <div class="navbar">
             <ul>
-                <li><a href="index">Projects</a></li>
+                <li><a href="/">Projects</a></li>
                 <li><a class="active" href="about_me">About Me</a></li>
                 <li><a href="render_gallery"> Render Gallery</a></li>
                 <li><a href="digital_art">Digital Art</a></li>
