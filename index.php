@@ -75,12 +75,11 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/landing_pad.php') ?>
                 <?php include('project_partials/diy_desklamp.php') ?>
-                <?php include('project_partials/matlab_for_engineering.php') ?>
+                <?php include('project_partials/submarine_interior.php') ?>
             </div>
 
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/submarine_interior.php') ?>
-                <?php include('project_partials/empty.php') ?>
+                <?php include('project_partials/matlab_for_engineering.php') ?>
             </div>
         </div>
     </div>
