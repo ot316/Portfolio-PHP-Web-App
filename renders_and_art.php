@@ -94,10 +94,10 @@
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper" style="padding-top: 5px;">
                 <div class="piccontainer">
-                    <img id="img6" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/music/Cloud-City.png" alt="Project">
+                    <img id="img6" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/digital_art/Cloud-City.png" alt="Project">
                 </div>
                 <div class="piccontainer" id="picwrapper">
-                    <img id="img7" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/music/Snail-City-desaturated.png" alt="Project">
+                    <img id="img7" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/digital_art/Snail-City-desaturated.png" alt="Project">
                 </div>
                 <div class="piccontainer" id="picwrapper">
                     <img class="thirdplaceholder" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/placeholder.png" alt="Project">
