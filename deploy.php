@@ -11,9 +11,6 @@
 		'git reset --hard HEAD',
 		'git pull origin test',
 		'git status',
-		'git submodule sync',
-		'git submodule update',
-		'git submodule status',
 	);
 	// Run the commands for output
 	$output = '';
