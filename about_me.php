@@ -70,16 +70,16 @@ function test_input($data)
     <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.php">
+        <a href="index">
             <p class="sidenavtext">Projects</p>
         </a>
-        <a href="about_me.php">
+        <a href="about_me">
             <p class="sidenavtext">About&nbsp;Me</p>
         </a>
-        <a href="render_gallery.php">
+        <a href="render_gallery">
             <p class="sidenavtext">Render&nbsp;Gallery</p>
         </a>
-        <a href="digital_art.php">
+        <a href="digital_art">
             <p class="sidenavtext">Digital&nbsp;Art</p>
         </a>
         <div class="socialmediacontainermobile">
@@ -95,10 +95,10 @@ function test_input($data)
     <div class="navbarwrapper">
         <div class="navbar">
             <ul>
-                <li><a href="index.php">Projects</a></li>
-                <li><a class="active" href="about_me.php">About Me</a></li>
-                <li><a href="render_gallery.php"> Render Gallery</a></li>
-                <li><a href="digital_art.php">Digital Art</a></li>
+                <li><a href="index">Projects</a></li>
+                <li><a class="active" href="about_me">About Me</a></li>
+                <li><a href="render_gallery"> Render Gallery</a></li>
+                <li><a href="digital_art">Digital Art</a></li>
             </ul>
         </div>
     </div>
