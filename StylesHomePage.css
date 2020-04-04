@@ -719,10 +719,10 @@ h3 {
     }
     .sidenav a {
         display: block;
-        padding: 8px 8px 8px 32px;
+        padding: 8px 0px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181;
+        color: #f1f1f1;
         display: block;
         transition: 0.3s;
         top: 0;
@@ -733,17 +733,18 @@ h3 {
         color: #f1f1f1;
     }
     .sidenavtext {
-        color: White;
-        font-size: 18px;
+        color: #f1f1f1;
+        font-size: 20px;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
     }
     .sidenav .closebtn {
+        color: #f1f1f1;
         display: block;
         position: absolute;
         top: 0;
         z-index: 1;
-        right: 50px;
+        right: 200px;
         font-size: 36px;
         margin-left: 50px;
     }
