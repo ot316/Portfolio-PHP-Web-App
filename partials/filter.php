@@ -1,7 +1,7 @@
 <p> Welcome to my design, engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
-    <a href="index">
+    <a href="/">
         <button class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
     </a>
     <div id="myDropdown" class="dropdown-content">

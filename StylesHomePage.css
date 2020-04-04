@@ -19,7 +19,7 @@
     position: absolute;
     margin-top: 90px;
     z-index: 12;
-    width: 150px;
+    min-width: 150px;
 }
 
 .largegear {

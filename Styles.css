@@ -22,23 +22,6 @@
     max-width: 112px;
 }
 
-.largegear {
-    position: inherit;
-    z-index: 2;
-    max-width: 175px;
-    margin-top: 90px;
-    animation: slowspin 2s linear infinite;
-}
-
-.smallgear {
-    position: inherit;
-    max-width: 72px;
-    z-index: 1;
-    margin-left: 195px;
-    margin-bottom: 35px;
-    animation: fastspin 2s linear infinite;
-}
-
 .background {
     width: 100%;
     background-color: white;
@@ -452,18 +435,6 @@ a {
     height: 26vw;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-    .smallgear {
-        margin-left: 73px;
-    }
-}
-
-@-moz-document url-prefix() {
-    .smallgear {
-        margin-left: 200px;
-    }
-}
-
 @-webkit-keyframes fade {
     from {
         opacity: .4
@@ -482,24 +453,6 @@ a {
     }
 }
 
-@keyframes slowspin {
-    0% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes fastspin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 
 /* For Tablets-------------------------------------------------------------------------------------------------------------- */
 
@@ -510,22 +463,6 @@ a {
     }
     .navbar {
         width: 80%;
-    }
-    .picofme {
-        position: absolute;
-        margin-top: 50px;
-        z-index: 3;
-        max-width: 90px;
-    }
-    .largegear {
-        position: absolute;
-        margin-top: 50px;
-        max-width: 134px;
-    }
-    .smallgear {
-        position: absolute;
-        margin-left: 75px;
-        max-width: 62px;
     }
     .headingbullets li {
         font-size: 16px;

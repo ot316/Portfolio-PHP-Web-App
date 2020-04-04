@@ -18,9 +18,6 @@
                 <?php include('project_partials/smart_mirror.php') ?>
                 <?php include('project_partials/big_data.php') ?>
             </div>
-            <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/linear_regression.php') ?>
-            </div>
         </div>
     </div>
 </div>

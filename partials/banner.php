@@ -41,7 +41,7 @@
 <div class="navbarwrapper">
     <div class="navbar">
         <ul>
-            <li><a class="active" href="index">Projects</a></li>
+            <li><a class="active" href="/">Projects</a></li>
             <li><a href="about_me">About Me</a></li>
             <li><a href="renders_and_art"> Renders and Art</a></li>
             <li><a href="music">Music</a></li>
