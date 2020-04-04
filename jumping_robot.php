@@ -14,9 +14,8 @@
             <h3 class="wordtitle" style="padding-top: 30px; color: #004b8f;">Jumping Robot</h3>
             <!-- First Bullet Points -->
             <div class="tagcontainer">
-                <h2>Analytical Engineering</h2>
-                <h2>Mechanical Design</h2>
-                <h2>Technical Drawing</h2>
+                <h2>Analytical&nbsp;Engineering</h2>
+                <h2>Technical&nbsp;Drawing</h2>
                 <h2>CAD</h2>
                 <h2>CFD</h2>
                 <h2>FEA</h2>
