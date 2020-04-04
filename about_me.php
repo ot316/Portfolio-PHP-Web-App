@@ -4,6 +4,8 @@
 <head>
     <?php include('partials/head_homepage.php') ?>
     <title>About Me</title>
+    <link rel="stylesheet" href="./StylesHomePage.css">
+    <link rel="stylesheet" href="./Styles.css">
 </head>
 
 <?php
@@ -38,9 +40,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = "";
     } else {
         $message = test_input($_POST["message"]);
-        }
     }
-    
+}
+
 
 function test_input($data)
 {
@@ -122,7 +124,7 @@ function test_input($data)
         <br>
         <div class="survey">
             <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <?php
+                <?php
                 if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
                     $message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
 
@@ -164,8 +166,8 @@ function test_input($data)
         <br>
         <br>
     </div>
-</div>
-<?php include('partials/footer.php') ?>
-<script src="javascript/navbar.js"></script>
+    </div>
+    <?php include('partials/footer.php') ?>
+    <script src="javascript/navbar.js"></script>
 
 </html>
