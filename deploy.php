@@ -11,7 +11,7 @@
 		// Run it
 		$tmp = exec($command);
 		// Output
-		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
+		$output .= "<span style=\"color: #6BE234;\">\$yeet</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}
 ?>
@@ -19,7 +19,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>GIT DEPLOYMENT SCR  IPT</title>
+	<title>GIT DEPLOYMENT SCRIPT</title>
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <pre>
