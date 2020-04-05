@@ -1,4 +1,7 @@
 <!-- Footer -->
 <footer class="footer">
-    <p>All work Copyright 2019 - Oli Thompson</p>
+    <p>All work Copyright
+        <script>
+            document.write(new Date().getFullYear());
+        </script> - Oli Thompson</p>
 </footer>
