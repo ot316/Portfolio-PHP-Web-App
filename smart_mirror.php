@@ -15,7 +15,7 @@
             <!-- Heading -->
             <h1 style="text-align: center; padding-top: 30px;">Mood Tracking Smart Mirror with CNN and Web Interface</h1>
             <div class="tagcontainer">
-                <h2>Machine Learning</h2>
+                <h2>Machine&nbsp;Learning</h2>
                 <h2>Web&nbsp;Dev</h2>
                 <h2>Computer&nbsp;Vision</h2>
                 <h2>Python</h2>
@@ -72,19 +72,24 @@ model.save_weights("model_weights.h5")</PRE>
             <div style="padding-top: 10px;">
                 <br>
                 <div style="float: left; padding-left: 40px;">
-                    <h4 class="heading">Choose timescale</h4>
+                    <h3 class="heading">Choose timescale</h3>
+                    <br>
                     <input name="Days" onclick="choose(16)" type="button" value="Days" />
                     <input name="Hours" onclick="choose(13)" type="button" value="Hours" />
                     <input name="Minutes" onclick="choose(10)" type="button" value="Minutes" />
                     <input name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
                 </div>
-
+                
                 <div style="float: right; padding-right: 80px;">
-                    <h4 class="heading">Enter number of datapoints to display</h4>
+                    <h3 class="heading">Enter number of datapoints to display</h3>
+                    
+                <br>
                     <input name="textbox2" id="userinput2" type="number" />
                     <input name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
 
                 </div>
+                <br>
+                <br>
                 <br>
                 <br>
                 <br>
