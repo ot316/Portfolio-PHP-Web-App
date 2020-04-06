@@ -95,6 +95,7 @@ class TableRows extends RecursiveIteratorIterator
     <br>
     <div class="wrapper">
         <div class="survey">
+            <h4> Contact Responses</h4>
             <?php
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -109,7 +110,7 @@ class TableRows extends RecursiveIteratorIterator
             if ($result->num_rows > 0) {
                 // output data of each row
                 while ($row = $result->fetch_assoc()) {
-                    echo "<p style='margin:10px;'>id: " . $row["id"] . "<br> Name: " . $row["name"] . "<br> Email: " . $row["email"] . "<br> Message: " . $row["message"] . "</p><br>";
+                    echo "<p style='margin:10px;'>ID: " . $row["id"] . "<br> Name: " . $row["name"] . "<br> Email: " . $row["email"] . "<br> Message: " . $row["message"] . "</p><br>";
                 }
             } else {
                 echo "0 results";
