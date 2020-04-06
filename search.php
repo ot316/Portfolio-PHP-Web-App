@@ -6,6 +6,9 @@ $dbname = "olithompson";
 ?>
 
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 if (isset($_POST['query'])) {
     if (preg_match("/[A-Z  | a-z]+/", $_POST['query'])) {
         $name = $_POST['query'];
@@ -19,6 +22,7 @@ if (isset($_POST['query'])) {
         $result = $conn->query($sql);
         echo($result);
     }
+
 } else {
     echo ("<p>Please enter a search query</p>");
 }
