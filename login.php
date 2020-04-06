@@ -89,11 +89,11 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 <p>Description</p>
             </div>
             <div>
-                <input type="email" id="inputEmail" class="form-control" placeholder="User Name">
+                <input id="inputEmail" class="form-control" placeholder="User Name" required >
                 <label for="inputEmail">Username</label>
             </div>
             <div>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Password</label>
             </div>
             <?php echo ($loginerror) ?>
