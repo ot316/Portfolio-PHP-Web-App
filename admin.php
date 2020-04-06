@@ -39,7 +39,7 @@ class TableRows extends RecursiveIteratorIterator
 }
 ?>
 
-<body class="background">
+<div class="background">
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
@@ -108,7 +108,7 @@ class TableRows extends RecursiveIteratorIterator
         if ($result->num_rows > 0) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {
-                echo "<p>id: " . $row["id"] . "<br> Name: " . $row["name"] . "<br> Email: " . $row["email"] . "<br> Message: " . $row["message"] . "</p><br>";
+                echo "<p style='padding:0px;'>id: " . $row["id"] . "<br> Name: " . $row["name"] . "<br> Email: " . $row["email"] . "<br> Message: " . $row["message"] . "</p><br>";
             }
         } else {
             echo "0 results";
@@ -119,8 +119,8 @@ class TableRows extends RecursiveIteratorIterator
         <br>
         <br>
     </div>
-    </div>
-    <?php include('partials/footer.php') ?>
-    <script src="javascript/navbar.js"></script>
+</div>
+<?php include('partials/footer.php') ?>
+<script src="javascript/navbar.js"></script>
 
 </html>
