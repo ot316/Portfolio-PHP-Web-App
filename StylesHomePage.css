@@ -486,6 +486,7 @@ h3 {
     font-size: 16px;
 }
 
+h5,
 h4 {
     color: black;
     font-family: 'Work Sans', sans-serif;
@@ -869,6 +870,9 @@ h4 {
     }
     h4 {
         font-size: 18px;
+    }
+    h5 {
+        font-size: 14;
     }
     .bullets {
         padding-top: 0px;

@@ -32,7 +32,7 @@
             <br>
             <div class="colourpickercontainer">
                 <br>
-                <h4 style="font-size:24px;"> Colour Picker</h4>
+                <h5 style="font-size:24px;"> Colour Picker</h5>
                 <br>
                 <input class="hueslider" id="hueslider" type="range" min="0" max="255" value="241" step="1" onchange="setHueValue()" />
                 <br>
