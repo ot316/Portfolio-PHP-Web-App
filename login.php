@@ -13,7 +13,7 @@ $password = getenv('LOGIN_PASSWORD') ?: die('"LOGIN_PASSWORD" config var in foun
 $loginerror = "";
 
 /* Redirects here after login */
-$redirect_after_login = 'admin.php';
+$redirect_after_login = 'admin';
 
 if (isset($_POST['password']) && isset($_POST['username'])) {
     if ($_POST['password'] == $password && $_POST['username'] == $username) {
