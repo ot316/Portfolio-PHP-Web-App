@@ -20,7 +20,8 @@ if (isset($_POST['query'])) {
         }
         $sql = "SELECT * FROM search WHERE '$name' IN ('tag1','tag2','tag3','tag4','tag5','tag6','tag7','tag8','tag9', 'tag10')";
         $result = $conn->query($sql);
-        echo($result);
+        $row = $result->fetch_assoc();
+        echo($row);
     }
 
 } else {
