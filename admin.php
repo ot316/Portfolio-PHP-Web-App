@@ -103,6 +103,7 @@ class TableRows extends RecursiveIteratorIterator
             $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
             foreach (new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k => $v) {
                 echo $v;
+                echo "br";
             }
         } catch (PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
