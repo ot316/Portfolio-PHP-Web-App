@@ -131,7 +131,7 @@ function test_input($data)
             <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 <?php
                 if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
-                    $message = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
+                    $emailmessage = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
 
                     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
                     $mail->isSMTP();
@@ -146,7 +146,7 @@ function test_input($data)
                     $mail->SetFrom('isstracker2019@gmail.com');
                     $mail->addAddress('olithompson@rocketmail.com');
                     $mail->Subject = 'New Contact Form Submission';
-                    $mail->Body = $message;
+                    $mail->Body = $emailmessage;
                     $mail->IsHTML(true);
                     $mail->send();
                     echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
@@ -158,7 +158,6 @@ function test_input($data)
                         $sql = "INSERT INTO contact (name, email, message)
                         VALUES ('$name', '$email', '$message')";
                         $conn->exec($sql);
-                        echo "New record created successfully";
                         }
                     catch(PDOException $e)
                         {
