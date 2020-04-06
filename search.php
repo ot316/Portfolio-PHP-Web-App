@@ -6,9 +6,9 @@ $dbname = "olithompson";
 ?>
 
 <?php
-if (isset($_POST['submit'])) {
-    if (preg_match("/[A-Z  | a-z]+/", $_POST['name'])) {
-        $name = $_POST['name'];
+if (isset($_POST['query'])) {
+    if (preg_match("/[A-Z  | a-z]+/", $_POST['query'])) {
+        $name = $_POST['query'];
         $name = htmlspecialchars($name);
         trim($name);
         $conn = new mysqli($servername, $username, $password, $dbname);
