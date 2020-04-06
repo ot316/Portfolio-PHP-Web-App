@@ -36,3 +36,7 @@ if (isset($_POST['query'])) {
 } else {
     echo ("<p>Please enter a search query</p>");
 }
+
+$conn->close();
+
+?>
