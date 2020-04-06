@@ -102,10 +102,13 @@ function setHueValue() {
     var lumlabel = document.getElementById('lumlabel');
     var lumval = luminput.value;
     huelabel.innerText = hueval;
-    satlabel.innerText = satval;
-    lumlabel.innerText = lumval;
+    satlabel.innerText = Math.round(satval * 2.55);
+    lumlabel.innerText = Math.round(lumval * 2.55);
     var sat = document.getElementById('satslider');
-    sat.style.backgroundImage = 'linear-gradient(to right,  hsl(' + hueval + '%, 0%, 60%) 0%, hsl(' + hueval + '%, 100%, 60%)';
+    var lum = document.getElementById('lumslider');
+    sat.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', 0%, 60%) 0%, hsl(' + hueval + '  , 100%, 60%) 100%)';
+    lum.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', 100%, 0%) 0%, hsl(' + hueval + ', 100%, 50%) 50%, hsl(' + hueval + '  , 100%, 100%) 100%)';
+
 
 }
 

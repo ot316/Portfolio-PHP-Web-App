@@ -32,9 +32,9 @@
             <br>
             <input class="hueslider" id="hueslider" type="range" min="0" max="255" value="241" step="1" onchange="setHueValue()" />
             <br>
-            <input class="satslider" id="satslider" type="range" min="0" max="100" value="50" step="1" onchange="setHueValue()" />
+            <input class="satslider" id="satslider" type="range" min="0" max="100" value="95" step="1" onchange="setHueValue()" />
             <br>
-            <input class="lumslider" id="lumslider" type="range" min="0" max="100" value="50" step="1" onchange="setHueValue()" />
+            <input class="lumslider" id="lumslider" type="range" min="0" max="100" value="56" step="1" onchange="setHueValue()" />
 
             <br>
             <br>
