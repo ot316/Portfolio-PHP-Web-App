@@ -481,9 +481,18 @@ h3 {
     color: black;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0px;
     font-size: 16px;
+}
+
+h4 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 0px;
+    font-size: 21px;
 }
 
 .survey {
@@ -551,14 +560,36 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
     outline: 0;
     -webkit-appearance: none;
     height: 11px;
     -webkit-appearance: none;
     /* Override default look */
+    background: #d3d3d3;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
     appearance: none;
     background: linear-gradient(to right, hsl(0, 100%, 60%) 0%, hsl(30, 100%, 60%) 8.3%, hsl(60, 100%, 60%) 16.6%, hsl(90, 100%, 60%) 38%, hsl(120, 100%, 60%) 44%, hsl(150, 100%, 60%) 57%, hsl(180, 100%, 60%) 70%, hsl(210, 100%, 60%) 80%, hsl(240, 100%, 60%) 90%, hsl(270, 100%, 60%) 100%);
+}
+
+.hueslider::-webkit-slider-thumb,
+.satslider::-webkit-slider-thumb,
+.lumslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.colourpickercontainer {
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
 }
 
 
@@ -834,7 +865,10 @@ h3 {
     h2 {
         text-align: center;
         padding-bottom: 0px;
-        font-size: 16px;
+        font-size: 21px;
+    }
+    h4 {
+        font-size: 18px;
     }
     .bullets {
         padding-top: 0px;
@@ -897,6 +931,9 @@ h3 {
     }
     .search {
         font-size: 12px;
+    }
+    .colourpickercontainer {
+        width: 85%;
     }
     @keyframes fastspin {
         0% {

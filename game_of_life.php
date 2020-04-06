@@ -30,15 +30,20 @@
                 <canvas onclick="setup()" id="Canvas" style="margin-top: 40px; margin-bottom: 40px; border:3px solid grey;" class="Canvas"></canvas>
             </div>
             <br>
-            <input class="hueslider" id="hueslider" type="range" min="0" max="255" value="241" step="1" onchange="setHueValue()" />
+            <div class ="colourpickercontainer">
             <br>
-            <input class="satslider" id="satslider" type="range" min="0" max="100" value="95" step="1" onchange="setHueValue()" />
-            <br>
-            <input class="lumslider" id="lumslider" type="range" min="0" max="100" value="56" step="1" onchange="setHueValue()" />
-
-            <br>
-            <br>
-            <h3>HSV Colour: <label id="huelabel" for="hueslider"></label> <label id="satlabel" for="satslider"></label> <label id="lumlabel" for="lumslider"></label></h3>
+                <h4 style="font-size:24px;"> Colour Picker</h4>
+                <br>
+                <input class="hueslider" id="hueslider" type="range" min="0" max="255" value="241" step="1" onchange="setHueValue()" />
+                <br>
+                <input class="satslider" id="satslider" type="range" min="0" max="100" value="95" step="1" onchange="setHueValue()" />
+                <br>
+                <input class="lumslider" id="lumslider" type="range" min="0" max="100" value="56" step="1" onchange="setHueValue()" />
+                <br>
+                <br>
+                <h3>HSV Colour: <label id="huelabel" for="hueslider"></label> <label id="satlabel" for="satslider"></label> <label id="lumlabel" for="lumslider"></label></h3>
+                <br>
+            </div>
         </div>
     </div>
 </div>
