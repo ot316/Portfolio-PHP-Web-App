@@ -39,6 +39,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $message = test_input($_POST["message"]);
     }
+
+    $servername = "localhost";
+    $username = "www-data";
+    $password = "";
+    $dbname = "olithompson";
 }
 
 
@@ -145,6 +150,20 @@ function test_input($data)
                     $mail->IsHTML(true);
                     $mail->send();
                     echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
+
+                    try {
+                        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+                        // set the PDO error mode to exception
+                        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+                        VALUES ('$name', '$email', '$message')";
+                        $conn->exec($sql);
+                        echo "New record created successfully";
+                        }
+                    catch(PDOException $e)
+                        {
+                        echo $sql . "<br>" . $e->getMessage();
+                        }
                 }
                 ?>
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">
