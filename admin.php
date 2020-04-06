@@ -101,8 +101,8 @@ class TableRows extends RecursiveIteratorIterator
             $stmt = $conn->prepare("SELECT id, name, email, message FROM contact");
             $stmt->execute();
             $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-            foreach (new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k => $v) {
-                echo $v;
+            while ($v = $conn->$stmt->fetchAll()) {
+                echo sprintf($v['id']);
                 echo "<br>";
             }
         } catch (PDOException $e) {
