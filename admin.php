@@ -102,7 +102,7 @@ class TableRows extends RecursiveIteratorIterator
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT id, firstname, lastname FROM MyGuests";
+        $sql = "SELECT id, name, email, message FROM contact";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
