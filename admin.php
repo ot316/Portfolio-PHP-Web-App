@@ -64,21 +64,6 @@
     <br>
     <br>
     <div class="wrapper">
-        <form class="form-signin">
-            <div>
-                <h4 >Login to Voxel Hub</h4>
-                <p>Description</p>
-            </div>
-            <div>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputEmail">Email address</label>
-            </div>
-            <div>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
-            </div>
-            <button  type="submit">Sign in</button>
-        </form>
         <?php
         if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
             try {

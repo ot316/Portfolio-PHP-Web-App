@@ -89,8 +89,8 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 <p>Description</p>
             </div>
             <div>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputEmail">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required >
+                <label for="inputEmail">Username</label>
             </div>
             <div>
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
