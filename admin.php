@@ -110,7 +110,7 @@ class TableRows extends RecursiveIteratorIterator
             if ($result->num_rows > 0) {
                 // output data of each row
                 while ($row = $result->fetch_assoc()) {
-                    echo "<p style='margin:10px;'>ID: " . $row["id"] . "<br> Name: " . $row["name"] . "<br> Email: " . $row["email"] . "<br> Message: " . $row["message"] . "</p><br>";
+                    echo "<p style='margin:10px;'><b>ID: </b>" . $row["id"] . "<br> <b>Name: </b>" . $row["name"] . "<br> <b>Email: </b>" . $row["email"] . "<br> <b>Message: </b>" . $row["message"] . "</p><br>";
                 }
             } else {
                 echo "0 results";
