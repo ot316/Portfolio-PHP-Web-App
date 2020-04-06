@@ -90,12 +90,12 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
                 <br>
             </div>
             <div>
-                <input type="username" id="username" name="username" placeholder="UserName" required>
+                <input type="username" id="username" name="username" placeholder="UserName" >
                 <label style="margin: 7px;" for="username">Username</label>
             </div>
             <br>
             <div>
-                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="password" id="password" name="password" placeholder="Password" >
                 <label style="margin: 7px;" for="password">Password</label>
             </div>
             <br>
