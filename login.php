@@ -8,16 +8,16 @@
 
 <?php
 /* Your password */
-$email = 'admin';
+$username = 'admin';
 $password = getenv('LOGIN_PASSWORD') ?: die('"LOGIN_PASSWORD" config var in found in env!');
 $loginerror = "";
 
 /* Redirects here after login */
-$redirect_after_login = 'admin';
+$redirect_after_login = 'admin.php';
 
-if (isset($_POST['password']) && isset($_POST['email'])) {
-    if ($_POST['password'] == $password && $_POST['email'] == $email) {
-        setcookie("password", $password, $remember_password);
+if (isset($_POST['password']) && isset($_POST['username'])) {
+    if ($_POST['password'] == $password && $_POST['username'] == $username) {
+        setcookie("password", $password);
         header('Location: ' . $redirect_after_login);
         exit;
     } else {
@@ -89,12 +89,12 @@ if (isset($_POST['password']) && isset($_POST['email'])) {
                 <p>Description</p>
             </div>
             <div>
-                <input id="inputEmail" class="form-control" placeholder="User Name" required >
-                <label for="inputEmail">Username</label>
+                <input type="username" id="username" placeholder="UserName" required >
+                <label for="username">Username</label>
             </div>
             <div>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+                <label for="password">Password</label>
             </div>
             <?php echo ($loginerror) ?>
             <button type="submit">Sign in</button>
