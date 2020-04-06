@@ -18,11 +18,13 @@ if (isset($_POST['query'])) {
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-        echo($name);
         $sql = "SELECT * FROM search WHERE '$name' IN ('tag1','tag2','tag3','tag4','tag5','tag6','tag7','tag8','tag9', 'tag10')";
         $result = $conn->query($sql);
-        $row = $result->fetch_assoc();
-        echo($row);
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "link: " . $row["link"];
+            }
     }
 
 } else {
