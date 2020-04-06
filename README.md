@@ -1,5 +1,5 @@
 # Portfolio Website/Web App
 
-Originally a static website, I converted my website into php to template html files efficiently. This allows me to make changes and add more projects efficiently. The web app is deployed to Heroku, which is linked directly to this repository and deploys new commits automatically. The media files are stored in an AWS S3 bucket and I use AWS Route 53 to manage my domain. I configured my SSL certificate and installed it on Heroku. I hope to add more advanced features in future.
+This is a php  web app serving as a portfolio of my work. It is self hosted on a remote LAMP server and uses git web hooks to update automatically. Features include a contact form linking to a MySQL database, an admin login system to view the database, searching and filtering funcitonality and a letsencrpyt SSL certificate. AWS S3 buckets are used to store media files.
 
 ### www.olithompson.com

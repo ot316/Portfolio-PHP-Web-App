@@ -61,7 +61,7 @@ function test_input($data)
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
-        <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>
+            <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>
             <h1>Oli&nbsp;Thompson</h1>
             <div class="socialmediacontainer">
                 <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
@@ -158,11 +158,9 @@ function test_input($data)
                         $sql = "INSERT INTO contact (name, email, message)
                         VALUES ('$name', '$email', '$message')";
                         $conn->exec($sql);
-                        }
-                    catch(PDOException $e)
-                        {
+                    } catch (PDOException $e) {
                         echo $sql . "<br>" . $e->getMessage();
-                        }
+                    }
                 }
                 ?>
                 <p style="margin: 7px;">Name</p> <input type="text" name="name">

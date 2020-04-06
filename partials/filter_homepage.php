@@ -1,7 +1,10 @@
 <p class="mobilehidetext"> Welcome to my engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
+    <form method="post" action="search.php?go">
+        <input class="search" name="query" type="text" placeholder="Search...">
+    </form>
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
-    <input class="search" type="text" placeholder="Search...">
+
     <div id="myDropdown" class="dropdown-content">
 
         <div class="dropdownhover">
