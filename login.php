@@ -21,13 +21,13 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
         header('Location: ' . $redirect_after_login);
         exit;
     } else {
-        $loginerror = "<h4 style='color:black;'>" . 'Invalid Login Credentials' . "</h4><br>";
+        $loginerror = "<h4 class='error'>" . 'Invalid Login Credentials' . "</h4><br>";
     }
 }
 
 ?>
 
-<body class="background">
+<div class="background">
 
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
@@ -83,19 +83,23 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
     <br>
     <br>
     <div class="wrapper">
-        <form method="POST">
+        <form method="POST" class="survey">
             <div>
-                <h4>Login to Voxel Hub</h4>
-                <p>Description</p>
+                <h4>Admin Login</h4>
+                <br>
+                <br>
             </div>
             <div>
-                <input type="username" id="username" placeholder="UserName" required >
-                <label for="username">Username</label>
+                <input type="username" id="username" name="username" placeholder="UserName" required>
+                <label style="margin: 7px;" for="username">Username</label>
             </div>
+            <br>
             <div>
-                <input type="password" id="password" placeholder="Password" required>
-                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <label style="margin: 7px;" for="password">Password</label>
             </div>
+            <br>
+            <br>
             <?php echo ($loginerror) ?>
             <button type="submit">Sign in</button>
         </form>
@@ -103,8 +107,8 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
         <br>
         <br>
     </div>
-    </div>
-    <?php include('partials/footer.php') ?>
-    <script src="javascript/navbar.js"></script>
+</div>
+<?php include('partials/footer.php') ?>
+<script src="javascript/navbar.js"></script>
 
 </html>
