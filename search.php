@@ -25,7 +25,7 @@ if (isset($_POST['query'])) {
             // output data of each row
             echo "found";
             while($row = $result->fetch_assoc()) {
-                echo $row["link"];
+                echo $row["tag"];
             }
         } else {
             echo "found";
