@@ -23,10 +23,14 @@ if (isset($_POST['query'])) {
         echo $name;
         if ($result->num_rows > 0) {
             // output data of each row
+            echo "found";
             while($row = $result->fetch_assoc()) {
                 echo $row["link"];
             }
+        } else {
+            echo "found";
         }
+
     }
 
 } else {
