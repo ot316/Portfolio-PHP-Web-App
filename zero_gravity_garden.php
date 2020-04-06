@@ -45,7 +45,8 @@
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/thermal.mp4" type="video/mp4">
             Please change browser to view video.
         </video>
-        <h2>Why Zero Gravity?</h2>
+        <br>
+        <h4>Why Zero Gravity?</h4>
         <p>The hydroponic system rotates the plants constantly through their lifetime, resulting in a net force of 0N. This stops the plants geotropism from working (the biological mechanism by which plants always grow towards the strongest light source)
             and causes them to grow equally in all directions, increasing the volume to yield ratio.
         </p>
@@ -54,6 +55,9 @@
             Please change browser to view video.
         </video>
         <h3 style="padding-bottom: 30px;">CAD Process</h3>
+        <br>
+        <br>
+        <br>
         <div class="doublerow">
             <div class="inner">
                 <img class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Slideshow/Wiring-Diagram.png">
@@ -62,6 +66,10 @@
                 <img class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Slideshow/8.png">
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
 
         <!-- Slideshow container -->
         <div class="slideshow-container">

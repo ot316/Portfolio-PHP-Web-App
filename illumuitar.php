@@ -47,6 +47,8 @@
             </p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/Schematic_Audio-Schematic_Sheet-1_20190331160903.png" alt="Circuit Schematic">
             <h3 style="padding-bottom: 30px;">Circuit Schematic</h3>
+            <br>
+            <br>
             <div class="doublerow">
                 <div class="inner">
                     <img class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/20190316_130751.jpg.png" alt="PCB Render">
@@ -55,6 +57,8 @@
                     <img class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/pcbrender.png" alt="Office Image">
                 </div>
             </div>
+            <br>
+            <br>
             <div>
                 <h2>My&nbsp;Contribution</h2>
                 <ul class="bullets">
@@ -63,6 +67,8 @@
                     <li>I programmed the look-up table and the spectrum visualiser in C++</li>
                     <li>I was responsible for a large part of the mechanical design and manufacture</li>
                 </ul>
+                <br>
+                <br>
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
 
@@ -98,8 +104,8 @@
         </div>
     </div>
 </div>
-<<?php include('partials/footer.php') ?>
-<script src="javascript/slideshow.js"></script>
-<script src="javascript/navbar.js"></script>
+<<?php include('partials/footer.php') ?> <script src="javascript/slideshow.js">
+    </script>
+    <script src="javascript/navbar.js"></script>
 
 </html>

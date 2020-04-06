@@ -24,12 +24,13 @@
                 <li>We designed a fully functional prototype, conducted mass market research, user testing and designed parts for injection moulding with technical drawings.
                 </li>
             </ul>
+            <br>
             <video class="herovideo" loop controls poster="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/poster.png">
                 <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/herovid.mp4" type="video/mp4">
                 Please change browser to view video.
             </video>
             <h3 style="padding-top: 15px;">Full project Video</h3>
-            <h2 style="padding-top: 15px;">How it Works</h2>
+            <h2 style="padding-top: 35px;">How it Works</h2>
             <p style="margin-top: 10px;"> A servo inside the launcher retracts and allows the ball to fall into the path of a spinning drum. Reloading the ball is achieved by spinning the motor at a slower speed in reverse. The unusual shape of the launcher allows the user to pick
                 the ball up without having to bend down (essential for our target user group), and the 3 launch speeds make it suitable for different sizes of dog. The lithium ion battery can be removed for charging and is sealed with an O-ring for safe
                 outdoor use.
@@ -68,6 +69,9 @@
 
             <!-- Full-width images with number-->
             <div class="mySlides fade">
+                <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Slideshow/3.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
                 <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Slideshow/1.png" style="width:100%">
             </div>
             <div class="mySlides fade">
@@ -78,9 +82,6 @@
             </div>
             <div class="mySlides fade">
                 <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Slideshow/7.png" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Slideshow/3.png" style="width:100%">
             </div>
             <div class="mySlides fade">
                 <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Slideshow/8.png" style="width:100%">

@@ -106,8 +106,8 @@ function setHueValue() {
     lumlabel.innerText = Math.round(lumval * 2.55);
     var sat = document.getElementById('satslider');
     var lum = document.getElementById('lumslider');
-    sat.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', 0%, 60%) 0%, hsl(' + hueval + '  , 100%, 60%) 100%)';
-    lum.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', 100%, 0%) 0%, hsl(' + hueval + ', 100%, 50%) 50%, hsl(' + hueval + '  , 100%, 100%) 100%)';
+    sat.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', 0%, 50%) 0%, hsl(' + hueval + '  , 100%, 50%) 100%)';
+    lum.style.backgroundImage = 'linear-gradient(to right, hsl(' + hueval + ', ' + satval + '%, 0%) 0%, hsl(' + hueval + ', ' + satval + '%, 50%) 50%, hsl(' + hueval + '  , ' + satval + '%, 100%) 100%)';
 
 
 }

@@ -20,7 +20,7 @@
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>I used Matlab to construct a kinematic model of a 3D robotic arm using the DH convention.</li>
-                <li>I tested and analysed the model and gained a high level understanding of robotic theory.</li>
+                <li>I tested and analysed the model and built a model visualisation.</li>
             </ul>
             <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/vel.png">
             <h3>Plotting the robot's trajectory in joint space and cartesian space.</h3>
@@ -66,6 +66,11 @@ end</PRE>
             </p>
             <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/unstable.png">
             <h3>Plotting the pseudo-inverse of the jacobian and the joint angles for a "broken" trajectory</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4>Visualisation</h4>
             <p>
                 Finally I used the Matlab robotics toolbox to visualise my model in 3D by defining joints, reference frames and angular range.
             </p>

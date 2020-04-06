@@ -23,15 +23,15 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I built a Javascript implementation of Conway's game of life. </li>
+                <li>I built an Interactive Javascript implementation of Conway's game of life. </li>
                 <li>Click the canvas to restart. </li>
             </ul>
             <div>
                 <canvas onclick="setup()" id="Canvas" style="margin-top: 40px; margin-bottom: 40px; border:3px solid grey;" class="Canvas"></canvas>
             </div>
             <br>
-            <div class ="colourpickercontainer">
-            <br>
+            <div class="colourpickercontainer">
+                <br>
                 <h4 style="font-size:24px;"> Colour Picker</h4>
                 <br>
                 <input class="hueslider" id="hueslider" type="range" min="0" max="255" value="241" step="1" onchange="setHueValue()" />
@@ -44,6 +44,7 @@
                 <h3>HSV Colour: <label id="huelabel" for="hueslider"></label> <label id="satlabel" for="satslider"></label> <label id="lumlabel" for="lumslider"></label></h3>
                 <br>
             </div>
+            <br>
         </div>
     </div>
 </div>
