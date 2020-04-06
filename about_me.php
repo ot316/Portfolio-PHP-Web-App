@@ -155,7 +155,7 @@ function test_input($data)
                         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
                         // set the PDO error mode to exception
                         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                        $sql = "INSERT INTO contact (firstname, lastname, email)
+                        $sql = "INSERT INTO contact (name, email, message)
                         VALUES ('$name', '$email', '$message')";
                         $conn->exec($sql);
                         echo "New record created successfully";
