@@ -28,7 +28,7 @@ if (isset($_POST['query'])) {
                 echo $row["tag"];
             }
         } else {
-            echo "found";
+            echo "notfound";
         }
 
     }
