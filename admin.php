@@ -95,20 +95,25 @@ class TableRows extends RecursiveIteratorIterator
     <br>
     <div class="wrapper">
         <?php
-        try {
-            $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $stmt = $conn->prepare("SELECT id, name, email, message FROM contact");
-            $stmt->execute();
-            $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-            while ($v = $conn->$stmt->fetchAll()) {
-                echo sprintf($v['id']);
-                echo "<br>";
-            }
-        } catch (PDOException $e) {
-            echo $sql . "<br>" . $e->getMessage();
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
         }
 
+        $sql = "SELECT id, firstname, lastname FROM MyGuests";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                echo "id: " . $row["id"] . " Name: " . $row["name"] . " " . $row["email"] . " Message: " . $row["message"];
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
         ?>
         <br>
         <br>
