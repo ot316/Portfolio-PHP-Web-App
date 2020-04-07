@@ -518,8 +518,11 @@ h4 {
     width: 100%;
 }
 
-.search {
+.searchcontainer {
     float: right;
+}
+
+.search {
     padding: 6px;
     border: 1.5px solid lightgrey;
     border-radius: 5px;

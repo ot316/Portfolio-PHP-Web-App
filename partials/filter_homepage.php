@@ -1,7 +1,10 @@
 <p class="mobilehidetext"> Welcome to my engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <form method="post" action="search.php?go">
-        <input class="search" name="query" type="text" placeholder="Search...">
+        <div class="searchcontainer">
+            <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search...">
+            <p style="margin: 1px; display: none" id="searchDropdown">e.g. CAD, python etc</p>
+        </div>
     </form>
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
 
@@ -58,3 +61,23 @@
         </div>
     </div>
 </div>
+
+<script>
+    function show() {
+        console.log("activated")
+        var x = document.getElementById("searchDropdown");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }}
+
+$(window).click(function() {
+    var x = document.getElementById("searchDropdown");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+});
+
+$('#menucontainer').click(function(event){
+    event.stopPropagation();
+});
+</script>
