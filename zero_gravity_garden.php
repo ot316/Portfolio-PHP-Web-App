@@ -34,7 +34,7 @@
         </p>
         <p>
             An array of sensors relay data to the microcontroller; the PH of the nutrient solution, water level, the ambient temperature and humidity, and the positional data of the rotating drum. Various parameters can be tuned using the rotary encoders such as
-            brightness, the circadian duty cycle and the frequency at which the plants are watered.
+            brightness, the circadian duty cycle and the frequency at which the plants are watered. A heating element and a PID control loop keep temperature constant.
         </p>
 
         <p>

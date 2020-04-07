@@ -729,7 +729,7 @@ h4 {
 
 /* For SmartPhones---------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .wrapper {
         width: 90%;
         margin: auto;
