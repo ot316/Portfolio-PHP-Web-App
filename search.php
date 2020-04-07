@@ -70,7 +70,6 @@ $dbname = "olithompson";
     <br>
     <br>
     <div class="wrapper">
-<h2>Search Results
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -80,7 +79,7 @@ if (isset($_POST['query'])) {
         $name = $_POST['query'];
         $name = htmlspecialchars($name);
         trim($name);
-        echo("<h2>Search Results for" . $name . "</h2");
+        echo("<h2>Search Results for '" . $name . "'</h2> <br><br>");
         $conn = new mysqli($servername, $username, $password, $dbname);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
