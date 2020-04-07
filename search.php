@@ -79,7 +79,7 @@ if (isset($_POST['query'])) {
         $name = $_POST['query'];
         $name = htmlspecialchars($name);
         trim($name);
-        echo("<h2>Search Results for '" . $name . "'</h2>");
+        echo("<h2>Search Results for '" . $name . "'</h2><br>");
         $conn = new mysqli($servername, $username, $password, $dbname);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
@@ -101,7 +101,5 @@ if (isset($_POST['query'])) {
 } else {
     echo ("<p>Please enter a search query</p>");
 }
-
-$conn->close();
 
 ?>
