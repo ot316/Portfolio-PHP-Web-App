@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>Admin Page</title>
+    <title>Search</title>
 </head>
 
 <?php
