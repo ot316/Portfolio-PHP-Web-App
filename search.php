@@ -89,17 +89,18 @@ if (isset($_POST['query'])) {
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             // output data of each row
+            echo("<ul>");
                 while($row = $result->fetch_assoc()) {
-                echo "<a href=" . $row["link"] . "><p style='fontsize: 28;'>" . $row["name"] . "</p></a>";
+                echo "<a href=" . $row["link"] . "><li style='fontsize: 28;'>" . $row["name"] . "</li></a>";
             }
+            echo("</ul>");
         } else {
             echo "<p>No Results Found</p>";
         }
 
     }
 
-} else {
-    echo ("<p>Please enter a search query</p>");
 }
+
 
 ?>
