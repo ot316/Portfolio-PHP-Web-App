@@ -21,12 +21,11 @@ if (isset($_POST['query'])) {
         $sql = "SELECT * FROM search WHERE '$name'  IN (tag,tag1,tag2,tag3,tag4,tag5,tag6,tag7,tag8,tag9,tag10)";
         ;
         $result = $conn->query($sql);
-        echo $name;
         if ($result->num_rows > 0) {
             // output data of each row
             echo "found";
             while($row = $result->fetch_assoc()) {
-                echo $row["id"];
+                echo "<a href=" . $row["llink"] . "><p>" . $row["name"] . "</p></a>";
             }
         } else {
             echo "notfound";
