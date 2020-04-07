@@ -90,7 +90,7 @@ if (isset($_POST['query'])) {
         if ($result->num_rows > 0) {
             // output data of each row
                 while($row = $result->fetch_assoc()) {
-                echo "<a href=" . $row["link"] . "><p>" . $row["name"] . "</p></a>";
+                echo "<a href=" . $row["link"] . "><p style='fontsize: 28;'>" . $row["name"] . "</p></a>";
             }
         } else {
             echo "<p>No Results Found</p>";
