@@ -80,7 +80,7 @@ $dbname = "olithompson";
                     $name = $_POST['query'];
                     $name = htmlspecialchars($name);
                     trim($name);
-                    echo ("<h2 style='margin: auto'>Search Results for '" . $name . "'</h2><br><br>");
+                    echo ("<h4>Search Results for '" . $name . "'</h4><br><br>");
                     $conn = new mysqli($servername, $username, $password, $dbname);
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
