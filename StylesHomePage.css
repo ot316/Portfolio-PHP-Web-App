@@ -527,7 +527,7 @@ h4 {
 }
 
 .searchresults {
-    display: none;
+    max-width: 50%;
 }
 
 @keyframes zoom {
@@ -938,6 +938,9 @@ h4 {
     }
     .search {
         font-size: 12px;
+    }
+    .searchresults {
+        max-width: 95%;
     }
     .colourpickercontainer {
         width: 85%;
