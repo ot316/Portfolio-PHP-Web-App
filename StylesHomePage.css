@@ -528,6 +528,7 @@ h4 {
 
 .searchresults {
     max-width: 50%;
+    margin: auto;
 }
 
 @keyframes zoom {
