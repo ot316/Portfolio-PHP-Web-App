@@ -91,7 +91,7 @@ if (isset($_POST['query'])) {
             // output data of each row
             echo("<ul>");
                 while($row = $result->fetch_assoc()) {
-                echo "<a href=" . $row["link"] . "><li style='font-size: 20px;'>" . $row["name"] . "</li></a>";
+                echo "<a href=" . $row["link"] . "><li style='font-size: 28px;'>" . $row["name"] . "</li></a><br>";
             }
             echo("</ul>");
         } else {
