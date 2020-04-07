@@ -518,10 +518,6 @@ h4 {
     width: 100%;
 }
 
-.searchcontainer {
-    float: right;
-}
-
 .search {
     padding: 6px;
     border: 1.5px solid lightgrey;
@@ -594,6 +590,10 @@ h4 {
     width: 60%;
     border: 1px solid black;
     margin: auto;
+}
+
+.searchcontainer a {
+    color: blue;
 }
 
 
