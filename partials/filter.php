@@ -2,7 +2,7 @@
 <div class="dropdown">
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
     <a href="/">
-        <button style="padding-bottom: 20px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
+        <button style="margin-bottom: 25px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
     </a>
     <input class="search" type="text" placeholder="Search...">
     <div id="myDropdown" class="dropdown-content">
