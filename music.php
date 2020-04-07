@@ -64,17 +64,17 @@
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
-                <?php include('music_partials/breakingallillusions.php') ?>
-                <?php include('music_partials/amsong.php') ?>
-                <?php include('music_partials/mia.php') ?>
+                <?php include('music_partials/breakingallillusions.php') ?><br>
+                <?php include('music_partials/amsong.php') ?><br>
+                <?php include('music_partials/mia.php') ?><br>
             </div>
             <br>
             <br>
             <br>
             <div class="picwrapper" id="picwrapper">
-                <?php include('music_partials/shepherdoffire.php') ?>
-                <?php include('music_partials/asiam.php') ?>
-                <?php include('music_partials/everytimeidie.php') ?>
+                <?php include('music_partials/shepherdoffire.php') ?><br>
+                <?php include('music_partials/asiam.php') ?><br>
+                <?php include('music_partials/everytimeidie.php') ?><br>
             </div>
             <br>
             <br>
