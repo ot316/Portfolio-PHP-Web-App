@@ -17,16 +17,18 @@
                 <h2>Linux</h2>
                 <h2>PHP</h2>
                 <h2>JS</h2>
+                <h2>MySQL</h2>
                 <h2>HTML</h2>
                 <h2>CSS</h2>
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>I coded my own responsive, dynamic portfolio webapp from scratch using self-taught PHP, HTML, CSS and Javascript. </li>
-                <li>I configured and hosted the webapp using heroku and Amazon web storage facilities, allowing me to implement changes easily. </li>
+                <li>I self hosted it on a Linux, apache, MySQL and PHP server and setup advanced features such as a login system and a search functionality</li>
             </ul>
             <img class="hero" style="padding-top: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/portfolio_website/Portfolio.png">
             <h3 style="padding-bottom: 50px; padding-top: 20px;">Designed to work across multiple devices and browsers</h3>
+            <p>The <a href='admin' style="color: blue;">Admin page </a> allows me to view the responses to the contact form, these are stored in a MySQL database. The <a href='deploy' style="color: blue;">Github deployment page </a>triggers a series of git commands to update the web app. I setup a github web hook to visit this page on every push.</p><br><br>
         </div>
     </div>
 </div>
