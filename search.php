@@ -25,7 +25,7 @@ if (isset($_POST['query'])) {
             // output data of each row
             echo "found";
             while($row = $result->fetch_assoc()) {
-                echo "<a href=" . $row["llink"] . "><p>" . $row["name"] . "</p></a>";
+                echo "<a href=" . $row["link"] . "><p>" . $row["name"] . "</p></a>";
             }
         } else {
             echo "notfound";
