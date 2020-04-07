@@ -609,7 +609,8 @@ h4 {
     margin: auto;
 }
 
-.videoinsert {
+
+/* .videoinsert {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -620,7 +621,7 @@ h4 {
     z-index: -100;
     background-size: cover;
     overflow: hidden;
-}
+} */
 
 
 /* 100% Image Width on Smaller Screens */
