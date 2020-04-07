@@ -76,6 +76,9 @@
                 <?php include('music_partials/asiam.php') ?>
                 <?php include('music_partials/everytimeidie.php') ?>
             </div>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
 </div>
