@@ -2,7 +2,7 @@
 <div class="dropdown">
     <form method="post" action="search.php?go">
         <div style="float: right;">
-            <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search...">
+            <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search..." required>
             <p style="margin: 1px; display: none" id="searchDropdown">e.g. CAD, python etc</p>
         </div>
     </form>
