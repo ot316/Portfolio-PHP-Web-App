@@ -1,7 +1,7 @@
 <p class="mobilehidetext"> Welcome to my engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <form method="post" action="search.php?go">
-        <div class="searchcontainer">
+        <div style="float: right;">
             <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search...">
             <p style="margin: 1px; display: none" id="searchDropdown">e.g. CAD, python etc</p>
         </div>
