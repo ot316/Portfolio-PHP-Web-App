@@ -61,6 +61,21 @@
     <div class="wrapper">
         <!-- Heading -->
         <p> My electric guitar music, some are covers and some are originals. This is serving as a progress log.</p>
+        <!-- Project Pictures -->
+        <div class="bigpicwrapper" id="bigpicwrapper">
+            <div class="picwrapper" id="picwrapper">
+                <?php include('music_partials/breakingallillusions.php') ?>
+                <?php include('music_partials/amsong.php') ?>
+                <?php include('music_partials/mia.php') ?>
+            </div>
+
+
+            <div class="picwrapper" id="picwrapper">
+                <?php include('music_partials/shepherdoffire.php') ?>
+                <?php include('music_partials/asiam.php') ?>
+                <?php include('music_partials/everytimeidie.php') ?>
+            </div>
+        </div>
     </div>
 </div>
 <?php include('partials/footer.php') ?>
