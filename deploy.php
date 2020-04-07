@@ -2,7 +2,7 @@
 <?php
 	$commands = array(
 		'git reset --hard HEAD',
-		'git pull origin test',
+		'git pull origin master',
 		'git status',
 	);
 	// Run the commands for output
