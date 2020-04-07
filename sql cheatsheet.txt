@@ -1,0 +1,12 @@
+UPDATE search SET tag12 = 'web-dev', tag13 = 'internet', tag14 = 'frontend', tag15 = "front-end", tag16 = "front end", tag17 = "computing", tag18 = "java script", tag19 = "design", tag20 = "algorithm", tag21 = "algorithm design" WHERE id = 2;
+
+UPDATE search 
+SET tag30='sklearn'
+WHERE link='baxter_robot';
+
+
+INSERT INTO search 
+
+(name,link,tag,tag1,tag2,tag3,tag4,tag5,tag6,tag7,tag8,tag9,tag10,tag11,tag12,tag13,tag14,tag15,tag16,tag17,tag18,tag19,tag20,tag21,tag22,tag23,tag24,tag25,tag26,tag27,tag28,tag29,tag30) 
+
+VALUES ('Illumuitar','illumuitar','signal processing','signal analysis','c++','arduino','microcontroller','fourier transform','fourier','electronics','PCB','PCB Design','signal','schematic','schematic','design','programming','software','programming','hardware','algorithm','coputing','sensors','microphone','guitar','led','','','','','','','');
