@@ -91,7 +91,7 @@ $dbname = "olithompson";
                         // output data of each row
                         echo ("<ul>");
                         while ($row = $result->fetch_assoc()) {
-                            echo "<a href=" . $row["link"] . "><li style='font-size: 18px;'>" . $row["name"] . "</li></a><br>";
+                            echo "<a href=" . $row["link"] . "><li style='font-size: 18px;'><u>" . $row["name"] . "</u></li></a><br>";
                         }
                         echo ("</ul>");
                     } else {
