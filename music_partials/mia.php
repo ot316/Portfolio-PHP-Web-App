@@ -1,5 +1,5 @@
 <div class="piccontainer" id="picwrapper">
-    <video class="herovideo" controls>
+    <video class="videoinsert" controls>
         <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/music/mia.mp4" type="video/mp4">
         Please change browser to view video.
     </video>
