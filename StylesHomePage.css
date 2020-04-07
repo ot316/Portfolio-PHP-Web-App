@@ -609,7 +609,7 @@ h4 {
     margin: auto;
 }
 
-.piccontainer videoinsert {
+.piccontainer .videoinsert {
     position: absolute;
     right: 0;
     bottom: 0;
