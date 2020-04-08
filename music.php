@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once('protect_this.php'); ?>
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
