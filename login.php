@@ -85,7 +85,7 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
     <div class="wrapper">
         <form method="POST" class="survey">
             <div>
-                <h4>Admin Login</h4>
+                <h4>Login</h4>
                 <br>
                 <br>
             </div>
