@@ -76,7 +76,7 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('music_partials/shepherdoffire.php') ?><br><br><br>
                 <?php include('music_partials/asiam.php') ?><br><br><br>
-                <?php include('music_partials/everytimeidie.php') ?><br><br><br>
+                <?php include('music_partials/crazytrain.php') ?><br><br><br>
             </div>
             <br>
             <br>
