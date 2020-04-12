@@ -4,7 +4,10 @@
     <a href="/">
         <button style="margin-bottom: 25px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
     </a>
-    <input class="search" type="text" placeholder="Search...">
+    <div class="searchcontainer">
+        <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search..." required>
+        <p style="margin: 1px; display: none" id="searchDropdown">e.g. CAD, python etc</p>
+    </div>
     <div id="myDropdown" class="dropdown-content">
 
         <div class="dropdownhover">
