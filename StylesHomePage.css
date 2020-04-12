@@ -532,6 +532,7 @@ h4 {
 
 .searchcontainer {
     float: right;
+    padding-left: 0px;
 }
 
 .search {
@@ -969,7 +970,7 @@ h4 {
     }
     .searchcontainer {
         float: left;
-        padding-right: 0px;
+        padding-right: 500px;
     }
     .search {
         font-size: 12px;
