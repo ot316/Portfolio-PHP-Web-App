@@ -23,7 +23,7 @@
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/custom_vpn/custom_vpn.png" alt="hero image">
             <h3 style="padding-top: 20px;">PiHole GUI</h3>
-            <p>The VPN runs on a ScaleWay linux machine and is cheaper and arguably more secure than the market equivalent. Connection speed is increased as around 15% of DNS queries are blocked and I can add my own DNS blacklists from any connected device. </p>
+            <p>The VPN runs on a linux VPS and is cheaper and arguably more secure than the market equivalent. Connection speed is increased as around 15% of DNS queries are blocked and I can add my own DNS blacklists from any connected device. </p>
         </div>
     </div>
 </div>
