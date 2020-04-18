@@ -829,14 +829,16 @@ h4 {
         font-weight: 300;
     }
     .sidenav .closebtn {
+        opacity: 0;
         color: #f1f1f1;
         display: block;
-        position: absolute;
+        position: relative;
         top: 15px;
         z-index: 1;
         right: 200px;
         font-size: 36px;
         margin-left: 50px;
+        transition: 2s;
     }
     .socialmediacontainermobile {
         margin: 0px;
