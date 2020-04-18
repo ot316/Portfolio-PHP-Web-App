@@ -788,7 +788,7 @@ h4 {
     .sidenav {
         display: block;
         height: 100%;
-        width: 0;
+        width: 250;
         position: fixed;
         z-index: 3;
         top: 0;
