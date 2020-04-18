@@ -794,8 +794,6 @@ h4 {
         top: 0;
         right: 0;
         background-color: #111;
-        opacity: 0.8 !important;
-        -webkit-opacity: 0.8 !important;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 10px;
