@@ -49,3 +49,4 @@
     </div>
 </div>
 <br>
+<script src="javascript/navbar.js"></script>
