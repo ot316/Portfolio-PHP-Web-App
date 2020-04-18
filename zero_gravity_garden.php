@@ -21,7 +21,7 @@
         </div>
         <!-- First Bullet Points -->
         <ul class="headingbullets">
-            <li>I independently designed and built a rotating, user programmable hydroponic garden for use in non-arable climates in Summer 2018</li>
+            <li>I independently designed and built a rotating, user programmable hydroponic garden for use in non-arable climates</li>
             <li>I used various sensors to monitor temperature, PH and humidity including a hall effect sensor for closed loop positional feedback.</li>
         </ul>
         <video class="herovideo" controls autoplay>
