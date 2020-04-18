@@ -61,7 +61,7 @@
 }
 
 .sidenav {
-    display: none;
+    display: block;
 }
 
 .sidenavbutton {
