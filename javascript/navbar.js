@@ -1,11 +1,11 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("mySidenavcls").style.opacity = "1";
+    document.getElementById("mySidenav").style.opacity = "0.8";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0px";
-    document.getElementById("mySidenavcls").style.opacity = "0";
+    document.getElementById("mySidenav").style.opacity = "0";
 
 
 }
