@@ -1,6 +1,4 @@
 <!-- Banner, Navigation bar and Sidenav Bar -->
-<link rel="stylesheet" href="./StylesHomePage.css">
-
 <div class="banner">
     <div class="banner-content">
         <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>
@@ -17,7 +15,7 @@
 </div>
 <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
 <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" onclick="closeNav()">
+    <a href="#" onclick="closeNav()">
         <p style="font-size: 36px;" class="sidenavtext" >&times;</p>
     </a>
     <a href="/">
