@@ -26,7 +26,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="#" onclick="closeNav()">
             <p style="font-size: 36px;" class="sidenavtext">&times;</p>
-        </a> <a href="/" style="margin-top: 75px;">
+        </a> <a href="/">
             <p class="sidenavtext">Projects</p>
         </a>
         <a href="about_me">
