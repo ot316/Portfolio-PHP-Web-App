@@ -1,6 +1,5 @@
 <!-- Banner, Navigation bar and Sidenav Bar -->
 <link rel="stylesheet" href="./Styles.css">
-<link rel="stylesheet" href="./StylesHomePage.css">
 
 <div class="banner">
     <div class="banner-content">
