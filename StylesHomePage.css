@@ -812,6 +812,16 @@ h4 {
         top: 0;
         right: 0;
     }
+    .sidenav a:hover {
+        display: block;
+        padding: 8px 0px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #f1f1f1;
+        display: block;
+        top: 0;
+        right: 0;
+    }
     .sidenavtext {
         color: #f1f1f1;
         font-size: 20px;
