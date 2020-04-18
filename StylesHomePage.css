@@ -61,7 +61,7 @@
 }
 
 .sidenav {
-    display: block;
+    display: none;
 }
 
 .sidenavbutton {
@@ -815,10 +815,6 @@ h4 {
         display: block;
         top: 0;
         right: 0;
-    }
-    .sidenav a:hover {
-        display: block;
-        color: #f1f1f1;
     }
     .sidenavtext {
         color: #f1f1f1;
