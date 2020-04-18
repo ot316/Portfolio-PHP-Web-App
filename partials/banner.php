@@ -1,4 +1,6 @@
 <!-- Banner, Navigation bar and Sidenav Bar -->
+<link rel="stylesheet" href="./Styles.css">
+
 <div class="banner">
     <div class="banner-content">
         <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>

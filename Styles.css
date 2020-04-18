@@ -598,6 +598,37 @@ a {
         width: 40px;
         padding: 0px;
     }
+    .socialmedialogomobile {
+        width: 30px;
+        padding: 10px 0px 10px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        filter: invert(100%);
+        z-index: 10;
+    }
+    .socialmedialogo {
+        display: none;
+    }
+    .logo h1 {
+        display: block;
+    }
+    .banner-content {
+        padding-bottom: 10px;
+    }
+    .dropbtn {
+        font-size: 12px;
+    }
+    .dropdown-content-hover {
+        display: none;
+    }
+    .dropdown-content-hover a {
+        display: none;
+    }
+    .dropdown-content h2 {
+        padding: 15px 3.5vw 15px 3.5vw;
+        font-size: 12px;
+        font-weight: 400;
+    }
     .zerogravitygarden {
         max-width: 170px;
         padding-top: 10px;
