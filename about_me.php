@@ -75,8 +75,9 @@ function test_input($data)
     </div>
     <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/" style="margin-top: 75px;">
+        <a href="#" onclick="closeNav()">
+            <p style="font-size: 36px;" class="sidenavtext">&times;</p>
+        </a> <a href="/" style="margin-top: 75px;">
             <p class="sidenavtext">Projects</p>
         </a>
         <a href="about_me">
