@@ -5,5 +5,5 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0px";
-    document.getElementById("mySidenav").style.opacity = "0";
+    document.getElementById("mySidenav").style.opacity = "0.8";
 }
