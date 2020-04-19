@@ -17,13 +17,13 @@
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/zero_gravity_garden.php') ?>
+                <?php include('project_partials/smart_mirror.php') ?>
                 <?php include('project_partials/jumping_robot.php') ?>
-                <?php include('project_partials/baxter_robot.php') ?>
             </div>
 
 
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/smart_mirror.php') ?>
+                <?php include('project_partials/baxter_robot.php') ?>
                 <?php include('project_partials/illumuitar.php') ?>
                 <?php include('project_partials/ball_launcher.php') ?>
             </div>
