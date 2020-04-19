@@ -61,7 +61,7 @@
     <br>
     <div class="wrapper">
         <!-- Heading -->
-        <p> My electric guitar music, some are covers and some are originals. This is serving as a progress log.</p>
+        <p> My electric guitar music, some are covers and some are originals.</p>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
