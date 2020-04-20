@@ -19,7 +19,7 @@ $dbname = "olithompson";
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
-            <img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
+            <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>
             <h1>Oli&nbsp;Thompson</h1>
             <div class="socialmediacontainer">
                 <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
@@ -33,8 +33,9 @@ $dbname = "olithompson";
     </div>
     <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/" style="margin-top: 75px;">
+        <a onclick="closeNav()">
+            <p style="font-size: 36px;" class="sidenavtext">&times;</p>
+        </a> <a href="/">
             <p class="sidenavtext">Projects</p>
         </a>
         <a href="about_me">
@@ -59,7 +60,7 @@ $dbname = "olithompson";
     <div class="navbarwrapper">
         <div class="navbar">
             <ul>
-                <li><a href="/">Projects</a></li>
+                <li><a class="active" href="/">Projects</a></li>
                 <li><a href="about_me">About Me</a></li>
                 <li><a href="renders_and_art"> Renders and Art</a></li>
                 <li><a href="music">Music</a></li>
