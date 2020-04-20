@@ -28,7 +28,7 @@
             </ul>
             <img class="hero" style="padding-top: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/portfolio_website/Portfolio.png">
             <h3 style="padding-bottom: 50px; padding-top: 20px;">Designed to work across multiple devices and browsers</h3>
-            <p>The <a href='admin' style="color: blue;">Admin page </a> allows me to view the responses to the contact form, these are stored in a MySQL database. The <a href='deploy' style="color: blue;">Github deployment page </a>triggers a series of git commands to update the web app. I setup a github web hook to visit this page on every push.</p><br><br>
+            <p>The <a href='admin' style="color: blue;">Admin page </a> allows me to view the responses to the contact form, these are stored in a MySQL database. The <a href='deploy' style="color: blue;">Github deployment page </a>triggers a series of git commands to update the web app. I setup a github web hook to visit this page on every push. I have also setup google analytics to visualise web traffic and to show me which projects people find interesting.</p><br><br>
         </div>
     </div>
 </div>
