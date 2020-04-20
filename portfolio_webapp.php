@@ -13,7 +13,7 @@
             <!-- Heading -->
             <h1 style="text-align: center; padding-top: 30px;">Portfolio Webapp</h1>
             <div class="tagcontainer">
-                <h2>Web Dev</h2>
+                <h2>Web&nbsp;Dev</h2>
                 <h2>Linux</h2>
                 <h2>PHP</h2>
                 <h2>JS</h2>
