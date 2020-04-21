@@ -340,7 +340,7 @@ hr {
 .thirdplaceholder {
     opacity: 1;
     backface-visibility: hidden;
-    height: 100%;
+    height: 100px;
     width: 100px;
     display: block;
     padding: 0px;
