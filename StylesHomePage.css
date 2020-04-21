@@ -322,6 +322,12 @@ hr {
     max-width: 40%;
 }
 
+.piccontainerborder {
+    border: 3px solid grey;
+    height: 100%;
+    max-width: 40%;
+}
+
 .third {
     opacity: 1;
     backface-visibility: hidden;
@@ -364,10 +370,12 @@ hr {
     color: black;
 }
 
+.piccontainerborder:hover .third,
 .piccontainer:hover .third {
     opacity: 0.3;
 }
 
+.piccontainerborder:hover .middle,
 .piccontainer:hover .middle {
     opacity: 1;
 }
@@ -610,6 +618,7 @@ h4 {
     margin: auto;
 }
 
+.piccontainerborder .videoinsert,
 .piccontainer .videoinsert {
     max-width: 100%;
     max-height: 100%;
@@ -688,6 +697,7 @@ h4 {
     .middle h4 {
         font-size: 1.3vw;
     }
+    .piccontainerborder:hover .third,
     .piccontainer:hover .third {
         opacity: 1;
     }
@@ -870,6 +880,7 @@ h4 {
         padding-top: 0px;
         width: 100%;
     }
+    .piccontainerborder,
     .piccontainer {
         all: unset;
     }

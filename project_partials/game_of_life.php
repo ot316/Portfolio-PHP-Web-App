@@ -1,4 +1,4 @@
-<div class="piccontainer" id="picwrapper" style="border:3px solid grey;">
+<div class="piccontainerborder" id="picwrapper">
     <a href="game_of_life" class="links">
         <img class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/hero_images/game_of_life.png">
         <div class="middle">
