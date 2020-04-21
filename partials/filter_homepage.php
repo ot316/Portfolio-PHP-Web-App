@@ -11,18 +11,6 @@
     <div id="myDropdown" class="dropdown-content">
 
         <div class="dropdownhover">
-            <a href="filter_electronics">
-                <h2>Electronics</h2>
-            </a>
-            <div class="dropdown-content-hover">
-                <a href="filter_pcb_design">PCB Design</a>
-                <a href="filter_signal_processing">Signal Processing</a>
-                <a href="filter_control">Control</a>
-                <a href="filter_mechatronics">Mechatronics</a>
-            </div>
-        </div>
-        <h3>|</h3>
-        <div class="dropdownhover">
             <a href="filter_software">
                 <h2>Software</h2>
             </a>
@@ -31,6 +19,18 @@
                 <a href="filter_machine_learning">Machine Learning</a>
                 <a href="filter_robotics">Robotics</a>
                 <a href="filter_web_and_network">Web and Network</a>
+            </div>
+        </div>
+        <h3>|</h3>
+        <div class="dropdownhover">
+            <a href="filter_electronics">
+                <h2>Electronics</h2>
+            </a>
+            <div class="dropdown-content-hover">
+                <a href="filter_pcb_design">PCB Design</a>
+                <a href="filter_signal_processing">Signal Processing</a>
+                <a href="filter_control">Control</a>
+                <a href="filter_mechatronics">Mechatronics</a>
             </div>
         </div>
         <h3>|</h3>
@@ -68,16 +68,17 @@
         var x = document.getElementById("searchDropdown");
         if (x.style.display === "none") {
             x.style.display = "block";
-        }}
+        }
+    }
 
-$(window).click(function() {
-    var x = document.getElementById("searchDropdown");
+    $(window).click(function() {
+        var x = document.getElementById("searchDropdown");
         if (x.style.display === "block") {
             x.style.display = "none";
         }
-});
+    });
 
-$('#menucontainer').click(function(event){
-    event.stopPropagation();
-});
+    $('#menucontainer').click(function(event) {
+        event.stopPropagation();
+    });
 </script>

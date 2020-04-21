@@ -14,19 +14,6 @@
         </form>
     </div>
     <div id="myDropdown" class="dropdown-content">
-
-        <div class="dropdownhover">
-            <a href="filter_electronics">
-                <h2>Electronics</h2>
-            </a>
-            <div class="dropdown-content-hover">
-                <a href="filter_pcb_design">PCB Design</a>
-                <a href="filter_signal_processing">Signal Processing</a>
-                <a href="filter_control">Control</a>
-                <a href="filter_mechatronics">Mechatronics</a>
-            </div>
-        </div>
-        <h3>|</h3>
         <div class="dropdownhover">
             <a href="filter_software">
                 <h2>Software</h2>
@@ -36,6 +23,18 @@
                 <a href="filter_machine_learning">Machine Learning</a>
                 <a href="filter_robotics">Robotics</a>
                 <a href="filter_web_and_network">Web and Network</a>
+            </div>
+        </div>
+        <h3>|</h3>
+        <div class="dropdownhover">
+            <a href="filter_electronics">
+                <h2>Electronics</h2>
+            </a>
+            <div class="dropdown-content-hover">
+                <a href="filter_pcb_design">PCB Design</a>
+                <a href="filter_signal_processing">Signal Processing</a>
+                <a href="filter_control">Control</a>
+                <a href="filter_mechatronics">Mechatronics</a>
             </div>
         </div>
         <h3>|</h3>
