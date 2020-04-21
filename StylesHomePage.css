@@ -40,12 +40,12 @@
 
 .background {
     width: 100%;
-    background-color: black;
+    background-color: white;
     min-height: calc(100vh - 70px);
 }
 
 .banner {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@
 
 .navbar ul li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px 2.7vw 12px 2.7vw;
     text-decoration: none;
@@ -140,7 +140,7 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    background-color: black;
+    background-color: white;
     z-index: 2;
 }
 
@@ -157,7 +157,7 @@
     color: black;
     padding: 12px 30px 12px 30px;
     font-size: 16px;
-    color: black;
+    color: white;
     border: none;
     cursor: pointer;
     background-color: lightgrey;
@@ -742,7 +742,7 @@ h4 {
         font-size: 14px;
     }
     .banner-content {
-        color: "black";
+        color: "white";
         width: 80%;
     }
     .logo {
