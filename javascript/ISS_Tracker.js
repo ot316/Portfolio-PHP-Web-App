@@ -55,6 +55,13 @@ function plot() {
         crossDomain: true,
         complete: function(data) {
             if (data.readyState === 4 && data.status === 200) {
+                if (windowWidth < 870) {
+                    MapWidth = 0.95 * windowWidth;
+                    MapHeight = 0.57 * MapWidth;
+                } else {
+                    MapWidth = 870;
+                    MapHeight = 0.57 * MapWidth;
+                }
                 Lat = data.responseJSON.latitude;
                 Long = data.responseJSON.longitude;
                 Velocity = data.responseJSON.velocity.toFixed(2).toString();
