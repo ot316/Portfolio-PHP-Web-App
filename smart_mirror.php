@@ -82,6 +82,7 @@ model.save_weights("model_weights.h5")</PRE>
                 </div>
                 
                 <div style="float: right; padding-right: 80px;">
+                <br>
                     <h3 class="heading">Enter number of datapoints to display</h3>
                     
                 <br>
