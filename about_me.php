@@ -170,7 +170,7 @@ function test_input($data)
                 <span class="error">* <?php echo $emailErr; ?></span>
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <br>
-                <input style="padding: 8px 20px; margin-right: 15px; background-color: lightgrey; color: white;" type="submit" value="Send"><input style="padding: 8px 20px; background-color: lightgrey; color: white;" type="reset" value="Clear">
+                <input style="padding: 8px 20px; margin-right: 15px; background-color: lightgrey; color: white; font-size: 16px; font-family: 'Work Sans', sans-serif; font-weight: 300;" type="submit" value="Send"><input style="padding: 8px 20px; background-color: lightgrey; color: white; font-size: 16px; font-family: 'Work Sans', sans-serif; font-weight: 300;" type="reset" value="Clear">
             </form>
         </div>
         <br>
