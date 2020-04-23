@@ -27,7 +27,7 @@ $dbname = "olithompson";
                 <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
                     <img class="socialmedialogo" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
                 <a href="https://github.com/ot316" target="_blank">
-                    <img class="socialmedialogo" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Github.svg"></a>
+                    <img class="socialmedialogo" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/github.png"></a>
                 <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
                     <img class="socialmedialogo" alt="Instagram" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Instagram.png"></a>
             </div>
@@ -54,7 +54,7 @@ $dbname = "olithompson";
             <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
                 <img class="socialmedialogomobile" alt="Instagram" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Instagram.png"></a>
             <a href="https://github.com/ot316" target="_blank">
-                <img class="socialmedialogomobile" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Github.svg"></a>
+                <img class="socialmedialogomobile" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/github.png"></a>
             <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
                 <img class="socialmedialogomobile" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
         </div>
