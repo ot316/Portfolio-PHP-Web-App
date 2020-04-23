@@ -75,10 +75,10 @@ model.save_weights("model_weights.h5")</PRE>
                 <div style="float: left; padding-left: 40px;">
                     <h3 class="heading">Choose timescale</h3>
                     <br>
-                    <input name="Days" onclick="choose(16)" type="button" value="Days" />
-                    <input name="Hours" onclick="choose(13)" type="button" value="Hours" />
-                    <input name="Minutes" onclick="choose(10)" type="button" value="Minutes" />
-                    <input name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
+                    <input class = "btn" name="Days" onclick="choose(16)" type="button" value="Days" />
+                    <input class = "btn" name="Hours" onclick="choose(13)" type="button" value="Hours" />
+                    <input class = "btn" name="Minutes" onclick="choose(10)" type="button" value="Minutes" />
+                    <input class = "btn" name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
                 </div>
                 
                 <div style="float: right; padding-right: 80px;">
@@ -86,7 +86,7 @@ model.save_weights("model_weights.h5")</PRE>
                     
                 <br>
                     <input name="textbox2" id="userinput2" type="number" />
-                    <input name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
+                    <input class = "btn" name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
 
                 </div>
                 <br>
