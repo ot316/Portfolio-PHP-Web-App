@@ -170,7 +170,7 @@ function test_input($data)
                 <span class="error">* <?php echo $emailErr; ?></span>
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <br>
-                <input class= "btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
+                <input class= "btn" type="submit" value="Send"><input class ="btn" type="reset" value="Clear">
             </form>
         </div>
         <br>

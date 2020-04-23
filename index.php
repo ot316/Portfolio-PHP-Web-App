@@ -83,10 +83,6 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
     <?php include('partials/footer.php') ?>
 </body>
 <script src="../javascript/pic_wrapper.js"></script>
