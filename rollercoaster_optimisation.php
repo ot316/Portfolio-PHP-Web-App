@@ -25,6 +25,7 @@
                 <li>I then developed a multiobjective formulation from first principles, used design of experiments and implemented various optimisation algorithms to improve the design.
                 </li>
             </ul>
+            <br>
             <h2 style="padding-top: 20px;"> Web Scraping</h2>
             <p> Before the optimisation study I conducted analytical research in support of the main project; I analysed the html of www.RCDB.com and appended the characteristics of each rollercoaster to a database and used box plots to visualise the data. Full code for this project is available on my Github.</p>
             <PRE class="code">
@@ -143,7 +144,7 @@ xfgoalattain = fgoalattain(funfgoalattain,x0,goal,weight,A,b,Aeq,beq,LB,UB) ;
                     <br>
                     <br>
                     <br>
-                    <h2 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h2>
+                    <h3 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h3>
 
 
         </div>
