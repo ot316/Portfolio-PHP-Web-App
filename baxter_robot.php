@@ -91,7 +91,7 @@ averagecenters[1] = (centers4[0,1] + centers4[1,1]+ centers4[2,1]+ centers4[3,1]
                 <br>
                 <br>
                 <br>
-                <h2 style="padding-top: 25px;">How The Path Planning Algorithm Works</h2>
+                <h2>How The Path Planning Algorithm Works</h2>
                 <p style="margin-top: 10px;">The path planning function takes 3 dimensional start and end coordinates as input. The number of steps for each part of the path is soft coded to allow for motion smoothing.</p>
                 <PRE class="code">def plan_path(start, end):
 number_of_steps_curve = 30
