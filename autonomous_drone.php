@@ -23,6 +23,7 @@
             <li>I setup a physics simulation of the drone in Gazebo to test my work. This is an ongoing project as part of my internship.
             </li>
         </ul>
+        <br>
         <video class="herovideo" loop muted autoplay>
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/autonomous_drone/parkflight.mp4" type="video/mp4">
             Please change browser to view video.
