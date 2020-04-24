@@ -69,7 +69,7 @@ function output = edge_detection(input);%define sub function
         </div>
     </div>
 </div>
-<<?php include('partials/footer.php') ?>
+<?php include('partials/footer.php') ?>
 <script src="javascript/navbar.js"></script>
 
 </html>

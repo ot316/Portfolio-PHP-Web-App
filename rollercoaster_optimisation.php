@@ -41,6 +41,9 @@ def scrapedata(retrievals,df):
         except:
             name = None</PRE>
             <img class="hero" style="padding-top: 0px; max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/Inversions_Speed_Height_Length_Drop_G-Force_Boxplots.png">
+            <br>
+            <br>
+            <br>
             <h3 style="padding-top: 20px;"> Logistic Regression</h3>
             <p>I used Python's Pandas and SKlearn to build a logistic regression classifier. I measured the accuracy of the model by plotting the confusion matrix and the ROC curve. The code allows the user to input test values into the model, which will predict wether the rollercoaster will remain operational or become defunct.</p>
             <PRE class="code">
@@ -62,6 +65,9 @@ test=logreg.predict(pd.DataFrame({"Inversions": [input_inversions],"Speed /mph":
                     <img class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/Confusion_Matrix.png" alt="Office Image">
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
             <h3 style="padding-top: 20px;"> Design of Experiments</h3>
             <p>I was examining the geometry of the drop section of the rollercoaster and I derived the equations from first principles. Given that air resistance was considered the system of equations could not be solved analytically. I therefore used Matlab to build a dataset of physical values to fit a linear regression model to. The equations are implemented in the generate data function below, which is run several thousand times for different values. </p>
             <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/oliscatterplot.png">
@@ -88,7 +94,10 @@ for i = 1:points
               data_base(count,:) = [max_velocity, drop_distance, start_slope_velocity, g_force, lhs_total_time(i), lhs_time_of_top_curve(ii), lhs_theta(iii), lhs_radius(iiii)];
               count= count+1;
               points^4;</PRE>
-            <h3 style="padding-top: 20px;"> Logistic Regression</h3>
+            <br>
+            <br>
+            <br>
+            <h3 style="padding-top: 20px;"> Linear Regression</h3>
 
             <p>I normalised and shuffled the data before using Matlab's multivariate linear regression function to plot a function to the data. I also computed the R squared value and plotted the residuals.<p>
                     <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/Oliresiduals.png">
@@ -131,6 +140,9 @@ xfgoalattain = fgoalattain(funfgoalattain,x0,goal,weight,A,b,Aeq,beq,LB,UB) ;
                     <p> Having obtained the optimal values I modelled the geometry in Solidworks as a visual sanity check. I conducted a sensitivity analysis on the model to establish correlations between variables and how they affected the optimal value. </p>
                     <h3 style="padding-top: 20px;"> Visual Sanity Check</h3>
                     <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/model screenshotjpg2.jpg">
+                    <br>
+                    <br>
+                    <br>
                     <h3 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h3>
 
 

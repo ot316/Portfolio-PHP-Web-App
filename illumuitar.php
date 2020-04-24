@@ -104,7 +104,7 @@
         </div>
     </div>
 </div>
-<<?php include('partials/footer.php') ?> <script src="javascript/slideshow.js">
+<?php include('partials/footer.php') ?> <script src="javascript/slideshow.js">
     </script>
     <script src="javascript/navbar.js"></script>
 

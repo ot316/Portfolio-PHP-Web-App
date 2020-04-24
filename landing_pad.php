@@ -41,7 +41,7 @@
         </div>
     </div>
 </div>
-<<?php include('partials/footer.php') ?>
+<?php include('partials/footer.php') ?>
 <script src="javascript/navbar.js"></script>
 
 </html>
