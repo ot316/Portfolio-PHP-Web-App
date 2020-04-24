@@ -61,6 +61,7 @@
             <br>
             <div>
                 <h2>My&nbsp;Contribution</h2>
+                <br>
                 <ul class="bullets">
                     <li>I generated the circuit schematics</li>
                     <li>I designed and populated the custom PCB</li>
@@ -69,6 +70,7 @@
                 </ul>
                 <br>
                 <br>
+                <h3>Report</h3>
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
 
