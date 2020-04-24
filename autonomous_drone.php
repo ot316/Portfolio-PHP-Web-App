@@ -20,7 +20,7 @@
         <!-- First Bullet Points -->
         <ul class="headingbullets">
             <li>I interfaced with a Parrot drone using ROS and implemented my own computer vision algorithms on the video stream transmitted by the drone.</li>
-            <li>I setup a physics simulation of the drone in Gazebo to test my work. This is an ongoing project as part of my internship.
+            <li>I setup a physics simulation of the drone in Gazebo to test my work. 
             </li>
         </ul>
         <br>
