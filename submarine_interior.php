@@ -19,6 +19,7 @@
                 <h2>Systems Design</h2>
                 <h2>Prototyping</h2>
             </div>
+            <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>For a first year group project, we designed a concept for an autonomous vehicle for underwater tours. </li>
@@ -37,6 +38,8 @@
             </ul>
             </article>
             </article>
+            <br>
+            <h3>Report</h3>
 
             <!-- Slideshow container -->
             <div class="slideshow-container">

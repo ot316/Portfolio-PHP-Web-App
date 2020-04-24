@@ -19,9 +19,7 @@
         <ul class="headingbullets">
             <li>I built a desklamp station with several features. </li>
         </ul>
-        <div style="background-color:white;">
-            <img style="padding-top:10px; " class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/desk_lamp/Annotated-Front-View.png" alt="hero image">
-        </div>
+        <img style="padding-top:10px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/desk_lamp/Annotated-Front-View.png" alt="hero image">
     </div>
 </div>
 <?php include('partials/footer.php') ?>
