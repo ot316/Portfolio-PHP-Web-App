@@ -42,7 +42,7 @@
         <br>
         <br>
         <br>
-        <h4 style="padding-top: 20px;"> Convolutional Neural Network</h4>
+        <h2 style="padding-top: 20px;"> Convolutional Neural Network</h2>
         <p>Python was used to process a dataset of faces using multithreading. Once the training dataset had been split into testing and training data and saved as numpy arrays, Tensorflow and Keras were used to design, train, compile nd save a convolutional neural network model. </p>
         </p>
         <PRE class="code">model.add(Conv2D(num_features, kernel_size=(3, 3), activation='relu', input_shape=(width, height, 1), data_format='channels_last', kernel_regularizer=l2(0.01)))
@@ -58,7 +58,7 @@ model.save_weights("model_weights.h5")</PRE>
         <br>
         <br>
         <br>
-        <h4 style="padding-top: 20px;"> Computer Vision</h4>
+        <h2 style="padding-top: 20px;"> Computer Vision</h2>
         <p>This model was transferred to the smart mirror. The code below accepts an openCV video frame. Should a face be detected, the outputs of the neural network are saved to a CSV file and uploaded periodically to an S3 bucket. </p>
         <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 750px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/faces.jpg">
         <br>
@@ -76,7 +76,7 @@ model.save_weights("model_weights.h5")</PRE>
         <br>
         <br>
         <br>
-        <h4 style="padding-top: 20px;"> Webserver</h4>
+        <h2 style="padding-top: 20px;"> Webserver</h2>
         <p>The graph below is run from the same code from the mirrors webserver but using test emotion data from a csv. The user is able to choose how many datapoints are displayed on the chart by inputting a number into the text field. By clicking on the different timescales, the data is dynamically grouped into different timescales and averaged to allow the user to view data trends over longer or shorter time periods. On the mirror's web interface this graph would update automatically when new data is collected and appended to the database.</p>
         <br>
         <br>
