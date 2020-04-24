@@ -21,6 +21,7 @@
                 <li>I designed several martian landing pads using FEA to ensure it met strict load specifications.</li>
                 <li>The final design was constructed at 1/10th scale and tested (on Earth) to validate my predictions.</li>
             </ul>
+            <br>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/landing_pad/hero.png">
 
             <div class="doublerow" style="padding-top: 40px">
