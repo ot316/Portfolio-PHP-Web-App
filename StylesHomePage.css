@@ -686,7 +686,7 @@ h4 {
 
 /* For Tablets-------------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1800px) {
     .wrapper {
         width: 80%;
     }
