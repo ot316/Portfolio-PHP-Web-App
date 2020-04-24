@@ -19,7 +19,7 @@
             <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I rented a virtual machine in the cloud and used Open VPN to configure my own VPN server.</li>
+                <li>I rented a VPS in the cloud and used Open VPN to configure my own VPN server.</li>
                 <li>I installed the PiHole software onto the server to implement DNS level, network-wide advert and malware blocking.</li>
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/custom_vpn/custom_vpn.png" alt="hero image">
