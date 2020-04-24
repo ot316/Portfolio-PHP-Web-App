@@ -1,5 +1,4 @@
-<p class="mobilehidetext"> Welcome to my engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
-<br>
+<p style="padding-bottom: 5px;" class="mobilehidetext"> Welcome to my engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <form method="post" action="search.php">
         <div style="float: right;">
