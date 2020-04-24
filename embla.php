@@ -32,6 +32,7 @@
             according to a user's profile built up from individual biometric data gathered through a wearable. We conducted extensive research and testing to validate our ideas.
         </p>
         <p style="margin-top: 0px;">As a futures project, we examined technological and social trends and analysed weak signals relating to future working environments and the changing attitudes towards mental health, personal data protection and human augmentation.</p>
+        <br>
         <div class="doublerow">
             <div class="inner">
                 <img class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Composite.png" alt="Office Image">
