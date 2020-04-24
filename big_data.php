@@ -38,7 +38,7 @@ y_train_h, y_val_h, y_test_h = np.array(train_h[target]), np.array(val_h[target]
 r8 = tree.DecisionTreeClassifier(max_depth = 7, min_impurity_decrease= 0.005) # Our classification tree
 r8 = r8.fit(x_train_h, y_train_h)
 print('1. Train set accuracy: %.3f'%accuracy_score(y_train_h,r8.predict(x_train_h)))</PRE>
-            <h2>Report</h2>
+            <h3>Report</h3>
         </div>
         <!-- Slideshow container -->
         <div class="slideshow-container">

@@ -48,6 +48,10 @@ if (data.readyState === 4 && data.status === 200) {
     var latRad = (parseFloat(Lat) * Math.PI / 180);
     var mercN = (Math.log(Math.tan((Math.PI / 4) + (latRad / 2))));
     var y = (MapHeight / 2) - (MapWidth * mercN / (2 * Math.PI));</PRE>
+                <br>
+                <br>
+                <br>
+                <h2>Python Email Notification</h2>
                 <p>The Python code below sends an email if the latitude and longitude values are within a certain range. The "findISS" function works in a very similar way to the javascript implementation above. I run the code continuously on a Raspberry Pi. </p>
                 <h3 style="padding-bottom: 20px;"> Raspberry Pi Setup</h3>
                 <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/pi.jpg">
