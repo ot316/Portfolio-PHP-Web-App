@@ -30,8 +30,7 @@
             <h3 style="padding-top: 20px;">Designed to work across multiple devices and browsers</h3>
             <br>
             <br>
-            <br>
-            <h2>Features</h2>
+            <h2>Advanced Features</h2>
             <p>The <a href='admin' style="color: blue;">Admin page </a> allows me to view the responses to the contact form, these are stored in a MySQL database. The <a href='deploy' style="color: blue;">Github deployment page </a>triggers a series of git commands to update the web app. I setup a github web hook to visit this page on every push. I have also setup google analytics to visualise web traffic and to show me which projects users visit.</p><br><br>
         </div>
     </div>
