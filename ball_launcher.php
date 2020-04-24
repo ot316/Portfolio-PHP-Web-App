@@ -57,6 +57,10 @@
         </div>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Packaging.png" alt="Packaging">
         <h3 style="padding-top: 15px;">Packaging</h3>
+        <br>
+        <br>
+        <br>
+        <h2>Design for Manufacture</h2>
         <p>The next stage of product development would be sending off technical drawings to be mass produced. As the prototype was entirely 3D printed in 6 large sections, major design changes were required to prepare the product for production. I designed
             an injection moulded clamshell housing along with a suite of technical drawings.</p>
         <img class="hero" style="padding-top: 30px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Injection,ould.png" alt="Injection Moulded Part">
