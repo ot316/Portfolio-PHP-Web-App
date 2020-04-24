@@ -28,6 +28,8 @@
                 <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/illumuitarhero.mp4" type="video/mp4">
                 Please change browser to view video.
             </video>
+            <br>
+            <br>
             <h2>How it Works</h2>
             <p>The guitar has two main functions; The spectrum visualiser works by applying a Fast Hartley Transform algorithm to a microphone input and splitting the detected frequencies logarithmically into 8 bins. These are then scaled and displayed on
                 the LED matrix through a look up table.
