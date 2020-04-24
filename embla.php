@@ -7,7 +7,7 @@
 </head>
 
 <div class="background">
-<?php include('partials/banner.php') ?>
+    <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <!-- Heading -->
         <img class="title" style="width: 260px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/title.svg" alt="EMBLA">
@@ -43,6 +43,7 @@
         <div>
             <br>
             <h2 style="padding-top: 30px;">My&nbsp;Contribution</h2>
+            <br>
             <ul class="bullets">
                 <li>I designed and built a scale testing environment with IOT enabled temperature control, scent diffusion, lighting and a projection system</li>
                 <li>I prototyped a bluetooth enabled "works-like" wearable that tracked heart rate and skin conductance</li>
@@ -53,7 +54,8 @@
             </ul>
             </article>
             </article>
-
+            <br>
+            <h3>Report</h3>
             <!-- Slideshow container -->
             <div class="slideshow-container">
 
