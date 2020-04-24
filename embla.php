@@ -24,6 +24,8 @@
         </ul>
         <br>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Hero.png" alt="hero image">
+        <br>
+        <br>
         <h2> How it Works </h2>
         <p style="margin-bottom: 10px;">Embla is a business proposition for a multifaceted system that uses near future technology to allow office workers to better manage their non-productive stress. It also provides employers with a useful tool to monitor their employees wellbeing
             within the constraints of data protection and ethical concerns. We proposed the use of "sympathetic environments"- using IOT technology to modulate outputs such as temperature, light, scent, reprogramming of the circadian rhythm and sound
@@ -39,6 +41,7 @@
             </div>
         </div>
         <div>
+            <br>
             <h2 style="padding-top: 30px;">My&nbsp;Contribution</h2>
             <ul class="bullets">
                 <li>I designed and built a scale testing environment with IOT enabled temperature control, scent diffusion, lighting and a projection system</li>
