@@ -45,6 +45,8 @@
             </p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Test-Rigs.png" alt="Test Rigs">
             <h3 style="padding-top: 15px;">Iterative Test Rigs</h3>
+            <br>
+            <br>
             <h2>My&nbsp;Contribution</h2>
             <ul class="bullets">
                 <li>Design and manufacture of the working Prototype</li>
@@ -54,6 +56,8 @@
                 <li>All technical drawings</li>
                 <li>Research and design of the safety label</li>
             </ul>
+            <br>
+            <br>
         </div>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Packaging.png" alt="Packaging">
         <h3 style="padding-top: 15px;">Packaging</h3>
