@@ -85,7 +85,7 @@ averagecenters[1] = (centers4[0,1] + centers4[1,1]+ centers4[2,1]+ centers4[3,1]
                 im1=im1.resize((800,600),Image.BICUBIC) 
                 im1.save(<filepath>)</PRE>
                 <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/plot8.png">
-                <h3>The final image with the angular and cartesian offsets</h3>
+                <h3>Final image with the angular and cartesian offsets</h3>
                 <p>Finally the x error, y error and angular offset are returned to the path planning algorithm and kinematic model. If the algorithm is unable to find any corners, the code has an exception to the returned error message and will return an
                     array of zeros instead.</p>
                 <br>
