@@ -21,6 +21,8 @@
             <ul class="headingbullets">
                 <li>I used Matlab to solve basic analytical engineering problems as part of my 1st year mechanics module.</li>
             </ul>
+            
+            <br>
             <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled4.png">
             <p>
                 I used basic calculus to calculate and plot linear velocity data from a piston of given geometry over 2 rotations.
