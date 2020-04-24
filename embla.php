@@ -22,8 +22,9 @@
             </li>
             <li>Winner of the Desire Award and featured in the Evening Standard</li>
         </ul>
+        <br>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Hero.png" alt="hero image">
-
+        <h2> How it Works </h2>
         <p style="margin-bottom: 10px;">Embla is a business proposition for a multifaceted system that uses near future technology to allow office workers to better manage their non-productive stress. It also provides employers with a useful tool to monitor their employees wellbeing
             within the constraints of data protection and ethical concerns. We proposed the use of "sympathetic environments"- using IOT technology to modulate outputs such as temperature, light, scent, reprogramming of the circadian rhythm and sound
             according to a user's profile built up from individual biometric data gathered through a wearable. We conducted extensive research and testing to validate our ideas.
