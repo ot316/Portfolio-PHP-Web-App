@@ -17,6 +17,7 @@
                 <h2>PCB Design</h2>
                 <h2>Product Design</h2>
             </div>
+            <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>For my GCSE electronics project I built a user programmable pet feeder that dispensed food from a tank at set intervals. </li>

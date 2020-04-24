@@ -22,6 +22,7 @@
                 <h2>UX</h2>
                 <h2>Product&nbsp;Visualisation</h2>
             </div>
+            <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>I designed an alternative packaging concept for single-use disposable perfume bottles, which are costly and non recyclable.</li>
@@ -37,14 +38,15 @@
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/explodedperfumebottle.png">
             <h3>A Typical Perfume Bottle</h3>
             <p>I built several concept prototypes and conducted some user testing of the concept. I experimented with different types of perfume and foam. </p>
+            <h2>Prototyping</h2>
             <img class="hero" style="padding-bottom: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/prototyping.png">
-            <h3>Prototyping</h3>
+            <h3>Prototyping Journey</h3>
+            <h2>Sustainability Analysis</h2>
             <p>I used CES edupak to analyse the environmental impact of the transport, use and disposal of both a typical perfume bottle and my redesign. My concept resulted in a significant improvement of embodied energy and carbon footprint. </p>
             <img style="padding-bottom: 20px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/finalproductenergybreakdown.png">
             <h3>Breakdown of Embodied Energy and Carbon Footprint</h3>
             <div class="slideshow-container">
-                <p>Please see the report below for further detail about the design process and techincal analysis of the project.
-                </p>
+                <h3>Report</h3>
 
                 <!-- Full-width images with number-->
                 <div class="mySlides fade">

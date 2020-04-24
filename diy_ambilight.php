@@ -24,7 +24,9 @@
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ambilight/20181024_1311052.mp4" type="video/mp4">
             Please change browser to view video.
         </video>
-        <h2 style="text-align: center;">How It Works</h2>
+        <br>
+        <br>
+        <h2>How It Works</h2>
         <p>The HDMI signal is converted to an analogue PAL video format, where a usb frame grabber passes it to the Raspberry Pi. The hyperion service calculates the matching colours and lights up the addressable LEDs over an SPI bus.
         </p>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ambilight/Final annotated back of tv.png" alt="hero image">

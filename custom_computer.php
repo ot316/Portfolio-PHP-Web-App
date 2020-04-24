@@ -22,7 +22,10 @@
                 <li>I designed and built my own wall mounted computer with custom CNC machined parts.</li>
                 <li>The computer is setup to run linux and windows from separate harddrives.</li>
             </ul>
+            <br>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/custom_computer/Computer.png" alt="hero image">
+            <br>
+            <br>
             <p>I started by creating a CAD model of the back plate for laser cutting. I used carbon fibre automotive vinyl as a surface finish.</p>
             <div class="doublerow">
                 <div class="inner">
@@ -33,6 +36,8 @@
                 </div>
             </div>
             <h3 style="padding-top: 20px;">Laser Cut Back Plate</h3>
+            <br>
+            <br>
             <p>To mount the power supply I designed a sheet metal component and manufactured it with a plasma cutter and shear press brake.</p>
             <div class="doublerow">
                 <div class="inner">
