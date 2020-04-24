@@ -51,7 +51,7 @@
         <br>
         <br>
         <br>
-        <h4>Why Zero Gravity?</h4>
+        <h2>Why Zero Gravity?</h2>
         <p>The hydroponic system rotates the plants constantly through their lifetime, resulting in a net force of 0N. This stops the plants geotropism from working (the biological mechanism by which plants always grow towards the strongest light source)
             and causes them to grow equally in all directions, increasing the volume to yield ratio.
         </p>

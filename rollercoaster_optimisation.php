@@ -25,7 +25,7 @@
                 <li>I then developed a multiobjective formulation from first principles, used design of experiments and implemented various optimisation algorithms to improve the design.
                 </li>
             </ul>
-            <h3 style="padding-top: 20px;"> Web Scraping</h3>
+            <h2 style="padding-top: 20px;"> Web Scraping</h2>
             <p> Before the optimisation study I conducted analytical research in support of the main project; I analysed the html of www.RCDB.com and appended the characteristics of each rollercoaster to a database and used box plots to visualise the data. Full code for this project is available on my Github.</p>
             <PRE class="code">
 def scrapedata(retrievals,df):
@@ -44,7 +44,7 @@ def scrapedata(retrievals,df):
             <br>
             <br>
             <br>
-            <h3 style="padding-top: 20px;"> Logistic Regression</h3>
+            <h2 style="padding-top: 20px;"> Logistic Regression</h2>
             <p>I used Python's Pandas and SKlearn to build a logistic regression classifier. I measured the accuracy of the model by plotting the confusion matrix and the ROC curve. The code allows the user to input test values into the model, which will predict wether the rollercoaster will remain operational or become defunct.</p>
             <PRE class="code">
 df_temp = pd.DataFrame(x_scaled, columns=column_names_to_normalise, index = df.index)
@@ -68,7 +68,7 @@ test=logreg.predict(pd.DataFrame({"Inversions": [input_inversions],"Speed /mph":
             <br>
             <br>
             <br>
-            <h3 style="padding-top: 20px;"> Design of Experiments</h3>
+            <h2 style="padding-top: 20px;"> Design of Experiments</h2>
             <p>I was examining the geometry of the drop section of the rollercoaster and I derived the equations from first principles. Given that air resistance was considered the system of equations could not be solved analytically. I therefore used Matlab to build a dataset of physical values to fit a linear regression model to. The equations are implemented in the generate data function below, which is run several thousand times for different values. </p>
             <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/oliscatterplot.png">
             <PRE class="code">
@@ -97,7 +97,7 @@ for i = 1:points
             <br>
             <br>
             <br>
-            <h3 style="padding-top: 20px;"> Linear Regression</h3>
+            <h2 style="padding-top: 20px;"> Linear Regression</h2>
 
             <p>I normalised and shuffled the data before using Matlab's multivariate linear regression function to plot a function to the data. I also computed the R squared value and plotted the residuals.<p>
                     <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/Oliresiduals.png">
@@ -143,7 +143,7 @@ xfgoalattain = fgoalattain(funfgoalattain,x0,goal,weight,A,b,Aeq,beq,LB,UB) ;
                     <br>
                     <br>
                     <br>
-                    <h3 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h3>
+                    <h2 style="padding-top: 20px;"> Report (my contribution is subsystem 2)</h2>
 
 
         </div>
