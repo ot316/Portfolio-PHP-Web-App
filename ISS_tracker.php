@@ -53,8 +53,8 @@ if (data.readyState === 4 && data.status === 200) {
                 <br>
                 <h2>Python Email Notification</h2>
                 <p>The Python code below sends an email if the latitude and longitude values are within a certain range. The "findISS" function works in a very similar way to the javascript implementation above. I run the code continuously on a Raspberry Pi. </p>
-                <h3 style="padding-bottom: 20px;"> Raspberry Pi Setup</h3>
                 <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 500px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/pi.jpg">
+                <h3 style="padding-top: 20px;"> Raspberry Pi Setup</h3>
                 <PRE class="code">server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 while True:
