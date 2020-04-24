@@ -66,6 +66,9 @@
                 along with much more are detailed in the report below.</p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Gizmo-Assembly---Oli-Thompson.png" alt="Technical Drawing">
             <h3 style="padding-top: 15px;">Full Technical Drawing Suite Available <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Technical Drawings/Freewheel Mechanism and Winch 2.6-merged.pdf" target="_blank">Here.</a></h3>
+            <br>
+            <br>
+            <br>
             <h3>Report</h3>
             <!-- Slideshow container -->
             <div class="slideshow-container">
