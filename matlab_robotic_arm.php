@@ -70,7 +70,7 @@ end</PRE>
             <br>
             <br>
             <br>
-            <h4>Visualisation</h4>
+            <h2>Visualisation</h2>
             <p>
                 Finally I used the Matlab robotics toolbox to visualise my model in 3D by defining joints, reference frames and angular range.
             </p>
