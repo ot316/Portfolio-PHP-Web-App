@@ -60,8 +60,6 @@
             Please change browser to view video.
         </video>
         <br>
-        <br>
-        <br>
         <h3 style="padding-bottom: 30px;">CAD Process</h3>
         <br>
         <br>
