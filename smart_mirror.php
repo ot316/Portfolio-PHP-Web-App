@@ -32,10 +32,16 @@
                 Please change browser to view video.
             </video>
         </div>
+        <br>
+        <br>
+        <br>
         <h2>How it Works</h2>
         <p>The goal of the project was to collect emotion data over 2 weeks and conduct analysis and actuation of the data. I built a smart mirror with a built in Raspberry Pi camera, this was designed to be a non obtrusive way of collecting a user's mood data. The full code is available on my Github. </p>
         <h4 style="padding-bottom: 10px;"> Interface and Flow Diagram</h4>
         <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 600px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/flowandpic.png">
+        <br>
+        <br>
+        <br>
         <h4 style="padding-top: 20px;"> Convolutional Neural Network</h4>
         <p>Python was used to process a dataset of faces using multithreading. Once the training dataset had been split into testing and training data and saved as numpy arrays, Tensorflow and Keras were used to design, train, compile nd save a convolutional neural network model. </p>
         </p>
@@ -49,6 +55,9 @@ model.fit(X_train, y_train, batch_size=batch_size, epochs=epochs, verbose=1, val
 with open("model.json", "w") as json_file:
     json_file.write(model_json)
 model.save_weights("model_weights.h5")</PRE>
+        <br>
+        <br>
+        <br>
         <h4 style="padding-top: 20px;"> Computer Vision</h4>
         <p>This model was transferred to the smart mirror. The code below accepts an openCV video frame. Should a face be detected, the outputs of the neural network are saved to a CSV file and uploaded periodically to an S3 bucket. </p>
         <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 750px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/faces.jpg">
@@ -64,6 +73,9 @@ model.save_weights("model_weights.h5")</PRE>
         if predicted_emotion and predicted_emotion != 'neutral':
             data = {"DateTime": datetime.datetime.now(), "Angry": predictions[0,0], "Disgust": predictions[0,1], "Happy": predictions[0,3], "Sad": predictions[0,4], "Surprise": predictions[0,5], "Neutral": predictions[0,5], "Maximum Predicted Emotion": emotion[np.argmax(predictions[0])]}
             df = df.append(data, ignore_index=True)</PRE>
+        <br>
+        <br>
+        <br>
         <h4 style="padding-top: 20px;"> Webserver</h4>
         <p>The graph below is run from the same code from the mirrors webserver but using test emotion data from a csv. The user is able to choose how many datapoints are displayed on the chart by inputting a number into the text field. By clicking on the different timescales, the data is dynamically grouped into different timescales and averaged to allow the user to view data trends over longer or shorter time periods. On the mirror's web interface this graph would update automatically when new data is collected and appended to the database.</p>
         <br>
@@ -75,18 +87,18 @@ model.save_weights("model_weights.h5")</PRE>
                 <div style="float: left; padding-left: 40px;">
                     <h3 class="heading">Choose timescale</h3>
                     <br>
-                    <input class = "btn" name="Days" onclick="choose(16)" type="button" value="Days" />
-                    <input class = "btn" name="Hours" onclick="choose(13)" type="button" value="Hours" />
-                    <input class = "btn" name="Minutes" onclick="choose(10)" type="button" value="Minutes" />
-                    <input class = "btn" name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
+                    <input class="btn" name="Days" onclick="choose(16)" type="button" value="Days" />
+                    <input class="btn" name="Hours" onclick="choose(13)" type="button" value="Hours" />
+                    <input class="btn" name="Minutes" onclick="choose(10)" type="button" value="Minutes" />
+                    <input class="btn" name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
                 </div>
-                
+
                 <div style="float: right; padding-right: 80px;">
                     <h3 class="heading">Enter number of datapoints to display</h3>
-                    
-                <br>
+
+                    <br>
                     <input name="textbox2" id="userinput2" type="number" />
-                    <input class = "btn" name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
+                    <input class="btn" name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
 
                 </div>
                 <br>
@@ -116,6 +128,9 @@ for (var i = 0; i < uniquetimes.length; i++) {
            average[i][k] += parseFloat(array[j][k]);
            average[i][k] = average[i][k] / countarray[i + 1];
 </PRE>
+        <br>
+        <br>
+        <br>
         <h3 style="padding-top: 20px;"> Report (Please note the report also details the <a href="ISS_tracker">ISS tracker project)</a></h3>
         <!-- Slideshow container -->
         <div class="slideshow-container">

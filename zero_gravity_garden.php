@@ -28,6 +28,9 @@
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/herovid.mp4" type="video/mp4">
             Please change browser to view video.
         </video>
+        <br>
+        <br>
+        <br>
         <h2>How it Works</h2>
         <p>The hydroponic system works by rotating the plants on the inside of a large drum around a central light source, sequentially dipping each growing tray in the large trough of nutrient solution in the base. The porous rockwool medium in which the
             plants are grown soaks up this nutrient solution to feed them.
@@ -46,6 +49,8 @@
             Please change browser to view video.
         </video>
         <br>
+        <br>
+        <br>
         <h4>Why Zero Gravity?</h4>
         <p>The hydroponic system rotates the plants constantly through their lifetime, resulting in a net force of 0N. This stops the plants geotropism from working (the biological mechanism by which plants always grow towards the strongest light source)
             and causes them to grow equally in all directions, increasing the volume to yield ratio.
@@ -54,6 +59,9 @@
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/garden cad.mp4" type="video/mp4">
             Please change browser to view video.
         </video>
+        <br>
+        <br>
+        <br>
         <h3 style="padding-bottom: 30px;">CAD Process</h3>
         <br>
         <br>

@@ -25,6 +25,7 @@
                 <li>My Contribution was writing a computer vision algorithm to align the robot's end effector with the brick, and a path planning algorithm to allow for smooth motion.
                 </li>
             </ul>
+            <br>
             <video class="herovideo" controls loop muted autoplay>
                 <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/Hero.mp4" type="video/mp4">
                 Please change browser to view video.
@@ -34,8 +35,12 @@
                 model of the 7 DOF robot and used this to calculate the joint angles throughout the robot's movement. We implemented redundancy reduction, gripper force detection, path planning and image recognition algorithms to allow the robot to complete
                 its task.
             </p>
+            <br>
+            <br>
+            <br>
             <h2>How The Image Recognition Algorithm Works</h2>
             <p style="margin-top: 5px; margin-bottom: 0px;">The computer vision algorithm saves a png frame from the video stream returned from Baxter's wrist camera.</p>
+            <br>
             <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/COLOURBRICK.png">
             <p style="margin-top: 5px;">First the image is converted to greyscale to allow the algorithm to run more quickly. A gaussian blur is applied to the image.</p>
             <PRE class="code">gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #desaturate image
@@ -83,6 +88,9 @@ averagecenters[1] = (centers4[0,1] + centers4[1,1]+ centers4[2,1]+ centers4[3,1]
                 <h3>The final image with the angular and cartesian offsets</h3>
                 <p>Finally the x error, y error and angular offset are returned to the path planning algorithm and kinematic model. If the algorithm is unable to find any corners, the code has an exception to the returned error message and will return an
                     array of zeros instead.</p>
+                <br>
+                <br>
+                <br>
                 <h2 style="padding-top: 25px;">How The Path Planning Algorithm Works</h2>
                 <p style="margin-top: 10px;">The path planning function takes 3 dimensional start and end coordinates as input. The number of steps for each part of the path is soft coded to allow for motion smoothing.</p>
                 <PRE class="code">def plan_path(start, end):
