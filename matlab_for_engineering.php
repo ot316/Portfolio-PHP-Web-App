@@ -19,7 +19,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I used Matlab to solve various analytical engineering problems as part of my 1st year mechanics module.</li>
+                <li>I used Matlab to solve basic analytical engineering problems as part of my 1st year mechanics module.</li>
             </ul>
             <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled4.png">
             <p>
