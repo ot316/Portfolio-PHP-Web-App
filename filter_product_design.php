@@ -20,9 +20,7 @@
                 <?php include('project_partials/double_necked_guitar.php') ?>
             </div>
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/embla.php') ?>
                 <?php include('project_partials/programmable_pet_feeder.php') ?>
-                <?php include('project_partials/empty.php') ?>
             </div>
         </div>
     </div>
