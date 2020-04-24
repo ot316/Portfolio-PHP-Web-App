@@ -30,8 +30,6 @@
         <h3 style="padding-top: 20px;">A preprogrammed flight path tested firstly in gazebo and then on the real drone.
         </h3>
         <br>
-        <br>
-        <br>
         <h2>ROS</h2>
         <p>I created a set of motion primitives than could be published to the drone over wifi.and setup a dummy network port on my PC to interface with the virtual drone. Primitives could then be called in sequence to follow a path.
         </p>
@@ -53,7 +51,7 @@ def turnanticlockwise(angle):
         <br>
         <br>
         <br>
-        <h2>ROS</h2>
+        <h2>Computer Vision</h2>
         <p>The drone's camera was setup as a node in ROS and converted to an HSV colourspace. I needed to track a coloured marker so I set upper and lower colour threshold boundaries.
         </p>
         <PRE class="code">
