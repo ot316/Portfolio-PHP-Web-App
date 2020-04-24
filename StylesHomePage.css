@@ -686,7 +686,7 @@ h4 {
 
 /* For Tablets-------------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .wrapper {
         width: 80%;
     }
@@ -726,27 +726,6 @@ h4 {
         position: absolute;
         margin-left: 75px;
         max-width: 62px;
-    }
-    .dropbtn {
-        padding: 10px 25px 10px 25px;
-        font-size: 1.8vw;
-    }
-    .dropdowngraphic {
-        max-height: 8px;
-    }
-    .dropdown-content-hover a {
-        font-size: 1.8vw;
-        margin-top: 2px;
-        padding: 8px 12px;
-    }
-    .dropdown-content h2 {
-        padding: 15px 3.5vw 15px 3.5vw;
-        font-size: 1.8vw;
-        font-weight: 400;
-    }
-    .dropdown-content-hover {
-        display: inline;
-        padding: 15px;
     }
     li {
         font-size: 14px;
