@@ -114,7 +114,10 @@ function test_input($data)
     <br>
     <div class="wrapper">
         <!-- Heading -->
+       
         <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; max-width: 22%;">
+        <h2 style = "padding: 0px; text-align:left;">About Me</h2>
+        <br>
         <p style="display: block; margin-top: 0px;"> I'm a 4th year Design Engineering Masters Student at Imperial College London, continuing my studies with a postgraduate masters in computing science before moving into industry.
         </p>
         <p style="display: block"> I have a deep passion for learning about technology, robotics and engineering and am always working to broaden and deepen my knowledge through self-directed study and personal projects.

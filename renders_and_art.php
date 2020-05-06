@@ -62,7 +62,7 @@
     <div class="wrapper">
         <!-- Heading -->
         <h2>Photoshop</h2>
-        <p> My experimentation with photo-manipulation using photoshop.</p>
+        <p class="paragraph_heading"> My experimentation with photo-manipulation using photoshop.</p>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper" style="padding-top: 5px;">
@@ -80,11 +80,13 @@
     </div>
     <div class="wrapper">
         <!-- Heading -->
+        <br>
+        <br>
         <h2>Renders</h2>
-        <p> Renders using keyshot, some are part of projects and others are just for fun.</p>
+        <p class="paragraph_heading"> Renders using keyshot, some are part of projects and others are just for fun.</p>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
-            <div class="picwrapper" id="picwrapper" style="padding-top: 5px;">
+            <div class="picwrapper" id="picwrapper">
                 <div class="piccontainer">
                     <img id="img1" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/renders/bottle.png" alt="Project">
                 </div>

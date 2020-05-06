@@ -911,6 +911,9 @@ h4 {
         font-size: 14px;
         margin-top: 20px;
     }
+    .paragraph_heading {
+        margin-bottom: 0px;
+    }
     li {
         font-size: 12px;
         padding-top: 5px;
