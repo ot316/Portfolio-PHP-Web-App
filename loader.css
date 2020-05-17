@@ -22,7 +22,7 @@
 .frame {
     position: absolute;
     border-radius: 7px;
-    border: 2.4px rgb(140, 140, 140) solid;
+    border: 2.4px rgb(160, 160, 160) solid;
     /* box-shadow: 0px 0px 2px lightblue, inset 0px 0px 2px lightblue, 0px 0px 7px blue, inset 0px 0px 7px lightblue; */
     animation: breathing 3s ease-in-out infinite;
 }

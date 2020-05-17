@@ -1,56 +1,55 @@
-                                                                .container-logo {
-                                                                width: 100%;
-                                                                position: relative;
-                                                                display: flex;
-                                                                align-items: center;
-                                                                justify-content: center;
-                                                                margin-right: 15px;
-                                                                margin-left: 10px;
-                                                                max-width: 37px;
-                                                                height: 37px;
-                                                            }
-                                                            
-                                                            .frame-logo {
-                                                                width: 80%;
-                                                                height: 80%;
-                                                                position: absolute;
-                                                                border-radius: 4px;
-                                                                border: 1.2px rgb(140, 140, 140) solid;
-                                                                /* box-shadow: 0px 0px 2px lightblue, inset 0px 0px 2px lightblue, 0px 0px 7px blue, inset 0px 0px 7px lightblue; */
-                                                            }
-                                                            
-                                                            .frame-logo:nth-child(1) {
-                                                                /* transform: rotate(45deg); */
-                                                                width: 80%;
-                                                                max-height: 80%;
-                                                                border-radius: 3px;
-                                                            }
-                                                            
-                                                            .frame-logo:nth-child(2) {
-                                                                /* transform: rotate(52deg); */
-                                                                width: 60%;
-                                                                max-height: 60%;
-                                                                border-radius: 2px;
-                                                                opacity: 0.8;
-                                                            }
-                                                            
-                                                            .frame-logo:nth-child(3) {
-                                                                /* transform: rotate(59deg); */
-                                                                width: 40%;
-                                                                max-height: 40%;
-                                                                border-radius: 1px;
-                                                                opacity: 0.6;
-                                                            }
-                                                            
-                                                            .frame-logo:nth-child(4) {
-                                                                /* transform: rotate(66deg); */
-                                                                width: 20%;
-                                                                max-height: 20%;
-                                                                border-radius: 0px;
-                                                                opacity: 0.4;
-                                                            }
-                                                            
-                                                            @media only screen and (max-width: 500px) {
-                                                                .container-logo {
-                                                                    margin-left: -25px;
-                                                                }
+.container-logo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 10px;
+    max-width: 37px;
+    height: 37px;
+}
+
+.frame-logo {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    border-radius: 4px;
+    border: 1.2px rgb(140, 140, 140) solid;
+}
+
+.frame-logo:nth-child(1) {
+    width: 80%;
+    max-height: 80%;
+    border-radius: 3px;
+}
+
+.frame-logo:nth-child(2) {
+    /* transform: rotate(52deg); */
+    width: 60%;
+    max-height: 60%;
+    border-radius: 2px;
+    opacity: 0.8;
+}
+
+.frame-logo:nth-child(3) {
+    /* transform: rotate(59deg); */
+    width: 40%;
+    max-height: 40%;
+    border-radius: 1px;
+    opacity: 0.6;
+}
+
+.frame-logo:nth-child(4) {
+    /* transform: rotate(66deg); */
+    width: 20%;
+    max-height: 20%;
+    border-radius: 0px;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 500px) {
+    .container-logo {
+        margin-left: -25px;
+    }
+}
