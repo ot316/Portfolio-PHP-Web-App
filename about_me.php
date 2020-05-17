@@ -61,8 +61,10 @@ function test_input($data)
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
-            <a href="/"><img class="logo" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo"></a>
-            <h1>Oli&nbsp;Thompson</h1>
+            <?php include('logo.php') ?>
+            <a href="/">
+                <h1>Oli&nbsp;Thompson</h1>
+            </a>
             <div class="socialmediacontainer">
                 <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
                     <img class="socialmedialogo" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
@@ -114,9 +116,9 @@ function test_input($data)
     <br>
     <div class="wrapper">
         <!-- Heading -->
-       
+
         <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; max-width: 22%;">
-        <h2 style = "padding: 0px; text-align:left;">About Me</h2>
+        <h2 style="padding: 0px; text-align:left;">About Me</h2>
         <br>
         <p style="display: block; margin-top: 0px;"> I'm a 4th year Design Engineering Masters Student at Imperial College London, continuing my studies with a postgraduate masters in computing science before moving into industry.
         </p>
@@ -173,7 +175,7 @@ function test_input($data)
                 <span class="error">* <?php echo $emailErr; ?></span>
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <br>
-                <input class= "btn" type="submit" value="Send"><input class ="btn" type="reset" value="Clear">
+                <input class="btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
             </form>
         </div>
         <br>
