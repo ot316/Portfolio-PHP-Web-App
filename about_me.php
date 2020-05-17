@@ -61,7 +61,7 @@ function test_input($data)
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
-            <?php include('logo.php') ?>
+            <?php include('partials/logo.php') ?>
             <a href="/">
                 <h1>Oli&nbsp;Thompson</h1>
             </a>

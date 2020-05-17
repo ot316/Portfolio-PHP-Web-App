@@ -32,7 +32,7 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
     <!-- Banner, Navigation bar and Sidenav Bar -->
     <div class="banner">
         <div class="banner-content">
-            <?php include('logo.php') ?>
+            <?php include('partials/logo.php') ?>
             <a href="/">
                 <h1>Oli&nbsp;Thompson</h1>
             </a>
