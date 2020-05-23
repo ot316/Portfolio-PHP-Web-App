@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>Big Data</title>
+    <title>Bigkj Data</title>
 </head>
 
 <div class="background" ;>
