@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>Bigsd Data</title>
+    <title>Big Data</title>
 </head>
 
 <div class="background" ;>
