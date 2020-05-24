@@ -5,7 +5,7 @@
 </div> -->
 
 <style>
-    <?php include './loader.css'; ?>
+    <?php include './css/loader.css'; ?>
 </style>
 
 <div class="loader-wrapper">

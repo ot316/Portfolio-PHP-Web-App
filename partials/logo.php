@@ -1,5 +1,5 @@
 <style>
-    <?php include './logo.css'; ?>
+    <?php include './css/logo.css'; ?>
 </style>
 
 <a href = "/" class="container-logo">
