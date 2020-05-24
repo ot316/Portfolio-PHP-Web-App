@@ -4,9 +4,6 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Perfume Bracelet</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png">
     <script src="jquery-3.4.1.min.js"></script>
 </head>
 

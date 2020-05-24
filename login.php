@@ -46,7 +46,6 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
             </div>
         </div>
     </div>
-    <img class="logomobile" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Website Icon.png" alt="Logo">
     <div id="mySidenav" class="sidenav">
         <a onclick="closeNav()">
             <p style="font-size: 36px;" class="sidenavtext">&times;</p>
