@@ -93,7 +93,7 @@ model.save_weights("model_weights.h5")</PRE>
                     <input class="btn" name="Seconds" onclick="choose(7)" type="button" value="Seconds" />
                 </div>
 
-                <div style="float: right; padding-right: 80px;">
+                <div style="float: right; padding-right: 80px;  padding-bottom: 20px;">
                     <h3 class="heading">Enter number of datapoints to display</h3>
 
                     <br>
