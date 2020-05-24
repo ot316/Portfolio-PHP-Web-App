@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <link rel="stylesheet" href="./stylesgameoflife.css">
+    <link rel="stylesheet" href="./css/stylesgameoflife.css">
     <title>Game of Life</title>
     <script src="javascript/p5/p5.min.js"></script>
 </head>

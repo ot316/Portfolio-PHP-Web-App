@@ -4,7 +4,7 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Submarine Interior</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
