@@ -84,7 +84,7 @@ model.save_weights("model_weights.h5")</PRE>
             <canvas id="Chart2" width="60vw"></canvas>
             <div style="padding-top: 10px;">
                 <br>
-                <div style="float: left; padding-left: 40px;">
+                <div style="float: left; padding-left: 40px; padding-bottom: 20px;">
                     <h3 class="heading">Choose timescale</h3>
                     <br>
                     <input class="btn" name="Days" onclick="choose(16)" type="button" value="Days" />
