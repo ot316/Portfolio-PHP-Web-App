@@ -2,8 +2,8 @@
 <?php
 	$commands = array(
 		'whoami',
-		'git reset --hard HEAD 2>&1',
-		'git pull origin master 2>&1',
+		'git reset --hard HEAD',
+		'git pull origin master',
 		'git status',
 	);
 	// Run the commands for output
