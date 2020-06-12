@@ -129,6 +129,7 @@ hr {
 .piccontainer,
 .piccontainerborder {
     height: 16vw;
+    position: relative;
     max-height: 350px;
     padding: 0px 5px;
 }
@@ -169,7 +170,11 @@ hr {
 
 .middle2,
 .middle h4 {
-    font-size: 17px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    font-size: 19px;
 }
 
 .piccontainerborder:hover .third,
