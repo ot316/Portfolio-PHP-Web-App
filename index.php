@@ -9,7 +9,7 @@
 </head>
 
 <body class="background">
-    <?php include('partials/loader.php') ?>
+    <?php# include('partials/loader.php') ?>
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <!-- Heading -->

@@ -3,22 +3,6 @@
     padding: 0;
 }
 
-.banner {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-content {
-    width: 65%;
-    text-align: center;
-    padding: 20px;
-    margin: 0px;
-    display: flex;
-    align-items: center
-}
-
 
 /* Filter */
 
@@ -131,11 +115,6 @@ hr {
     border-top: 1px solid grey;
 }
 
-.wrapper {
-    width: 65%;
-    margin: auto;
-}
-
 .bigpicwrapper {
     padding-top: 10px;
 }
@@ -143,28 +122,24 @@ hr {
 .picwrapper {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding-top: 30px;
-    height: 17vw;
 }
 
-.piccontainer {
-    height: 100%;
-    max-width: 40%;
+.piccontainer,
+.piccontainerborder {
+    height: 16vw;
+    max-height: 350px;
+    padding: 0px 5px;
 }
 
 .piccontainerborder {
     border: 3px solid grey;
-    height: 100%;
-    max-width: 40%;
 }
 
 .third {
     opacity: 1;
-    backface-visibility: hidden;
-    height: 100%;
-    display: block;
-    padding: 0px;
-    margin: 0px;
+    max-height: 100%;
 }
 
 .thirdplaceholder {
@@ -194,10 +169,7 @@ hr {
 
 .middle2,
 .middle h4 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.3vw;
-    font-weight: 500;
-    color: black;
+    font-size: 17px;
 }
 
 .piccontainerborder:hover .third,
@@ -210,22 +182,6 @@ hr {
     opacity: 1;
 }
 
-.herovideo {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-}
-
-h2 {
-    color: black;
-    font-size: 24px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    padding: 25px 20px 0px 0px;
-}
-
 li {
     color: black;
     font-family: 'Work Sans', sans-serif;
@@ -236,11 +192,6 @@ li {
     list-style-position: outside;
     padding-top: 10px;
     letter-spacing: -0.5px;
-}
-
-a {
-    text-decoration: none;
-    /* no underline */
 }
 
 .active {
@@ -309,7 +260,6 @@ a {
     }
     .picwrapper {
         padding-bottom: 13px;
-        height: 21vw;
     }
     .middle {
         opacity: 1;
@@ -321,25 +271,16 @@ a {
     .middle h4 {
         font-size: 1.3vw;
     }
+    .piccontainer,
+    .piccontainerborder {
+        height: 21vw;
+    }
     .piccontainerborder:hover .third,
     .piccontainer:hover .third {
         opacity: 1;
     }
-    .picofme {
-        position: absolute;
-        margin-top: 50px;
-        z-index: 3;
-        max-width: 112px;
-    }
     li {
         font-size: 14px;
-    }
-    .banner-content {
-        color: "white";
-        width: 80%;
-    }
-    .logo {
-        padding-right: 20px;
     }
     .tagcontainer h2 {
         margin: 5px;
@@ -369,88 +310,6 @@ a {
     }
     .mobilehidetext {
         display: none;
-    }
-    .banner-content {
-        display: flex;
-        align-items: center;
-    }
-    .logo {
-        float: left;
-    }
-    .banner-content h1 {
-        font-size: 5vw;
-        float: left;
-    }
-    .navbarwrapper {
-        display: none;
-    }
-    .sidenav {
-        display: block;
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 10px;
-        opacity: 0.8;
-    }
-    .sidenavbutton {
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        position: absolute;
-        top: 17px;
-        right: 30px;
-    }
-    .sidenav a {
-        display: block;
-        padding: 8px 0px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #f1f1f1;
-        display: block;
-        top: 0;
-        right: 0;
-    }
-    .sidenav a:hover {
-        display: block;
-    }
-    .sidenavtext {
-        color: #f1f1f1;
-        font-size: 20px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 300;
-    }
-    .socialmediacontainermobile {
-        margin: 0px;
-        position: absolute;
-        bottom: 20px;
-        right: 40px;
-    }
-    .socialmediacontainermobile a {
-        justify-content: center;
-        width: 30px;
-    }
-    .socialmedialogomobile {
-        width: 30px;
-        padding: 10px 0px 10px 0px;
-        margin-left: auto;
-        margin-right: auto;
-        filter: invert(100%);
-        z-index: 10;
-    }
-    .socialmedialogo {
-        display: none;
-    }
-    .logo h1 {
-        display: block;
-    }
-    .banner-content {
-        padding-bottom: 10px;
     }
     .dropbtn {
         font-size: 12px;
