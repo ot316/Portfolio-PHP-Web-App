@@ -4,6 +4,8 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Renders and Art</title>
+    <link rel="stylesheet" href="./css/stylehomepage.css">
+    <link rel="stylesheet" href="./css/rendersandart.css">
 </head>
 
 <div class="background">

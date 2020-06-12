@@ -29,7 +29,6 @@
                 <?php include('project_partials/illumuitar.php') ?>
             </div>
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/linear_regression.php') ?>
                 <?php include('project_partials/matlab_for_engineering.php') ?>
                 <?php include('project_partials/zero_gravity_garden.php') ?>
             </div>

@@ -116,7 +116,7 @@ function test_input($data)
     <div class="wrapper">
         <!-- Heading -->
 
-        <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; max-width: 22%;">
+        <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">
         <h2 style="padding: 0px; text-align:left;">About Me</h2>
         <br>
         <p style="display: block; margin-top: 0px;"> I'm a 4th year Design Engineering Masters Student at Imperial College London, continuing my studies with a postgraduate masters in computing science before moving into industry.
@@ -183,7 +183,7 @@ function test_input($data)
         <br>
         <h3>Software Competencies</h3>
         <br>
-        <img class="hero " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
+        <img class="hero" style="max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
         <br>
         <br>
         <br>

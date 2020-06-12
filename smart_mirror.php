@@ -80,7 +80,7 @@ model.save_weights("model_weights.h5")</PRE>
         <p>The graph below is run from the same code from the mirrors webserver but using test emotion data from a csv. The user is able to choose how many datapoints are displayed on the chart by inputting a number into the text field. By clicking on the different timescales, the data is dynamically grouped into different timescales and averaged to allow the user to view data trends over longer or shorter time periods. On the mirror's web interface this graph would update automatically when new data is collected and appended to the database.</p>
         <br>
         <br>
-        <div class="graphcontainer">
+        <div>
             <canvas id="Chart2" width="60vw"></canvas>
             <div style="padding-top: 10px;">
                 <br>
@@ -99,17 +99,10 @@ model.save_weights("model_weights.h5")</PRE>
                     <br>
                     <input name="textbox2" id="userinput2" type="number" />
                     <input class="btn" name="buttonExecute" onclick="setup2()" type="button" value="Apply" />
-
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                </div> 
             </div>
         </div>
-        <p>The code snippets below show how the data is parsed from the local CSV file into a Javascript array and how the data is dynamically averaged once it has been split into subarrays of unique timestamps given the value of the user defined variable 'timescale'</p>
+        <p style="clear: both;">The code snippets below show how the data is parsed from the local CSV file into a Javascript array and how the data is dynamically averaged once it has been split into subarrays of unique timestamps given the value of the user defined variable 'timescale'</p>
         <PRE class="code">
 function graph2(timescale, datapoints) {
     Papa.parse("emotion_data.csv", {

@@ -11,34 +11,6 @@
     justify-content: center;
 }
 
-.frame {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    border-radius: 5.4px;
-    border: 1px blue solid;
-}
-
-.loader-wrapper {
-    background-color: lightgrey;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-}
-
-.picofme {
-    position: inherit;
-    margin-top: 90px;
-    z-index: 3;
-    max-width: 112px;
-}
-
 .background {
     width: 100%;
     background-color: white;
@@ -60,6 +32,9 @@
     display: flex;
     align-items: center
 }
+
+
+/* Navigation bar  */
 
 .navbarwrapper {
     width: 100%;
@@ -107,39 +82,125 @@
     transition-timing-function: linear;
 }
 
-p {
+
+/* Navigation bar mobile */
+
+.sidenav {
+    display: none;
+}
+
+.sidenavbutton {
+    display: none;
+}
+
+.sidenav a {
+    display: none;
+}
+
+.sidenav .closebtn {
+    display: none;
+}
+
+.navbarwrapper {
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar {
+    width: 65%;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.link {
+    all: none;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 2.7vw 12px 2.7vw;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    background-color: darkgrey;
+}
+
+
+/* Typography */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+label {
     color: black;
-    font-size: 16px;
     font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
     font-weight: 300;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h1 {
-    color: black;
     font-size: 26px;
-    font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     letter-spacing: -1px;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 25px 20px 0px 0px;
+}
+
+label,
 h3 {
-    color: black;
-    font-family: 'Work Sans', sans-serif;
     text-align: center;
-    font-weight: 400;
-    padding: 0px;
+    font-weight: 500;
     font-size: 16px;
 }
 
-.logo {
-    max-width: 40px;
-    padding-right: 20px;
+h5,
+h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
 }
 
-.logomobile {
-    display: none;
+a {
+    text-decoration: none;
 }
 
 .socialmediacontainer {
@@ -177,7 +238,7 @@ h3 {
     align-items: center;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 0px;
+    padding: 10px;
 }
 
 .tagcontainer h2 {
@@ -195,7 +256,7 @@ h3 {
     top: -10px;
     list-style: none;
     display: inline;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .headingbullets li {
@@ -228,14 +289,6 @@ h3 {
     background-color: transparent !important;
 }
 
-h2 {
-    color: black;
-    font-size: 24px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    padding: 25px 20px 0px 0px;
-}
-
 .bullets {
     position: relative;
     top: -15px;
@@ -257,17 +310,18 @@ li {
     letter-spacing: -0.5px;
 }
 
+.halfimageright,
 .halfimageleft {
     display: block;
     width: 50%;
     padding: 30px 50px 60px 0px;
+}
+
+.halfimageleft {
     float: left;
 }
 
 .halfimageright {
-    display: block;
-    width: 50%;
-    padding: 30px 50px 60px 0px;
     float: right;
 }
 
@@ -301,7 +355,7 @@ li {
 }
 
 
-/* Slideshow container */
+/* Slideshow */
 
 .slideshow-container {
     padding-top: 30px;
@@ -310,15 +364,9 @@ li {
     margin: auto;
 }
 
-
-/* Hide the images by default */
-
 .mySlides {
     display: none;
 }
-
-
-/* Next & previous buttons */
 
 .prev,
 .next {
@@ -336,24 +384,15 @@ li {
     user-select: none;
 }
 
-
-/* Position the "next button" to the right */
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-
-/* On hover, add a black background color with a little bit see-through */
-
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-
-/* The dots/bullets/indicators */
 
 .dot {
     cursor: pointer;
@@ -379,10 +418,6 @@ li {
     -webkit-animation-duration: 1s;
     animation-name: fade;
     animation-duration: 1s;
-}
-
-a {
-    text-decoration: none;
 }
 
 .link {
@@ -468,10 +503,7 @@ a {
         font-size: 14px;
     }
     .error {
-        color: darkred;
         font-size: 12px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 300;
     }
     .banner-content {
         color: "white";
@@ -518,7 +550,6 @@ a {
     }
     .banner-content {
         display: none;
-        padding: 10px;
     }
     .navbarwrapper {
         display: none;
@@ -532,36 +563,6 @@ a {
     .socialmediacontainermobile a {
         justify-content: center;
         width: 30px;
-    }
-    .socialmedialogomobile {
-        width: 30px;
-        padding: 10px 0px 10px 0px;
-        margin-left: auto;
-        margin-right: auto;
-        filter: invert(100%);
-        z-index: 10;
-    }
-    .socialmedialogo {
-        display: none;
-    }
-    .logomobile {
-        display: block;
-        position: relative;
-        top: 20px;
-        left: 20px;
-        width: 40px;
-        padding: 0px;
-    }
-    .socialmedialogomobile {
-        width: 30px;
-        padding: 10px 0px 10px 0px;
-        margin-left: auto;
-        margin-right: auto;
-        filter: invert(100%);
-        z-index: 10;
-    }
-    .socialmedialogo {
-        display: none;
     }
     .logo h1 {
         display: block;
@@ -629,13 +630,7 @@ a {
         padding-bottom: 0px;
         margin: 0px;
     }
-    .halfimageleft {
-        width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        align-self: center;
-        margin: 0 auto;
-    }
+    .halfimageleft,
     .halfimageright {
         width: 100%;
         padding-top: 10px;
@@ -707,21 +702,9 @@ a {
         font-size: 14px;
     }
     .code {
-        font-size: 13px;
+        font-size: 11px;
         line-height: 1.2;
         margin-bottom: 1em;
         padding: 0.5em 0.8em;
-    }
-    .Canvas {
-        width: 100%;
-        height: 35vw;
-    }
-    @keyframes fastspin {
-        0% {
-            transform: rotate(60deg);
-        }
-        100% {
-            transform: rotate(260deg);
-        }
     }
 }

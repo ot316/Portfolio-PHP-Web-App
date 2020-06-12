@@ -48,7 +48,8 @@
             <br>
             <br>
             <h2>My&nbsp;Contribution</h2>
-            <ul class="bullets">
+            <br>
+            <ul class="bullets" >
                 <li>Design and manufacture of the working Prototype</li>
                 <li>All CAD work, product renders and animations</li>
                 <li>Design and manufacture of 3 ball launching test rigs</li>
