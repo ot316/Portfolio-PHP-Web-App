@@ -322,10 +322,9 @@ hr {
     .piccontainer {
         all: unset;
     }
-    .middle2,
     .middle h4 {
         font-size: 16px;
-        padding-bottom: 35px;
+        margin-bottom: 35px;
         border: none;
     }
     .third {
