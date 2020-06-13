@@ -245,7 +245,7 @@ hr {
         width: 80%;
     }
     .picwrapper {
-        padding-bottom: 23px;
+        padding-bottom: 13px;
     }
     .middle {
         opacity: 1;
@@ -316,6 +316,7 @@ hr {
         display: block;
         align-content: center;
         padding-top: 0px;
+        padding-bottom: 20px;
         width: 100%;
     }
     .piccontainerborder,
