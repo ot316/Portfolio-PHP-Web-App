@@ -320,7 +320,6 @@ hr {
     }
     .piccontainerborder,
     .piccontainer {
-        margin-bottom: 20px;
         all: unset;
     }
     .middle2,
@@ -332,6 +331,7 @@ hr {
     .third {
         width: 90vw;
         padding-top: 25px;
+        margin-bottom: 20px;
         border: none;
     }
     .paragraph_heading {
