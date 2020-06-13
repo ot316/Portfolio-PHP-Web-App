@@ -41,11 +41,11 @@
             <h2>How The Image Recognition Algorithm Works</h2>
             <p style="margin-top: 5px; margin-bottom: 0px;">The computer vision algorithm saves a png frame from the video stream returned from Baxter's wrist camera.</p>
             <br>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/COLOURBRICK.png">
+            <img class="hero" style="padding-top: 0px; margin-bottom: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/COLOURBRICK.png">
             <p style="margin-top: 5px;">First the image is converted to greyscale to allow the algorithm to run more quickly. A gaussian blur is applied to the image.</p>
             <PRE class="code">gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #desaturate image
 adapt_type = cv2.ADAPTIVE_THRESH_GAUSSIAN_C #threshold value is the weighted sum of neighborhood values where weights are a Gaussian window.</PRE>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/Blurred.png">
+            <img class="hero" style="padding-top: 0px; margin-bottom: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/Blurred.png">
             <p style="margin-top: 5px;">An adaptive threshold edge detection algorithm detects the hard borders between different pixel values. It essentially differentiates the image.</p>
             <PRE class="code">thresh_type = cv2.THRESH_BINARY_INV #define threshold type, hard border between pixels
 bin_img = cv2.adaptiveThreshold(blur, 255, adapt_type, thresh_type, 11, 2) #11 is the size of the pixel neighbourhood used to find the threshold value. 2 is the constant subtracted from the mean</PRE>
@@ -112,7 +112,7 @@ else:             #keep x and y the same
     path[i,2] = path[i-1,2] - (lowering_height / number_of_steps_drop)   #lower z according to drop heightp</PRE>
                 <p>The graph below shows the x, y and theta values changing linearly and the z value changing as an exponential funciton.
                 </p>
-                <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/pathplanner.png" alt="pathplanner">
+                <img style="margin-bottom: 20px; background-color: white;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/pathplanner.png" alt="pathplanner">
                 <h3>Cartesian coordinates and angle plotted against number of steps</h3>
                 <img style="padding-top: 35px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/IMG_0873.png">
             </p>
