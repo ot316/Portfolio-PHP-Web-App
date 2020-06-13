@@ -115,10 +115,6 @@ hr {
     border-top: 1px solid grey;
 }
 
-.bigpicwrapper {
-    padding-top: 10px;
-}
-
 .picwrapper {
     display: flex;
     justify-content: space-between;
@@ -168,7 +164,6 @@ hr {
     background-color: transparent;
 }
 
-.middle2,
 .middle h4 {
     position: absolute;
     top: -5px;
@@ -309,6 +304,9 @@ li {
     .wrapper {
         width: 90%;
         margin: auto;
+    }
+    .mobilehidetext {
+        display: none;
     }
     .dropbtn {
         font-size: 12px;

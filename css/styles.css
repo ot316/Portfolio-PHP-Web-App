@@ -556,9 +556,21 @@ li {
     }
     .banner-content {
         display: none;
+        padding: 10px;
     }
     .navbarwrapper {
         display: none;
+    }
+    .banner-content {
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        float: left;
+    }
+    .banner-content h1 {
+        font-size: 5vw;
+        float: left;
     }
     .sidenav {
         display: block;
@@ -624,9 +636,6 @@ li {
     }
     .logo h1 {
         display: block;
-    }
-    .banner-content {
-        padding-bottom: 10px;
     }
     .dropbtn {
         font-size: 12px;

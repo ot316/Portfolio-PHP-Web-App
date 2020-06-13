@@ -67,7 +67,7 @@
         <p> My electric guitar music, some are covers and some are originals.</p>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
-            <div class="picwrapper" id="picwrapper">
+            <div class="picwrapper">
                 <?php include('music_partials/breakingallillusions.php') ?><br><br><br>
                 <?php include('music_partials/amsong.php') ?><br><br><br>
                 <?php include('music_partials/mia.php') ?><br><br><br>
@@ -75,7 +75,7 @@
             <br>
             <br>
             <br>
-            <div class="picwrapper" id="picwrapper">
+            <div class="picwrapper">
                 <?php include('music_partials/shepherdoffire.php') ?><br><br><br>
                 <?php include('music_partials/asiam.php') ?><br><br><br>
                 <?php include('music_partials/crazytrain.php') ?><br><br><br>
