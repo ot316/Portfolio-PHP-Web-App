@@ -772,4 +772,7 @@
                 .btn {
                     color: black;
                 }
+                .tagcontainer h2 {
+                    border-color: white;
+                }
             }
