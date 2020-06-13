@@ -34,7 +34,7 @@
                 </div>
                 <h2>How it Works</h2>
                 <h3 style="padding-top: 10px;">Flow Diagram</h3>
-                <img class="hero" style="padding: 10px; margin: auto 10px; max-width: 250px; background-color: white" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/flow.png">
+                <img class="hero" style="padding: 10px; margin-top: 10px; margin-bottom: 10px; margin: auto; max-width: 250px; background-color: white" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ISS_tracker/flow.png">
 
                 <p>The Javascript code below is running on the client device. It polls the ISS API every 1.5 seconds, converting the returned latitude and longitude into a mercator projection. Further code uses the P5 library to display the graphics on the webpage. All code can be viewed on my Github.
                 </p>
