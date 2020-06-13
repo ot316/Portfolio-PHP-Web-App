@@ -206,12 +206,17 @@
                 padding-right: 10px;
             }
             
-            .title {
+            .zggtitle .title {
                 display: block;
                 width: 240px;
                 padding-top: 30px;
                 margin-left: auto;
                 margin-right: auto;
+            }
+            
+            .zggtitle {
+                width: 30%;
+                filter: invert(100%);
             }
             
             .wordtitle {
@@ -774,5 +779,8 @@
                 }
                 .tagcontainer h2 {
                     border-color: white;
+                }
+                .zggtitle {
+                    filter: none;
                 }
             }
