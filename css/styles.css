@@ -556,6 +556,47 @@ li {
     .navbarwrapper {
         display: none;
     }
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+        opacity: 0.8;
+    }
+    .sidenavbutton {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 17px;
+        right: 30px;
+    }
+    .sidenav a {
+        display: block;
+        padding: 8px 0px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #f1f1f1;
+        display: block;
+        top: 0;
+        right: 0;
+    }
+    .sidenav a:hover {
+        display: block;
+    }
+    .sidenavtext {
+        color: #f1f1f1;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+    }
     .socialmediacontainermobile {
         margin: 0px;
         position: absolute;

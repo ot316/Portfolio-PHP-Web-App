@@ -4,6 +4,7 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Product Design</title>
+    <link rel="stylesheet" href="./css/stylehomepage.css">
 
 </head>
 
