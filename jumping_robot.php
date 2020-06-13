@@ -25,12 +25,12 @@
                 </li>
                 <li>A second year individual project awarded the highest mark in the year.</li>
             </ul>
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/JumpingRobot.png" alt="hero image">
+            <img style="background-color: white" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/JumpingRobot.png" alt="hero image">
             <p style="margin-top: 10px;"> This project involved designing a theoretical jumping robot to meet the following criteria: a jump height and distance of 300mm, a cost below £100, a mass below 200g, and an ip54 rating. The design rationale behind the robot was to be fully
                 justified, starting with morphological design, a full mathematical analysis, considerations of manufacture and cost, biomimicry, computer simulations of a fully developed CAD model, and concluding with a suite of technical drawings and
                 general assembly drawings.</p>
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Self-Righting-propeller-view.png" alt="hero image">
-            <img class="hero" style="padding-bottom: 30px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Landing-Scenario-2.png" alt="hero image">
+            <img style="background-color: white" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Self-Righting-propeller-view.png" alt="hero image">
+            <img style="background-color: white" class="hero" style="padding-bottom: 30px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Landing-Scenario-2.png" alt="hero image">
             <h3 style="padding-bottom: 30px;">Self-Righting Geometry</h3>
             <h2 style="padding-top: 25px;">Propulsion</h2>
             <p>The robot uses a variable pitch propeller mechanism that allows it to control the forwards thrust. The propeller is driven by the unraveling winch as the robot launches. A servo connected to a small cam controls the pitch angle.</p>
@@ -43,7 +43,7 @@
             <h2 style="padding-top: 25px;">Transmission</h2>
             <p>The winding mechanism is driven by a small DC motor that uses a harmonic drive as transmission. This gives advantages such as high gear reductions in minimal space, no backlash, reversibility and minimal components. the output of the transmission
                 winds up a sprung leg, that stores the potential energy the robot needs to launch. By reversing the motor the helical gears change the direction of their axial thrust and the trigger mechanism disengages, allowing the robot to spring upwards.</p>
-            <img class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Detailed-CAD-Model.png" alt="Gearbox and Transmission">
+            <img style="background-color: white" class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Detailed-CAD-Model.png" alt="Gearbox and Transmission">
             <video class="herovideo" style="padding-bottom: 15px;" loop muted autoplay>
                 <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/transmission.mp4" type="video/mp4">
                 Please change browser to view video.
@@ -59,7 +59,7 @@
             <h3 style="padding-bottom: 20px;">Flow Simulation Animation</h3>
             <h2 style="padding-top: 25px;">FEA</h2>
             <p>FEA was conducted on areas of potential failure. The results informed iterative design changes.</p>
-            <img class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Housing-FEA.png" alt="FEA">
+            <img style="background-color: white" class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Housing-FEA.png" alt="FEA">
             <h3>FEA Process</h3>
             <p>A full mathematical analysis was conducted on the design, starting with an iterative Matlab code to find the launch velocity required to achieve the desired jump distance. The geometry of the gears and shafts were calculated to withstand the
                 predicted torques and mitigate any key failure modes. Aerodynamic calculations were also carried out in order to find the force required on each propeller blade to achieve the horizontal distance. Full calculations and technical drawings
