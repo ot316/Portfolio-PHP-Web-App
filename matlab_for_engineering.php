@@ -40,7 +40,7 @@ Gvvector=diff(GAvector); %differentiate displacement vector
 Gv=norm(Gvvector)%find the magnitude of the veloicty vector
 fplot(Gv,[0 tlim],'g'); %plot velocity of G within time intervals
 </PRE>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled5.png">
+            <img class="hero" style="padding-top: 0px; margin-bottom: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled5.png">
             <p style="margin-top: 5px; margin-bottom: 20px;">I used iterative methods with different time steps to plot a ladder sliding down a wall before comparing it to a closed form solution</p>
             <PRE class="code">
 for i=(1:N3); %count i from 1 to number of steps (0.001 for third for loop)
@@ -51,7 +51,7 @@ for i=(1:N3); %count i from 1 to number of steps (0.001 for third for loop)
 end
 plot(t3,theta3,'b'); %plot angular position against time for 0.001
       </PRE>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled.png">
+            <img class="hero" style="padding-top: 0px; margin-bottom: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_for_engineering/untitled.png">
             <h3>Edge Detection Applied to Matlab Trees Picture</h3>
             <p style="margin-top: 25px;">I implemented a basic edge detection function that could be applied to different images with a variable threshold.</p>
             <PRE class="code">
