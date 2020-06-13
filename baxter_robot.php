@@ -84,7 +84,7 @@ averagecenters[1] = (centers4[0,1] + centers4[1,1]+ centers4[2,1]+ centers4[3,1]
                 <PRE class="code">plt.savefig(<filepath>)
                 im1=im1.resize((800,600),Image.BICUBIC) 
                 im1.save(<filepath>)</PRE>
-                <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/plot8.png">
+                <img style=" background-color: white;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/plot8.png">
                 <h3>Final image with the angular and cartesian offsets</h3>
                 <p>Finally the x error, y error and angular offset are returned to the path planning algorithm and kinematic model. If the algorithm is unable to find any corners, the code has an exception to the returned error message and will return an
                     array of zeros instead.</p>
@@ -112,7 +112,7 @@ else:             #keep x and y the same
     path[i,2] = path[i-1,2] - (lowering_height / number_of_steps_drop)   #lower z according to drop heightp</PRE>
                 <p>The graph below shows the x, y and theta values changing linearly and the z value changing as an exponential funciton.
                 </p>
-                <img style="margin-bottom: 20px; background-color: white;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/pathplanner.png" alt="pathplanner">
+                <img style="margin-bottom: 20px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/pathplanner.png" alt="pathplanner">
                 <h3>Cartesian coordinates and angle plotted against number of steps</h3>
                 <img style="padding-top: 35px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/baxter_robot/IMG_0873.png">
             </p>
