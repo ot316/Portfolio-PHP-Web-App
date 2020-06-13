@@ -217,6 +217,7 @@
             
             .zggtitle {
                 width: 30%;
+                filter: invert(100%);
             }
             
             .wordtitle {
@@ -781,6 +782,6 @@
                     border-color: white;
                 }
                 .zggtitle {
-                    filter: invert(100%);
+                    filter: none;
                 }
             }
