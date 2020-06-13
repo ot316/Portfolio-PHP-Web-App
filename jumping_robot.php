@@ -34,7 +34,7 @@
             <h3 style="padding-bottom: 30px; padding-top: 10px;">Self-Righting Geometry</h3>
             <h2 style="padding-top: 25px;">Propulsion</h2>
             <p>The robot uses a variable pitch propeller mechanism that allows it to control the forwards thrust. The propeller is driven by the unraveling winch as the robot launches. A servo connected to a small cam controls the pitch angle.</p>
-            <img .tagcontainer h2 {class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Annotated-Exploded-Propeller-View.png" alt="Exploded View of Propeller">
+            <img style="background-color: white" {class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Annotated-Exploded-Propeller-View.png" alt="Exploded View of Propeller">
             <video class="herovideo" style="padding-bottom: 15px;" loop muted autoplay>
                 <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/propanimation.mp4" type="video/mp4">
                 Please change browser to view video.
