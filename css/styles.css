@@ -764,7 +764,7 @@
                 h4,
                 h5,
                 label,
-                .bullets,
+                li,
                 .headingbullets li {
                     color: white;
                 }
