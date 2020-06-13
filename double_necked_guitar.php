@@ -23,7 +23,7 @@
                 <li>I combined traditional woodworking methods with CAD and CNC machining.
                 </li>
             </ul>
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/double_necked_guitar/hero.png">
+            <img class="hero" style="background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/double_necked_guitar/hero.png">
             <h3 style="padding-bottom: 20px; padding-top: 20px;">Finished Project</h3>
             <p>The guitar features neck-through construction, multiply binding, abalone fretboard inlays and headstock overlays and underlays. These are features only found on high-end guitars.</p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/double_necked_guitar/Slideshow/10.png">
