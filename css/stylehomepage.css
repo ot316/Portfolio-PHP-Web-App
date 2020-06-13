@@ -315,22 +315,26 @@ hr {
         all: unset;
         display: block;
         align-content: center;
-        padding-top: 30px;
+        padding-top: 0px;
         width: 100%;
     }
     .piccontainerborder,
     .piccontainer {
         all: unset;
-        padding-bottom: 35px;
     }
+    .middle2,
     .middle h4 {
         font-size: 16px;
+        padding-bottom: 35px;
         border: none;
     }
     .third {
         width: 90vw;
         padding-top: 25px;
         border: none;
+    }
+    .middle h4 {
+        top: -10px;
     }
     .paragraph_heading {
         margin-bottom: 0px;
