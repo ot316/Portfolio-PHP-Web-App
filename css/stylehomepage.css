@@ -316,11 +316,11 @@ hr {
         display: block;
         align-content: center;
         padding-top: 0px;
-        padding-bottom: 20px;
         width: 100%;
     }
     .piccontainerborder,
     .piccontainer {
+        margin-bottom: 20px;
         all: unset;
     }
     .middle2,
