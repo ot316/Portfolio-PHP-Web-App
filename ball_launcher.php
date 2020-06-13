@@ -11,7 +11,7 @@
     <div class="wrapper">
         <div>
             <!-- Heading -->
-            <img class="title" style="width: 40%;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Logo.png" alt="Dog & Ball">
+            <img class="title" style="width: 40%; background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/ball_launcher/Logo.png" alt="Dog & Ball">
             <div class="tagcontainer">
                 <h2>Product&nbsp;Design</h2>
                 <h2>Technical&nbsp;Drawing</h2>
