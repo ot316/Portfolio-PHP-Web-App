@@ -32,8 +32,8 @@
             <p>Gizmo uses a webcam to track his own location and orientation and the presence of various interactive objects inside his enclosure. Once an object is moved into view by a user Gizmo will either feed, dance, kick the ping pong ball or go to
                 sleep. His wellbeing is tracked by incrementing different variables; if he goes too long without food or sleep gizmo will die. Fortunately he can be resurrected.
             </p>
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Gizmo/foodsleep.png" alt="gizmo">
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Gizmo/playdie.png" alt="gizmo">
+            <img class="hero" style="background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Gizmo/foodsleep.png" alt="gizmo">
+            <img class="hero" style="background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Gizmo/playdie.png" alt="gizmo">
             <h3>User Interactions</h3>
             <p>Gizmo formed one 30cm x 30cm "pixel" in a wall of interactive exhibits at the end of year showcase. Users successfully collaborated to keep him alive
             </p>
