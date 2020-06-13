@@ -11,7 +11,7 @@
     <div class="wrapper">
         <div>
             <!-- Heading -->
-            <img class="title" style="width: 60%; background-color: white; padding: 10px; padding-top: 35px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/title.png" alt="Illumuitar">
+            <img class="title" style="width: 60%; background-color: white; padding: 10px; margin-top: 35px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/title.png" alt="Illumuitar">
             <div class="tagcontainer">
                 <h2>Electronics</h2>
                 <h2>PCB&nbsp;Design</h2>
