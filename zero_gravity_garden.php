@@ -66,7 +66,7 @@
         <br>
         <div class="doublerow">
             <div class="inner">
-                <img class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Slideshow/Wiring-Diagram.png">
+                <img style="background-color: white;" class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Slideshow/Wiring-Diagram.png">
             </div>
             <div class="inner">
                 <img class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/Slideshow/8.png">
