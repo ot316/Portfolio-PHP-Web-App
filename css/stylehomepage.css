@@ -260,9 +260,6 @@ li {
     .wrapper {
         width: 80%;
     }
-    .navbar {
-        width: 80%;
-    }
     .picwrapper {
         padding-bottom: 13px;
     }
@@ -313,9 +310,6 @@ li {
         width: 90%;
         margin: auto;
     }
-    .mobilehidetext {
-        display: none;
-    }
     .dropbtn {
         font-size: 12px;
     }
@@ -352,48 +346,8 @@ li {
         padding-top: 25px;
         border: none;
     }
-    h2 {
-        text-align: center;
-        padding-bottom: 0px;
-        font-size: 21px;
-    }
-    h4 {
-        font-size: 18px;
-    }
-    h5 {
-        font-size: 16px;
-    }
-    .bullets {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        margin: 0px;
-    }
-    p {
-        font-size: 14px;
-        margin-top: 20px;
-    }
     .paragraph_heading {
         margin-bottom: 0px;
-    }
-    li {
-        font-size: 12px;
-        padding-top: 5px;
-    }
-    .slideshow-container {
-        padding-top: 10px;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 2.5vw;
-        width: 2.5vw;
-        margin: 0 0.2vw;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
-        transition: background-color 0.6s ease;
     }
     .link {
         margin: 20px;
@@ -405,22 +359,6 @@ li {
     }
     .thirdplaceholder {
         display: none;
-    }
-    .picofme {
-        position: absolute;
-        margin-top: 32px;
-        z-index: 3;
-        max-width: 60px;
-    }
-    .largegear {
-        position: absolute;
-        margin-top: 32px;
-        max-width: 67px;
-    }
-    .smallgear {
-        position: absolute;
-        margin-left: 32px;
-        max-width: 31px;
     }
     .survey {
         max-width: 85%;
@@ -438,8 +376,5 @@ li {
     }
     .searchresults {
         max-width: 95%;
-    }
-    .colourpickercontainer {
-        width: 85%;
     }
 }
