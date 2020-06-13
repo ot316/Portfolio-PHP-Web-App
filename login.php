@@ -4,6 +4,7 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Login Page</title>
+    <link rel="stylesheet" href="./css/aboutme.css">
 </head>
 
 <?php

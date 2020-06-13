@@ -132,6 +132,7 @@ hr {
 
 .piccontainerborder {
     border: 3px solid grey;
+    background-color: white;
 }
 
 .third {
@@ -180,18 +181,6 @@ hr {
 .piccontainerborder:hover .middle,
 .piccontainer:hover .middle {
     opacity: 1;
-}
-
-li {
-    color: black;
-    font-family: 'Work Sans', sans-serif;
-    text-align: left;
-    font-weight: 400;
-    font-size: 16px;
-    list-style-type: Disc;
-    list-style-position: outside;
-    padding-top: 10px;
-    letter-spacing: -0.5px;
 }
 
 .active {
@@ -366,5 +355,28 @@ li {
     }
     .searchresults {
         max-width: 95%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .dropdown {
+        background-color: #131313;
+    }
+    .dropdown-content,
+    .dropdown-content-hover {
+        background-color: #252525;
+    }
+    .search {
+        border: 1.5px solid #3c3c3c;
+    }
+    .dropbtn {
+        background-color: #3c3c3c;
+    }
+    .dropdownhover:hover,
+    .dropdownhover a:hover {
+        background-color: #808080;
+    }
+    .dropdown-content-hover a {
+        color: white;
     }
 }

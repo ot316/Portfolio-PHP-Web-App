@@ -21,7 +21,18 @@ window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         document.getElementById("myDropdown").style.display = ("none");
-        document.getElementById("dropbtn").style.backgroundColor = ("lightgrey");
+        // Check for dark mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            document.getElementById("dropbtn").style.backgroundColor = ("lightgrey");
+        } else {
+            document.getElementById("dropbtn").style.backgroundColor = ("#3c3c3c");
+
+        }
+
+
+
+
+
         document.getElementById("bigpicwrapper").style.opacity = ("1");
         document.getElementById("bigpicwrapper").style.transform = "translate(0px,0px)"
 
