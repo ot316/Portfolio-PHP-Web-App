@@ -32,7 +32,7 @@
                 more perfume can be pushed out around the wrist.</p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/photoshops.png" alt="Heaven Scent">
             <p>I aimed to address some existing problems with perfume bottles. They are deliberately designed to make dissassembly difficult to prevent reuse, and contain complex assemblies inside the atomiser. The perfume bottle I dissassembled had 12 parts.</p>
-            <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/explodedperfumebottle.png">
+            <img class="hero"  style="margin: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/explodedperfumebottle.png">
             <h3>A Typical Perfume Bottle</h3>
             <p>I built several concept prototypes and conducted some user testing of the concept. I experimented with different types of perfume and foam. </p>
             <h2>Prototyping</h2>
@@ -44,7 +44,7 @@
             <h3>Breakdown of Embodied Energy and Carbon Footprint</h3>
             <div class="slideshow-container">
                 <h3>Report</h3>
-
+                <br>
                 <!-- Full-width images with number-->
                 <div class="mySlides fade">
                     <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/Report/1.png" style="width:100%">
