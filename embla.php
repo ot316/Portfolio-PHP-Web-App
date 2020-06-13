@@ -35,10 +35,10 @@
         <br>
         <div class="doublerow">
             <div class="inner">
-                <img class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Composite.png" alt="Office Image">
+                <img style="background-color: white;" class="halfimageleft" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Composite.png" alt="Office Image">
             </div>
             <div class="inner">
-                <img class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Minioffice.jpg.png" alt="Office Image">
+                <img style="background-color: white;" class="halfimageright" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Minioffice.jpg.png" alt="Office Image">
             </div>
         </div>
         <div>
