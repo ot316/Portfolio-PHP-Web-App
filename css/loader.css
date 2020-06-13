@@ -67,7 +67,7 @@
         filter: brightness(1);
     }
     50% {
-        filter: brightness(2);
+        filter: brightness(0.3);
     }
     100% {
         filter: brightness(1);
@@ -80,5 +80,16 @@
     }
     .frame {
         border: 2.4px rgb(60, 60, 60) solid;
+    }
+    @keyframes breathing {
+        0% {
+            filter: brightness(1);
+        }
+        50% {
+            filter: brightness(2);
+        }
+        100% {
+            filter: brightness(1);
+        }
     }
 }
