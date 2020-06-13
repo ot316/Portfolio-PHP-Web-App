@@ -748,6 +748,10 @@
                     margin-bottom: 1em;
                     padding: 0.5em 0.8em;
                 }
+                .btn {
+                    padding: 4px 10px;
+                    font-size: 12px;
+                }
             }
             
             @media (prefers-color-scheme: dark) {

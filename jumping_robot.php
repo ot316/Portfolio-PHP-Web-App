@@ -26,12 +26,12 @@
                 <li>A second year individual project awarded the highest mark in the year.</li>
             </ul>
             <img style="background-color: white" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/JumpingRobot.png" alt="hero image">
-            <p style="margin-top: 10px;"> This project involved designing a theoretical jumping robot to meet the following criteria: a jump height and distance of 300mm, a cost below £100, a mass below 200g, and an ip54 rating. The design rationale behind the robot was to be fully
+            <p style="margin-top: 20px;"> This project involved designing a theoretical jumping robot to meet the following criteria: a jump height and distance of 300mm, a cost below £100, a mass below 200g, and an ip54 rating. The design rationale behind the robot was to be fully
                 justified, starting with morphological design, a full mathematical analysis, considerations of manufacture and cost, biomimicry, computer simulations of a fully developed CAD model, and concluding with a suite of technical drawings and
                 general assembly drawings.</p>
             <img style="background-color: white" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Self-Righting-propeller-view.png" alt="hero image">
-            <img style="background-color: white" class="hero" style="padding-bottom: 30px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Landing-Scenario-2.png" alt="hero image">
-            <h3 style="padding-bottom: 30px; padding-top: 10px;">Self-Righting Geometry</h3>
+            <img class="hero" style="background-color: white; padding-bottom: 30px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Landing-Scenario-2.png" alt="hero image">
+            <h3 style="padding-bottom: 30px; padding-top: 20px;">Self-Righting Geometry</h3>
             <h2 style="padding-top: 25px;">Propulsion</h2>
             <p>The robot uses a variable pitch propeller mechanism that allows it to control the forwards thrust. The propeller is driven by the unraveling winch as the robot launches. A servo connected to a small cam controls the pitch angle.</p>
             <img style="background-color: white" class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Annotated-Exploded-Propeller-View.png" alt="Exploded View of Propeller">
@@ -59,7 +59,7 @@
             <h3 style="padding-bottom: 20px;">Flow Simulation Animation</h3>
             <h2 style="padding-top: 25px;">FEA</h2>
             <p>FEA was conducted on areas of potential failure. The results informed iterative design changes.</p>
-            <img style="background-color: white" class="hero" style="padding-bottom: 15px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Housing-FEA.png" alt="FEA">
+            <img style="background-color: white; padding: 15px; margin-bottom: 20px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/Housing-FEA.png" alt="FEA">
             <h3>FEA Process</h3>
             <p>A full mathematical analysis was conducted on the design, starting with an iterative Matlab code to find the launch velocity required to achieve the desired jump distance. The geometry of the gears and shafts were calculated to withstand the
                 predicted torques and mitigate any key failure modes. Aerodynamic calculations were also carried out in order to find the force required on each propeller blade to achieve the horizontal distance. Full calculations and technical drawings
