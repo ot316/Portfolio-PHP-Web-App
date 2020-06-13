@@ -64,7 +64,7 @@ end</PRE>
             <p>
                 After the kinematic model was working I began experimenting with trajectories outside of the robot's workspace and poses that resulted in a singularity, effectively breaking the kinematic model.
             </p>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/unstable.png">
+            <img class="hero" style="padding-top: 0px; padding-bottom: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/unstable.png">
             <h3>Plotting the pseudo-inverse of the jacobian and the joint angles for a "broken" trajectory</h3>
             <br>
             <br>
