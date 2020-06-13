@@ -206,7 +206,9 @@
                 padding-right: 10px;
             }
             
-            .zggtitle .title {
+            .zggtitle,
+            .title {
+                display: block;
                 width: 240px;
                 padding-top: 30px;
                 margin-left: auto;
