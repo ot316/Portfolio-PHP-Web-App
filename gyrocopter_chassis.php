@@ -11,7 +11,7 @@
     <div class="wrapper">
         <div>
             <!-- Heading -->
-            <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/gyrocopter_chassis/logo.svg" alt="PAL V Logo" style="background-color: white; max-width: 50%; display: block; margin: auto; padding-top: 15px;">
+            <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/gyrocopter_chassis/logo.svg" alt="PAL V Logo" style="max-width: 50%; display: block; margin: auto; padding-top: 15px;">
             <div class="tagcontainer">
                 <h2>FEA</h2>
                 <h2>Mechanical&nbsp;Design</h2>
