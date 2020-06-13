@@ -347,14 +347,6 @@ li {
     .paragraph_heading {
         margin-bottom: 0px;
     }
-    .link {
-        margin: 20px;
-        text-align: center;
-        color: #5D5C61;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-    }
     .thirdplaceholder {
         display: none;
     }

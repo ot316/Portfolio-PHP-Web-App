@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>EMBLA_Project</title>
+    <title>Embla</title>
 </head>
 
 <div class="background">

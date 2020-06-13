@@ -518,9 +518,6 @@ li {
     .logo {
         padding-right: 20px;
     }
-    .illumuitar {
-        width: 460px;
-    }
     .tagcontainer h2 {
         text-align: center;
         padding: 4px 8px 4px 8px;
@@ -651,21 +648,9 @@ li {
         font-size: 12px;
         font-weight: 400;
     }
-    .zerogravitygarden {
-        max-width: 170px;
-        padding-top: 10px;
-    }
     .wordtitle {
         font-size: 30px;
         font-weight: 500;
-    }
-    .embla {
-        position: absolute;
-        left: 50%;
-        top: 0px;
-        transform: translate(-50%, 0%);
-        padding: 20px;
-        width: 140px;
     }
     .tagcontainer {
         position: relative;
