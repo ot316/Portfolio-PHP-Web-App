@@ -39,7 +39,7 @@
         <h2>How it Works</h2>
         <p>The goal of the project was to collect emotion data over 2 weeks and conduct analysis and actuation of the data. I built a smart mirror with a built in Raspberry Pi camera, this was designed to be a non obtrusive way of collecting a user's mood data. The full code is available on my Github. </p>
         <h4 style="padding-bottom: 10px;"> Interface and Flow Diagram</h4>
-        <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 600px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/flowandpic.png">
+        <img class="hero" style="padding-top: 10px; padding-bottom: 20px; max-width: 600px; background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/flowandpic.png">
         <br>
         <br>
         <br>
