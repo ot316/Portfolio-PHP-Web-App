@@ -6,6 +6,7 @@
     <title>Mood Tracking Smart Mirror</title>
     <script src="javascript/jquery-3.4.1.min.js"></script>
     <script src="javascript/p5/p5.min.js"></script>
+    <link rel="stylesheet" href="./css/aboutme.css">
 </head>
 
 <div class="background">
