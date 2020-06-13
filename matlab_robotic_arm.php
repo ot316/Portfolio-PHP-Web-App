@@ -46,7 +46,7 @@ T(i).A =  [cos(theta(i)) -sin(theta(i)) 0 a(i);...
     sin(theta(i))*sin(alpha(i)) cos(theta(i))*sin(alpha(i)) cos(alpha(i)) cos(alpha(i))*d(i);...
     0 0 0 1];
 end </PRE>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/3-animation.png">
+            <img class="hero" style="padding-top: 0px; padding-bottom: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/3-animation.png">
             <h3>Visualisation of the kinematic model</h3>
             <p style="margin-top: 25px;">I wrote a script that could take a cartesian function as an input and calcualte the joint angles at set time increments.</p>
             <PRE class="code">
