@@ -334,8 +334,7 @@ hr {
         border: none;
     }
     .middle h4 {
-        top: -10px;
-        padding-bottom: 30px;
+        position: static;
     }
     .paragraph_heading {
         margin-bottom: 0px;
