@@ -315,7 +315,7 @@ hr {
         all: unset;
         display: block;
         align-content: center;
-        padding-top: 0px;
+        padding-top: 30px;
         width: 100%;
     }
     .piccontainerborder,
