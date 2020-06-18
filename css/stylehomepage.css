@@ -135,6 +135,10 @@ hr {
     background-color: white;
 }
 
+.piccontainerborder:hover {
+    background-color: unset;
+}
+
 .third {
     opacity: 1;
     max-height: 100%;
