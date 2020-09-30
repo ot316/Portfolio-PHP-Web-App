@@ -13,7 +13,7 @@
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <!-- Heading -->
-        <?php include('partials/filter_homepage.php') ?>
+        <?php include('partials/filter.php') ?>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper">

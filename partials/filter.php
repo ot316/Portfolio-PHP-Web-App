@@ -1,9 +1,14 @@
 <p style="padding-bottom: 5px;" class="mobilehidetext"> Welcome to my design, engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
-    <a href="/">
+    
+    <?php if(find_file() != '/projects') { echo('
+    <a href="/projects">
         <button style="margin-bottom: 25px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
     </a>
+    ');}
+    ?>
+
     <div class="searchcontainer">
         <form method="post" action="search.php">
             <div style="float: right;">
@@ -64,3 +69,24 @@
         </div>
     </div>
 </div>
+
+<script>
+    function show() {
+        console.log("activated")
+        var x = document.getElementById("searchDropdown");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+    }
+
+    $(window).click(function() {
+        var x = document.getElementById("searchDropdown");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+    });
+
+    $("#menucontainer").click(function(event) {
+        event.stopPropagation();
+    });
+</script>
