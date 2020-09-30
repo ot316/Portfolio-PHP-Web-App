@@ -20,8 +20,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>My group of 3 built an Audio Spectrum visualiser and guitar tuner and displayed them through a custom LED matrix on the face of a guitar. </li>
-                <li>I designed, assembled and programmed a custom PCB and used time and frequency domain signal processing.
+                <li>We built an Audio Spectrum visualiser and guitar tuner and displayed them through a custom LED matrix on the face of a guitar. I designed, assembled and programmed a custom PCB and used time and frequency domain signal processing.
                 </li>
             </ul>
             <video class="herovideo" controls poster="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Illumuitar/me-tuning.png">

@@ -24,8 +24,7 @@
             <!-- First Bullet Points -->
             <ul class="headingbullets">
                 <li>I used Javascript to retrieve, transform and display the latitude and longitude of the International Space Station every 1.5
-                    seconds. </li>
-                <li>I setup a Raspberry Pi to send me an email whenever the International Space Station is over London.</li>
+                    seconds, I also setup a Raspberry Pi to send me an email whenever the International Space Station is over London.</li>
             </ul>
             <div id="cnv" class="hero"></div>
             <div id="spacing">

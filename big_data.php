@@ -19,8 +19,8 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>We conducted an explanatory and predictive analysis on a dataset using machine learning with Python.</li>
-                <li>We cleaned, reduced and transformed the data set and used a non-linear decision tree classifier with an accuracy, precision and recall of 70%, 75% and 90%.
+                <li>I conducted an explanatory and predictive analysis on a dataset using machine learning with Python, this involved
+               cleaning, reducing and transforming the data set and useing a non-linear decision tree classifier with an accuracy, precision and recall of 70%, 75% and 90%.
                 </li>
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/big_data/decisiontree.png" alt="Heaven Scent">

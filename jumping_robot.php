@@ -21,9 +21,7 @@
                 <h2>FEA</h2>
             </div>
             <ul class="headingbullets">
-                <li>I engineered a jumping robot using mathematical and computational engineering analysis to meet strict criteria.
-                </li>
-                <li>A second year individual project awarded the highest mark in the year.</li>
+                <li>I engineered a jumping robot using mathematical and computational engineering analysis to meet strict criteria. The second year universirt project was awarded the highest mark in the year.</li>
             </ul>
             <img style="background-color: white" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/jumping_robot/JumpingRobot.png" alt="hero image">
             <p style="margin-top: 20px;"> This project involved designing a theoretical jumping robot to meet the following criteria: a jump height and distance of 300mm, a cost below £100, a mass below 200g, and an ip54 rating. The design rationale behind the robot was to be fully

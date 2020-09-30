@@ -18,9 +18,7 @@
         </div>
         <!-- First Bullet Points -->
         <ul class="headingbullets">
-            <li>A moonshot solution to tackle workplace stress and anxiety using IOT, biometrics and sympathetic environments
-            </li>
-            <li>Winner of the Desire Award and featured in the Evening Standard</li>
+            <li>A moonshot solution to tackle workplace stress and anxiety using IOT, biometrics and sympathetic environments. The project won a Desire Award and was featured in the Evening Standard</li>
         </ul>
         <br>
         <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/embla/Hero.png" alt="hero image">

@@ -19,8 +19,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I designed a model of a PAL-V gyropcopter chassis using FEA, including analysis of frequency, fatigue and static loads in order to meet specific criteria. </li>
-                <li>I gained a strong understanding of the finite element analysis process.
+                <li>I designed a model of a PAL-V gyropcopter chassis using FEA, including analysis of frequency, fatigue and static loads in order to meet specific criteria.
                 </li>
             </ul>
             <img style="background-color: white; padding-bottom: 20px;" class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/gyrocopter_chassis/FEA1.png" alt="Stress distribution">

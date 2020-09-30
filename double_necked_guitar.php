@@ -19,8 +19,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>For my A-level design and technology project I designed and built a double necked electric guitar completely from scratch. </li>
-                <li>I combined traditional woodworking methods with CAD and CNC machining.
+                <li>For my A-level design and technology project I designed and built a double necked electric guitar completely from scratch, combining traditional woodworking methods with CAD and CNC machining.
                 </li>
             </ul>
             <img class="hero" style="background-color: white;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/double_necked_guitar/hero.png">

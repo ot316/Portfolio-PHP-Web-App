@@ -23,8 +23,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I built an Interactive Javascript implementation of Conway's game of life. </li>
-                <li>Click the canvas to restart. </li>
+                <li>I built an Interactive Javascript implementation of Conway's game of life, click the canvas to restart. </li>
             </ul>
             <div>
                 <canvas onclick="setup()" id="Canvas" style="margin-top: 40px; margin-bottom: 40px; border:3px solid grey;" class="Canvas"></canvas>

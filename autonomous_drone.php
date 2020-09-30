@@ -19,8 +19,8 @@
         </div>
         <!-- First Bullet Points -->
         <ul class="headingbullets">
-            <li>I interfaced with a Parrot drone using ROS and implemented my own computer vision algorithms on the video stream transmitted by the drone.</li>
-            <li>I setup a physics simulation of the drone in Gazebo to test my work. 
+            <li>I controlled a Parrot drone using ROS and implemented my own computer vision algorithms on the video stream transmitted by the drone.
+                 I also setup a physics simulation of the drone in Gazebo as a safe testing environment. 
             </li>
         </ul>
         <br>

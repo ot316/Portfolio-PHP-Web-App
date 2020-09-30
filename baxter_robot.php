@@ -21,8 +21,8 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>We programmed a Baxter robot to build a brick structure using multithreading and image recognition with OpenCV and PIL. We tested our software on a Gazebo physics simulation before controlling the real robot. </li>
-                <li>My Contribution was writing a computer vision algorithm to align the robot's end effector with the brick, and a path planning algorithm to allow for smooth motion.
+                <li>We programmed a Baxter robot to build a brick well structure. The software used multithreading and image recognition with Python and OpenCV and was tested on a Gazebo physics simulation and the real robot/. 
+                    My Contribution was writing a computer vision algorithm to align the robot's end effector with the brick, and a path planning algorithm to allow for smooth motion.
                 </li>
             </ul>
             <br>

@@ -20,8 +20,8 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>My team of 4 designed the first portable electric ball launcher for dogs. This inclusive design project aimed to make owning a dog more accessable for the elderly. </li>
-                <li>We designed a fully functional prototype, conducted mass market research, user testing and designed parts for injection moulding with technical drawings.
+                <li>I co-edesigned the first portable electric ball launcher for dogs. As an inclusive design project, it aimed to make owning a dog more accessable for the elderly.
+                    We designed a fully functional prototype, conducted mass market research, user testing and designed parts for injection moulding with technical drawings.
                 </li>
             </ul>
             <br>

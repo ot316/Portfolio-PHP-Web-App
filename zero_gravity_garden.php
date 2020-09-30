@@ -21,8 +21,8 @@
         </div>
         <!-- First Bullet Points -->
         <ul class="headingbullets">
-            <li>I independently designed and built a rotating, user programmable hydroponic garden for use in non-arable climates</li>
-            <li>I used various sensors to monitor temperature, PH and humidity including a hall effect sensor for closed loop positional feedback.</li>
+            <li>I independently designed and built a rotating, user programmable hydroponic garden for use in non-arable climates The project uses various sensors to
+                 monitor temperature, PH and humidity including a hall effect sensor for closed loop positional feedback.</li>
         </ul>
         <video class="herovideo" controls autoplay>
             <source src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/zero_gravity_garden/herovid.mp4" type="video/mp4">

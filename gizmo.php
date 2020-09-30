@@ -20,8 +20,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>For our 2nd year group project we built an interactive robotic pet for different users to interact with and keep alive. </li>
-                <li>My contribution included the aesthetic, mechanical and electronic design of the robot and its enclosure.
+                <li>We built an interactive robotic pet for different users to interact with and keep alive. My contribution included the aesthetic, mechanical and electronic design of the robot and its enclosure.
                 </li>
             </ul>
             <video class="herovideo" controls poster="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Gizmo/Gi1.png">

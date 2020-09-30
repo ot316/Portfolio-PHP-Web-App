@@ -20,9 +20,8 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>My group of 4 conducted an optimsation study on the design of a rollercoaster.</li>
-                <li>Firstly I applied logistic regression to a rollercoaster database scraped from the web using Python. </li>
-                <li>I then developed a multiobjective formulation from first principles, used design of experiments and implemented various optimisation algorithms to improve the design.
+                <li>We conducted an optimsation study on the design of a rollercoaster, I applied logistic regression to a rollercoaster database scraped from the web using Python. I then developed
+                     a multiobjective formulation from first principles, using design of experiments and implementing various optimisation algorithms to improve the design.
                 </li>
             </ul>
             <br>

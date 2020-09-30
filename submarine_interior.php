@@ -22,8 +22,8 @@
             <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>For a first year group project, we designed a concept for an autonomous vehicle for underwater tours. </li>
-                <li>The project involved building a full size interior to conduct user testing, a user interface and HUD and considerations of ingress and egress.</li>
+                <li>We designed a concept for an autonomous vehicle for underwater tours. The project involved building a full size interior to conduct user testing, 
+                    a user interface and HUD as well as considerations of ingress and egress.</li>
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/submarine_interior/hero.png">
             <p>Our team of 5 designed an electric submarine pod concept for reef exploration and tourism. We aimed to create a fun exclusive experience for tourists that would reduce damage to reefs by providing an inclusive alternative to scuba diving.

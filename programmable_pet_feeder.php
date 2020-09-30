@@ -20,8 +20,7 @@
             <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>For my GCSE electronics project I built a user programmable pet feeder that dispensed food from a tank at set intervals. </li>
-                <li>I designed and manufactured custom PCBs with a UV mask and acid etch tank.</li>
+                <li>For my GCSE electronics project I built a user programmable pet feeder that dispensed food from a tank at set intervals. I designed and manufactured custom PCBs with a UV mask and acid etch tank.</li>
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/programmable_pet_feeder/hero.png">
             <p>The project was built around a PIC microcontroller and uses a seven segment display driven by a 7447 BCD Chip. A stepper motor rotates the food bowl under the resevoir in order to refill it.</p>
