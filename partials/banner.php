@@ -1,3 +1,10 @@
+<?php
+function find_file() {
+    $url = $_SERVER['REQUEST_URI'];
+    $url = str_replace('.php','',$url);
+    return $url;
+}
+?>
 <!-- Banner, Navigation bar and Sidenav Bar -->
 <div class="banner">
     <div class="banner-content">
@@ -20,6 +27,9 @@
         <p style="font-size: 36px;" class="sidenavtext">&times;</p>
     </a>
     <a href="/">
+        <p class="sidenavtext">Home</p>
+    </a>
+    <a href="projects">
         <p class="sidenavtext">Projects</p>
     </a>
     <a href="about_me">
@@ -27,9 +37,6 @@
     </a>
     <a href="renders_and_art">
         <p class="sidenavtext">Renders&nbsp;and&nbsp;Art</p>
-    </a>
-    <a href="music">
-        <p class="sidenavtext">Music</p>
     </a>
     <div class="socialmediacontainermobile">
         <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
@@ -44,10 +51,10 @@
 <div class="navbarwrapper">
     <div class="navbar">
         <ul>
-            <li><a class="active" href="/">Projects</a></li>
-            <li><a href="about_me">About Me</a></li>
-            <li><a href="renders_and_art"> Renders and Art</a></li>
-            <li><a href="music">Music</a></li>
+            <li><a <?php if(find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
+            <li><a <?php if(find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
+            <li><a <?php if(find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
+            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Renders and Art</a></li>
         </ul>
     </div>
 </div>
