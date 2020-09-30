@@ -6,3 +6,4 @@ Media/
 *.pem
 .vscode
 /sql cheatsheet.txt
+/Legacy files/*
