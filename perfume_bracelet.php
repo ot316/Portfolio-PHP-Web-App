@@ -12,7 +12,7 @@
     <div class="wrapper">
         <div>
             <!-- Heading -->
-            <img class="title" style="width: 30%;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/Best Logo.png" alt="Heaven Scent">
+            <img class="titleinvert" style="width: 30%;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/Best Logo.png" alt="Heaven Scent">
             <div class="tagcontainer">
                 <h2>Product&nbsp;Design</h2>
                 <h2>Industrial&nbsp;Design</h2>
@@ -22,8 +22,8 @@
             <br>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I designed an alternative packaging concept for single-use disposable perfume bottles, which are costly and non recyclable.</li>
-                <li>My design maintains a premium brand image through a bracelet designed for extended use. By comparing materials, manufacture and transport to a typical perfume bottle, I calculated a reduction of C02 and embodied energy of over 90%.
+                <li>I designed an alternative packaging concept for single-use disposable perfume bottles, which are costly and non recyclable,
+                    My design maintains a premium brand image through a bracelet designed for extended use. By comparing materials, manufacture and transport to a typical perfume bottle, I calculated a reduction of C02 and embodied energy of over 90%.
                 </li>
             </ul>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/hero.png" alt="Heaven Scent">
@@ -32,7 +32,7 @@
                 more perfume can be pushed out around the wrist.</p>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/photoshops.png" alt="Heaven Scent">
             <p>I aimed to address some existing problems with perfume bottles. They are deliberately designed to make dissassembly difficult to prevent reuse, and contain complex assemblies inside the atomiser. The perfume bottle I dissassembled had 12 parts.</p>
-            <img class="hero"  style="margin: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/explodedperfumebottle.png">
+            <img class="hero" style="margin: 10px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/perfume_bracelet/explodedperfumebottle.png">
             <h3>A Typical Perfume Bottle</h3>
             <p>I built several concept prototypes and conducted some user testing of the concept. I experimented with different types of perfume and foam. </p>
             <h2>Prototyping</h2>
