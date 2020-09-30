@@ -1,4 +1,4 @@
-<p style="padding-bottom: 5px;" class="mobilehidetext"> Welcome to my design, engineering and technology portfolio website. Please use the drop down filter below to sort through my projects by skillset.</p>
+<p style="padding-bottom: 5px;" class="mobilehidetext"> Here you can find all of my personal and university projects, please use the drop down filter or search box below to sort through my projects by skillset.</p>
 <div class="dropdown">
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
     
@@ -13,7 +13,7 @@
         <form method="post" action="search.php">
             <div style="float: right;">
                 <input class="search" name="query" type="text" onkeyup="show()" placeholder="Search..." required>
-                <p style="margin: 1px; display: none" id="searchDropdown">e.g. CAD, python etc</p>
+                <p style="margin: 1px; display: none" id="searchDropdown">e.g. Python, SQL etc</p>
             </div>
         </form>
     </div>

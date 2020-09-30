@@ -3,7 +3,7 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>{Projects}</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="./css/stylehomepage.css">
     <script src="javascript/jquery-3.4.1.min.js"></script>
 </head>

@@ -22,6 +22,7 @@ function find_file() {
         </div>
     </div>
 </div>
+<!-- Mobile Navigation -->
 <div id="mySidenav" class="sidenav">
     <a onclick="closeNav()">
         <p style="font-size: 36px;" class="sidenavtext">&times;</p>
@@ -36,7 +37,7 @@ function find_file() {
         <p class="sidenavtext">About&nbsp;Me</p>
     </a>
     <a href="renders_and_art">
-        <p class="sidenavtext">Renders&nbsp;and&nbsp;Art</p>
+        <p class="sidenavtext">Renders&nbsp;Art&nbsp;&&nbsp;PCBs</p>
     </a>
     <div class="socialmediacontainermobile">
         <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
@@ -54,7 +55,7 @@ function find_file() {
             <li><a <?php if(find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
             <li><a <?php if(find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
             <li><a <?php if(find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
-            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Renders and Art</a></li>
+            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Renders Art & PCBs</a></li>
         </ul>
     </div>
 </div>

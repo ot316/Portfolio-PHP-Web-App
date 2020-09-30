@@ -563,6 +563,7 @@
                     opacity: 0.8;
                 }
                 .sidenavbutton {
+                    color: black;
                     display: block;
                     font-size: 30px;
                     cursor: pointer;
@@ -780,6 +781,9 @@
                 .socialmedialogo {
                     filter: invert(100%);
                 }
+                .socialmedialogomobile {
+                    filter: invert(100%);
+                }
                 .btn {
                     color: black;
                 }
@@ -788,5 +792,8 @@
                 }
                 .zggtitle {
                     filter: none;
+                }
+                .sidenavbutton {
+                    color: white;
                 }
             }
