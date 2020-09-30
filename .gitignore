@@ -5,3 +5,4 @@ Media/
 /server.pass.key
 *.pem
 .vscode
+sql cheatsheet.txt
