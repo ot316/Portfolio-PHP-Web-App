@@ -5,6 +5,7 @@ function find_file() {
     return $url;
 }
 ?>
+
 <!-- Banner, Navigation bar and Sidenav Bar -->
 <div class="banner">
     <div class="banner-content">
@@ -55,7 +56,7 @@ function find_file() {
             <li><a <?php if(find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
             <li><a <?php if(find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
             <li><a <?php if(find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
-            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Renders Art & PCBs</a></li>
+            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Art, Renders & PCBs</a></li>
         </ul>
     </div>
 </div>
