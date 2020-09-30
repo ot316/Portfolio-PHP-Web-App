@@ -24,8 +24,8 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I designed and built a mood tracking smart mirror that classifies the user's mood using computer vision and a neural network. </li>
-                <li>The mirror collects data, uploads it to the cloud and plots it in real time on a web-app. The user can interact with the graphs and view data over different timescales.</li>
+                <li>I designed and built a mood tracking smart mirror that classifies the user's mood using computer vision and a neural network. The mirror collects data, uploads it
+                     to the cloud and plots it in real time on a web-app. The user can interact with the graphs and view data over different timescales.</li>
             </ul>
             <br>
             <video class="herovideo" controls autoplay>
