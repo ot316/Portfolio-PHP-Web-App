@@ -23,7 +23,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I coded my own responsive portfolio webapp from scratch using self-taught PHP, HTML, CSS and Javascript. It is self hosted on a Linux, apache, MySQL and PHP server and has several more advanced features such as a login system and search functionality.</li>
+                <li>I coded my own responsive portfolio webapp from scratch using self-taught PHP, HTML, CSS and Javascript. It is self hosted on a Linux, apache, MySQL and PHP server and has several more advanced features such as a login system, search functionality and automatic dark mode!</li>
             </ul>
             <img class="hero" style="padding-top: 20px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/portfolio_website/Portfolio.png">
             <h3 style="padding-top: 20px;">Designed to work across multiple devices and browsers</h3>

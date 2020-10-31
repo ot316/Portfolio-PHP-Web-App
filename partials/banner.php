@@ -1,7 +1,8 @@
 <?php
-function find_file() {
+function find_file()
+{
     $url = $_SERVER['REQUEST_URI'];
-    $url = str_replace('.php','',$url);
+    $url = str_replace('.php', '', $url);
     return $url;
 }
 ?>
@@ -14,10 +15,10 @@ function find_file() {
             <h1>Oli&nbsp;Thompson</h1>
         </a>
         <div class="socialmediacontainer">
-            <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
-                <img class="socialmedialogo" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
             <a href="https://github.com/ot316" target="_blank">
                 <img class="socialmedialogo" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/github.png"></a>
+            <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
+                <img class="socialmedialogo" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
             <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
                 <img class="socialmedialogo" alt="Instagram" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Instagram.png"></a>
         </div>
@@ -41,22 +42,22 @@ function find_file() {
         <p class="sidenavtext">Renders&nbsp;Art&nbsp;&&nbsp;PCBs</p>
     </a>
     <div class="socialmediacontainermobile">
-        <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
-            <img class="socialmedialogomobile" alt="Instagram" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Instagram.png"></a>
         <a href="https://github.com/ot316" target="_blank">
             <img class="socialmedialogomobile" alt="Github" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/github.png"></a>
         <a href="http://www.linkedin.com/in/oli-thompson" target="_blank">
             <img class="socialmedialogomobile" alt="Linkedin" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Linkedin.svg"></a>
+        <a href="https://www.instagram.com/olithompson_designengineer/" target="_blank">
+            <img class="socialmedialogomobile" alt="Instagram" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/social_media_logos/Instagram.png"></a>
     </div>
 </div>
 <span class="sidenavbutton" onclick="openNav()">&#9776;</span>
 <div class="navbarwrapper">
     <div class="navbar">
         <ul>
-            <li><a <?php if(find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
-            <li><a <?php if(find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
-            <li><a <?php if(find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
-            <li><a <?php if(find_file() == "/art_renders_&_PCBs") echo 'class="active"'; ?> href="art_renders_&_PCBs"> Art, Renders & PCBs</a></li>
+            <li><a <?php if (find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
+            <li><a <?php if (find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
+            <li><a <?php if (find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
+            <li><a <?php if (find_file() == "/art_renders_&_PCBs") echo 'class="active"'; ?> href="art_renders_&_PCBs"> Art, Renders & PCBs</a></li>
         </ul>
     </div>
 </div>

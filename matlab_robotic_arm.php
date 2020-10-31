@@ -19,10 +19,10 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I used Matlab to construct a kinematic model of a 3D robotic arm using the DH convention, I tested and analysed and visualised the model.</li>
+                <li>I used Matlab to construct a kinematic model of a 3D robotic arm using the DH convention. I tested, analysed and visualised the model.</li>
             </ul>
-            <img class="hero" style="padding-top: 0px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/vel.png">
-            <h3>Plotting the robot's trajectory in joint space and cartesian space.</h3>
+            <img class="hero" style="padding-top: 0px; " src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/matlab_robotic_arm/vel.png">
+            <h3 style="margin-top: 10px;">Plotting the robot's trajectory in joint space and cartesian space.</h3>
             <p>
                 I assigned reference frames to each link of the robots arm using the Denavit-Hartenberg convention.
             </p>

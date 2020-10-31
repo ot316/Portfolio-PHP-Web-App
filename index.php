@@ -11,15 +11,15 @@
 <body class="background">
     <?php include('partials/loader.php') ?>
     <?php include('partials/banner.php') ?>
-    <div class="wrapper">
+    <div class="wrapper" style="max-width: 900px;">
         <h2 style="margin-bottom: 20px; font-size: 24px">Highlights</h2>
-        <p style="margin-top: 0px; padding-bottom: 5px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist who is particularly interested in bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at University.</p>
-        <button onclick="window.location.href='/projects';" class="see_more_btn">See all projects ></button>
+        <p style="margin-top: 0px; padding-bottom: 15px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist who is particularly interested in bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at University.</p>
+        <button onclick="window.location.href='/projects';" class="see_more_btn">See more projects ></button>
         <div class="big_featured_wrapper" id="bigpicwrapper" style="padding-top: 10px;">
             <?php include('featured_project_partials/voxel.php') ?>
             <?php include('featured_project_partials/magic_of_things.php') ?>
             <?php include('featured_project_partials/medical_percussion.php') ?>
-            <button onclick="window.location.href='/projects';" class="see_more_btn" style="transform: none;">See all projects ></button>
+            <button onclick="window.location.href='/projects';" class="see_more_btn" style="transform: none;">See more projects ></button>
         </div>
     </div>
     <?php include('partials/footer.php') ?>

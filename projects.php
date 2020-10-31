@@ -24,7 +24,7 @@
 
 
             <div class="picwrapper">
-                <?php include('project_partials/jumping_robot.php') ?>
+                <?php include('project_partials/medical_percussion.php') ?>
                 <?php include('project_partials/illumuitar.php') ?>
                 <?php include('project_partials/ball_launcher.php') ?>
             </div>
@@ -40,47 +40,47 @@
             <div class="picwrapper">
                 <?php include('project_partials/gizmo.php') ?>
                 <?php include('project_partials/portfolio_webapp.php') ?>
-                <?php include('project_partials/big_data.php') ?>
+                <?php include('project_partials/jumping_robot.php') ?>
             </div>
 
 
             <div class="picwrapper">
                 <?php include('project_partials/ISS_tracker.php') ?>
+                <?php include('project_partials/big_data.php') ?>
                 <?php include('project_partials/embla.php') ?>
-                <?php include('project_partials/double_necked_guitar.php') ?>
             </div>
 
 
             <div class="picwrapper">
+                <?php include('project_partials/double_necked_guitar.php') ?>
                 <?php include('project_partials/programmable_pet_feeder.php') ?>
                 <?php include('project_partials/perfume_bracelet.php') ?>
-                <?php include('project_partials/gyrocopter_chassis.php') ?>
+                
             </div>
 
 
             <div class="picwrapper">
                 <?php include('project_partials/game_of_life.php') ?>
                 <?php include('project_partials/custom_computer.php') ?>
-                <?php include('project_partials/diy_ambilight.php') ?>
-            </div>
-
-            <div class="picwrapper">
-                <?php include('project_partials/custom_vpn.php') ?>
+                <?php include('project_partials/gyrocopter_chassis.php') ?>
             </div>
             <br>
             <br>
             <br>
             <br>
             <h2>Smaller Projects</h2>
-
+            <div class="picwrapper">
+                <?php include('project_partials/custom_vpn.php') ?>
+                <?php include('project_partials/diy_ambilight.php') ?>       
+                <?php include('project_partials/diy_desklamp.php') ?>
+            </div>
             <div class="picwrapper">
                 <?php include('project_partials/landing_pad.php') ?>
-                <?php include('project_partials/diy_desklamp.php') ?>
                 <?php include('project_partials/submarine_interior.php') ?>
+                <?php include('project_partials/empty.php') ?>
             </div>
 
             <div class="picwrapper">
-                <?php include('project_partials/matlab_for_engineering.php') ?>
             </div>
         </div>
     </div>
