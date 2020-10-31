@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 /* Filter */
 
 .dropdown-content {
@@ -122,8 +121,54 @@ hr {
     padding-top: 30px;
 }
 
-.piccontainer,
-.piccontainerborder {
+.big_featured_wrapper, .big_featured_wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.featured_project_wrapper_right, .featured_project_wrapper_left {
+    margin-top: 90px;
+    overflow: auto;
+}
+
+.featured_project_wrapper_right img, .featured_project_wrapper_left img {
+    max-width: 350px;
+    padding: 0px 40px 30px 40px;
+    float: left;
+}
+
+.featured_project_wrapper_right img {
+    float: right;
+}
+
+.featured_project_wrapper_right p, .featured_project_wrapper_left p {
+    padding: 20px 10px 10px 40px;
+    margin: 0px;
+}
+
+.featured_project_wrapper_right p {
+    text-align: right;
+}
+
+.featured_project_wrapper_right h3, .featured_project_wrapper_left h3 {
+    text-align: left;
+    padding: 10px 30px 10px 40px;
+}
+
+.featured_project_wrapper_right h3 {
+    text-align: right;
+}
+
+.featured_project_wrapper_right h1, .featured_project_wrapper_left h1 {
+    padding: 10px 30px 10px 40px;
+    text-align: left;
+}
+
+.featured_project_wrapper_right h1 {
+    text-align: right;
+}
+
+.piccontainer, .piccontainerborder {
     height: 16vw;
     position: relative;
     max-height: 350px;
@@ -177,20 +222,17 @@ hr {
     font-size: 19px;
 }
 
-.piccontainerborder:hover .third,
-.piccontainer:hover .third {
+.piccontainerborder:hover .third, .piccontainer:hover .third {
     opacity: 0.3;
 }
 
-.piccontainerborder:hover .middle,
-.piccontainer:hover .middle {
+.piccontainerborder:hover .middle, .piccontainer:hover .middle {
     opacity: 1;
 }
 
 .active {
     background-color: #717171;
 }
-
 
 /* Search */
 
@@ -213,8 +255,7 @@ hr {
     margin: auto;
 }
 
-.piccontainerborder .videoinsert,
-.piccontainer .videoinsert {
+.piccontainerborder .videoinsert, .piccontainer .videoinsert {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -241,7 +282,6 @@ hr {
     }
 }
 
-
 /* For Tablets-------------------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
@@ -257,16 +297,13 @@ hr {
         bottom: -10px;
         background-color: transparent;
     }
-    .middle2,
-    .middle h4 {
+    .middle2, .middle h4 {
         font-size: 1.3vw;
     }
-    .piccontainer,
-    .piccontainerborder {
+    .piccontainer, .piccontainerborder {
         height: 21vw;
     }
-    .piccontainerborder:hover .third,
-    .piccontainer:hover .third {
+    .piccontainerborder:hover .third, .piccontainer:hover .third {
         opacity: 1;
     }
     li {
@@ -289,7 +326,6 @@ hr {
         }
     }
 }
-
 
 /* For SmartPhones---------------------------------------------------------------------------------------------- */
 
@@ -322,9 +358,35 @@ hr {
         padding-top: 0px;
         width: 100%;
     }
-    .piccontainerborder,
-    .piccontainer {
+    .piccontainerborder, .piccontainer {
         all: unset;
+    }
+    .big_featured_wrapper, .big_featured_wrapper {
+        max-width: 900px;
+        margin: auto;
+    }
+    .featured_project_wrapper_right, .featured_project_wrapper_left {
+        margin-top: 50px;
+        overflow: auto;
+    }
+    .featured_project_wrapper_right img, .featured_project_wrapper_left img {
+        max-width: 85vw;
+        padding: 0px 0px 0px 0px;
+        float: none;
+    }
+    .featured_project_wrapper_right p, .featured_project_wrapper_left p {
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+        text-align: left;
+    }
+    .featured_project_wrapper_right h3, .featured_project_wrapper_left h3 {
+        text-align: left;
+        padding: 10px 0px 10px 0px;
+    }
+    .featured_project_wrapper_right h1, .featured_project_wrapper_left h1 {
+        text-align: left;
+        padding: 0px;
+        padding-top: 30px;
     }
     .middle h4 {
         position: static;
@@ -366,8 +428,7 @@ hr {
     .dropdown {
         background-color: #131313;
     }
-    .dropdown-content,
-    .dropdown-content-hover {
+    .dropdown-content, .dropdown-content-hover {
         background-color: #252525;
     }
     .search {
@@ -376,8 +437,7 @@ hr {
     .dropbtn {
         background-color: #3c3c3c;
     }
-    .dropdownhover:hover,
-    .dropdownhover a:hover {
+    .dropdownhover:hover, .dropdownhover a:hover {
         background-color: #808080;
     }
     .dropdown-content-hover a {

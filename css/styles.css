@@ -420,6 +420,7 @@
             }
             
             .footer {
+                margin-top: 100px;
                 bottom: 0px;
                 left: 0px;
                 height: 40px;
