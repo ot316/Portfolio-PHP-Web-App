@@ -67,12 +67,11 @@ function test_input($data)
     <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">
     <h2 style="padding: 0px; text-align:left;">About Me</h2>
     <br>
-    <p style="display: block; margin-top: 0px;"> I'm a 4th year Design Engineering Masters Student at Imperial College London, continuing my studies with a postgraduate masters in computing science before moving into industry.
+    <p style="display: block; margin-top: 0px;"> I'm a computing science student at Imperial College London, with an MEng in Design Engineering. I'm looking for a graduate role where I can apply my design and computing skills to bring valuable experiences to users through digital products.
     </p>
-    <p style="display: block"> I have a deep passion for learning about technology, robotics and engineering and am always working to broaden and deepen my knowledge through self-directed study and personal projects.
-    </p>
+    <p style="display: block"> In my spare time I like to work on various personal projects; I find it very satisfying to carry a project through ideation, user experience and software and to finally see it address the problem it was designed to solve (hopefully). </p>
     <p style="display: block; ">
-        I enjoy carrying engineering projects through each level of development, from ideation and user experience design through mechanical and electronic challenges down to the software and a final prototype.
+    I am particularly interested in open source software, entrepreneurship and the landscape of the tech industry.
     </p>
 
     <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
@@ -125,16 +124,8 @@ function test_input($data)
             <input class="btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
         </form>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>Software Competencies</h3>
-    <br>
-    <img class="hero" style="max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
-    <br>
-    <br>
-    <br>
+    <h3 style = "padding-top: 90px;">Software Competencies</h3>
+    <img class="hero" style="padding-bottom: 30px; padding-top: 10px; max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
 </div>
 </div>
 <?php include('partials/footer.php') ?>
