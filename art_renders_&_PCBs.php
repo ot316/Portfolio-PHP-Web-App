@@ -3,15 +3,15 @@
 
 <head>
     <?php include('partials/head.php') ?>
-    <title>Renders and Art</title>
+    <title>Art Renders </title>
     <link rel="stylesheet" href="./css/stylehomepage.css">
     <link rel="stylesheet" href="./css/rendersandart.css">
 </head>
 
 <div class="background">
-<?php include('partials/banner.php') ?>
+    <?php include('partials/banner.php') ?>
     <div class="wrapper">
-        <!-- Heading -->
+        <!-- Art -->
         <h2>Photoshop</h2>
         <p class="paragraph_heading"> My experimentation with photo-manipulation using photoshop.</p>
         <!-- Project Pictures -->
@@ -29,15 +29,15 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <div class="wrapper">
-        <!-- Heading -->
-        <br>
-        <br>
+        <!-- Renders -->
         <h2>Renders</h2>
         <p class="paragraph_heading"> Renders using keyshot, some are part of projects and others are just for fun.</p>
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
-            <div class="picwrapper" id="picwrapper">
+            <div class="picwrapper" id="picwrapper" style="padding-top: 5px;">
                 <div class="piccontainer">
                     <img id="img1" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/renders/bottle.png" alt="Project">
                 </div>
@@ -63,12 +63,8 @@
     </div>
     <br>
     <br>
-    <br>
-    <br>
-</div>
-<?php include('partials/footer.php') ?>
-<?php include('partials/modal.php') ?>
-<script src="../javascript/modal.js"></script>
-<script src="../javascript/navbar.js"></script>
-
-</html>
+    <div class="wrapper">
+        <!-- PCBs -->
+        <h2>PCBs</h2>
+        <p class="paragraph_heading"> Various PCBs I have designed for different projects.</p>
+        <!-- Project Pictures -

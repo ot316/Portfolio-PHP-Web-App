@@ -37,7 +37,7 @@ function find_file() {
     <a href="about_me">
         <p class="sidenavtext">About&nbsp;Me</p>
     </a>
-    <a href="renders_and_art">
+    <a href="art_renders_&_PCBs">
         <p class="sidenavtext">Renders&nbsp;Art&nbsp;&&nbsp;PCBs</p>
     </a>
     <div class="socialmediacontainermobile">
@@ -56,7 +56,7 @@ function find_file() {
             <li><a <?php if(find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
             <li><a <?php if(find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
             <li><a <?php if(find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
-            <li><a <?php if(find_file() == "/renders_and_art") echo 'class="active"'; ?> href="renders_and_art"> Art, Renders & PCBs</a></li>
+            <li><a <?php if(find_file() == "/art_renders_&_PCBs") echo 'class="active"'; ?> href="art_renders_&_PCBs"> Art, Renders & PCBs</a></li>
         </ul>
     </div>
 </div>
