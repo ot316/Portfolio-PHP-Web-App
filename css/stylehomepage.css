@@ -28,18 +28,24 @@
     z-index: 1;
 }
 
-.dropbtn {
+.dropbtn, .see_more_btn {
     color: black;
-    padding: 12px 30px 12px 30px;
-    font-size: 16px;
+    padding: 11px 30px 11px 30px;
+    font-size: 14px;
     color: white;
     border: none;
     cursor: pointer;
     background-color: lightgrey;
 }
 
-.dropbtn:hover {
+.see_more_btn {
+    float: right; 
+}
+
+.dropbtn:hover, .see_more_btn:hover {
     background-color: darkgrey;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 .dropdown-content {
@@ -159,12 +165,12 @@ hr {
     text-align: right;
 }
 
-.featured_project_wrapper_right h1, .featured_project_wrapper_left h1 {
+.featured_project_wrapper_right h2, .featured_project_wrapper_left h2 {
     padding: 10px 30px 10px 40px;
     text-align: left;
 }
 
-.featured_project_wrapper_right h1 {
+.featured_project_wrapper_right h2 {
     text-align: right;
 }
 
@@ -337,7 +343,7 @@ hr {
     .mobilehidetext {
         display: none;
     }
-    .dropbtn {
+    .dropbtn, .see_more_btn {
         font-size: 12px;
     }
     .dropdown-content-hover {
@@ -364,6 +370,7 @@ hr {
     .big_featured_wrapper, .big_featured_wrapper {
         max-width: 900px;
         margin: auto;
+        transform: translate(0, -30px)
     }
     .featured_project_wrapper_right, .featured_project_wrapper_left {
         margin-top: 50px;
@@ -383,7 +390,7 @@ hr {
         text-align: left;
         padding: 10px 0px 10px 0px;
     }
-    .featured_project_wrapper_right h1, .featured_project_wrapper_left h1 {
+    .featured_project_wrapper_right h2, .featured_project_wrapper_left h2 {
         text-align: left;
         padding: 0px;
         padding-top: 30px;
@@ -412,6 +419,9 @@ hr {
         padding: 4px 10px;
         font-size: 12px;
     }
+    .see_more_btn {
+        transform: translate(0, -50px);
+    }
     .searchcontainer {
         float: left;
         padding-right: 500px;
@@ -434,7 +444,8 @@ hr {
     .search {
         border: 1.5px solid #3c3c3c;
     }
-    .dropbtn {
+
+    .dropbtn, .see_more_btn {
         background-color: #3c3c3c;
     }
     .dropdownhover:hover, .dropdownhover a:hover {
