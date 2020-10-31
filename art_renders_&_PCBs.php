@@ -67,4 +67,26 @@
         <!-- PCBs -->
         <h2>PCBs</h2>
         <p class="paragraph_heading"> Various PCBs I have designed for different projects.</p>
-        <!-- Project Pictures -
+        <!-- Project Pictures -->
+        <div class="bigpicwrapper" id="bigpicwrapper">
+            <div class="picwrapper" id="picwrapper" style="padding-top: 5px;">
+                <div class="piccontainer">
+                    <img id="img8" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/PCBs/Charger_PCB.png" alt="Project">
+                </div>
+                <div class="piccontainer" id="picwrapper">
+                    <img id="img9" class="third" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/PCBs/guitar_pcb.png" alt="Project">
+                </div>
+                <div class="piccontainer" id="picwrapper">
+                    <img class="thirdplaceholder" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/placeholder.png" alt="Project">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php include('partials/footer.php') ?>
+<?php include('partials/modal.php') ?>
+<script src="javascript/modal.js"></script>
+<script src="javascript/navbar.js"></script>
+
+
+</html>

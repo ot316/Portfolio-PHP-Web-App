@@ -58,76 +58,77 @@ function test_input($data)
 ?>
 
 <body class="background">
-<?php include('partials/banner.php') ?>
-<br>
-<br>
-<div class="wrapper">
-    <!-- Heading -->
-
-    <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">
-    <h2 style="padding: 0px; text-align:left;">About Me</h2>
+    <?php include('partials/banner.php') ?>
     <br>
-    <p style="display: block; margin-top: 0px;"> I'm a computing science student at Imperial College London, with an MEng in Design Engineering. I'm looking for a graduate role where I can apply my design and computing skills to bring valuable experiences to users through digital products.
-    </p>
-    <p style="display: block"> In my spare time I like to work on various personal projects; I find it very satisfying to carry a project through ideation, user experience and software and to finally see it address the problem it was designed to solve (hopefully). </p>
-    <p style="display: block; ">
-    I am particularly interested in open source software, entrepreneurship and the landscape of the tech industry.
-    </p>
-
-    <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
-            <strong> here </strong></a> to download my CV.</p>
-    <br><br><br>
-    <h3>Contact Form </h3>
     <br>
-    <div class="survey">
-        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <?php
-            if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
-                $emailmessage = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
+    <div class="wrapper">
+        <!-- Heading -->
 
-                $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-                $mail->isSMTP();
-                //$mail->SMTPDebug = 3;
-                $mail->CharSet = 'UTF-8';
-                $mail->SMTPAuth = true;
-                $mail->SMTPSecure = 'tls';
-                $mail->Host = 'smtp.gmail.com';
-                $mail->Port = '587';
-                $mail->Username = "isstracker2019@gmail.com";
-                $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
-                $mail->SetFrom('isstracker2019@gmail.com');
-                $mail->addAddress('olithompson@rocketmail.com');
-                $mail->Subject = 'New Contact Form Submission';
-                $mail->Body = $emailmessage;
-                $mail->IsHTML(true);
-                $mail->send();
-                echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
+        <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">
+        <h2 style="padding: 0px; text-align:left;">About Me</h2>
+        <br>
+        <p style="display: block; margin-top: 0px;"> I'm a computing science student at Imperial College London, with an MEng in Design Engineering. I'm looking for a graduate role where I can apply my design and computing skills to bring valuable experiences to users through digital products.
+        </p>
+        <p style="display: block"> In my spare time I like to work on various personal projects; I find it very satisfying to carry a project through ideation, user experience and software and to finally see it address the problem it was designed to solve (hopefully). </p>
+        <p style="display: block; ">
+            I am particularly interested in open source software, entrepreneurship and the tech industry.
+        </p>
 
-                try {
-                    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                    // set the PDO error mode to exception
-                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                    $sql = "INSERT INTO contact (name, email, message)
+        <p style="display: block; ">Please click<a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/Oli Thompson CV.pdf" target="_blank">
+                <strong> here </strong></a> to download my CV.</p>
+        <br><br><br>
+        <h3>Contact Form </h3>
+        <br>
+        <div class="survey">
+            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                <?php
+                if ($name <> "" && $email <> "" && $emailErr == "" && $nameErr == "") {
+                    $emailmessage = '<h2>Name:</h2><p>' . $name . '</p><h2>Email:</h2><p>' . $email . '</p><h2>Message:</h2><p>' . $message . '</p>';
+
+                    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+                    $mail->isSMTP();
+                    //$mail->SMTPDebug = 3;
+                    $mail->CharSet = 'UTF-8';
+                    $mail->SMTPAuth = true;
+                    $mail->SMTPSecure = 'tls';
+                    $mail->Host = 'smtp.gmail.com';
+                    $mail->Port = '587';
+                    $mail->Username = "isstracker2019@gmail.com";
+                    $mail->Password = $bucket = getenv('GMAIL_PASSWORD') ?: die('No "GMAIL_PASSWORD" config var in found in env!');
+                    $mail->SetFrom('isstracker2019@gmail.com');
+                    $mail->addAddress('olithompson@rocketmail.com');
+                    $mail->Subject = 'New Contact Form Submission';
+                    $mail->Body = $emailmessage;
+                    $mail->IsHTML(true);
+                    $mail->send();
+                    echo ('<br><h3 style ="font-size: 20px;"> Thanks for your message </h3><br>');
+
+                    try {
+                        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+                        // set the PDO error mode to exception
+                        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $sql = "INSERT INTO contact (name, email, message)
                     VALUES ('$name', '$email', '$message')";
-                    $conn->exec($sql);
-                } catch (PDOException $e) {
-                    echo $sql . "<br>" . $e->getMessage();
+                        $conn->exec($sql);
+                    } catch (PDOException $e) {
+                        echo $sql . "<br>" . $e->getMessage();
+                    }
                 }
-            }
-            ?>
-            <p style="margin: 7px;">Name</p> <input type="text" name="name">
-            <span class="error">* <?php echo $nameErr; ?></span>
-            <p style="margin: 7px;">Email</p> <input type="text" name="email">
-            <span class="error">* <?php echo $emailErr; ?></span>
-            <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
-            <br>
-            <input class="btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
-        </form>
+                ?>
+                <p style="margin: 7px;">Name</p> <input type="text" name="name">
+                <span class="error">* <?php echo $nameErr; ?></span>
+                <p style="margin: 7px;">Email</p> <input type="text" name="email">
+                <span class="error">* <?php echo $emailErr; ?></span>
+                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
+                <br>
+                <input class="btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
+            </form>
+        </div>
+        <h3 style="padding-top: 90px;">Software Competencies</h3>
+        <img class="hero" style="padding-bottom: 0px; padding-top: 10px; max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
     </div>
-    <h3 style = "padding-top: 90px;">Software Competencies</h3>
-    <img class="hero" style="padding-bottom: 30px; padding-top: 10px; max-width: 800px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/software.png ">
-</div>
-</div>
+</body>
 <?php include('partials/footer.php') ?>
 <script src="javascript/navbar.js"></script>
+
 </html>
