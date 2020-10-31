@@ -19,7 +19,7 @@
             </div>
             <!-- First Bullet Points -->
             <ul class="headingbullets">
-                <li>I designed and built my own wall mounted computer with custom CNC machined parts. The computer is setup to run linux and windows from separate harddrives.</li>
+                <li>I designed and built my own wall mounted computer with custom CNC machined parts. The computer is setup to run linux and windows from separate hard drives.</li>
             </ul>
             <br>
             <img class="hero" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/custom_computer/Computer.png" alt="hero image">
