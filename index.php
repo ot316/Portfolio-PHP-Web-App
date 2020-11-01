@@ -15,7 +15,7 @@
         <h2 class="highlights">Highlights</h2>
         <div style="overflow:auto; clear:both;">
             <button onclick="window.location.href='/projects';" class="see_more_btn">See more projects ></button>
-            <p style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist and I love bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at University.</p>
+            <p style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist and I love bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at university.</p>
         </div>
         <div class="big_featured_wrapper" id="bigpicwrapper" style="padding-top: 10px;">
             <hr class="home_rule">
