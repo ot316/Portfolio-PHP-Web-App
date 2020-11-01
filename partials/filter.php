@@ -1,4 +1,4 @@
-<p style="padding-bottom: 5px;" class="mobilehidetext"> Here you can find all my personal and university projects. Please use the drop down filter or search box below to sort through my projects by skillset.</p>
+<p style="padding-bottom: 5px;" class="mobilehidetext"> Here you can find all my personal and university projects. Please use the drop down filter or search box below to sort through the projects by skillset.</p>
 <div class="dropdown">
     <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png">Filter</button>
     
