@@ -51,7 +51,7 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
             <br>
             <br>
             <?php echo ($loginerror) ?>
-            <button class="dropbtn" type="submit">Sign in</button>
+            <button class="btn" type="submit">Sign in</button>
         </form>
         <br>
         <br>
