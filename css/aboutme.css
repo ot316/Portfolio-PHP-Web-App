@@ -4,7 +4,21 @@
         margin: auto;
         padding: 20px;
     }
-    
+    .btn {
+        color: black;
+        padding: 11px 30px 11px 30px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        background-color: lightgrey;
+    }
+ 
+    .btn:hover {
+        background-color: darkgrey;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+    }
+
     .error {
         color: darkred;
         font-size: 14px;
@@ -32,6 +46,13 @@
             color: black;
         }
         .btn {
-            color: black;
+            background-color: #3c3c3c;
+            color: white;
+        }
+        .dropdowngraphic {
+            filter: invert(100%)
+        }
+        .btn a:hover {
+            background-color: #808080;
         }
     }
