@@ -53,6 +53,7 @@
             </p>
             <img class="hero" style="padding-top: 0px; padding-bottom: 10px; width: 300px;" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/medical_percussion/neural_network_architecture.png">
             <h3>Neural network architecture</h3>
+            <p>For more details about the project's code as well as our papers and posters, check out the project's github <a href="https://github.com/ot316/Percussion-RRP">here</a>.</p>
         </div>
     </div>
 </div>
