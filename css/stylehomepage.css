@@ -474,4 +474,7 @@ hr {
     .dropdown-content-hover a {
         color: white;
     }
+    .piccontainerborder {
+        border: none;
+    }
 }
