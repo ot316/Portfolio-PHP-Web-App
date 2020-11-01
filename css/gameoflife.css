@@ -28,12 +28,12 @@
 
 .colourpickercontainer {
     width: 60%;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {
     .colourpickercontainer {
-        border: 1px solid grey;
+        border: 2px solid grey;
     }
 }
