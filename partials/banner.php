@@ -55,7 +55,7 @@ function find_file()
     <div class="navbar">
         <ul>
             <li><a <?php if (find_file() == "/") echo 'class="active"'; ?> href="/">Home</a></li>
-            <li><a <?php if (find_file() == "/projects") echo 'class="active"'; ?> href="projects">Projects</a></li>
+            <li><a <?php if (find_file() != "/" && find_file() != "/about_me" && find_file() != "/art_renders_&_PCBs") echo 'class="active"'; ?> href="projects">Projects</a></li>
             <li><a <?php if (find_file() == "/about_me") echo 'class="active"'; ?> href="about_me">About Me</a></li>
             <li><a <?php if (find_file() == "/art_renders_&_PCBs") echo 'class="active"'; ?> href="art_renders_&_PCBs"> Art, Renders & PCBs</a></li>
         </ul>

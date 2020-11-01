@@ -1,10 +1,10 @@
 <p style="padding-bottom: 5px;" class="mobilehidetext"> Here you can find all of my personal and university projects, please use the drop down filter or search box below to sort through my projects by skillset.</p>
 <div class="dropdown">
-    <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png" style="filter: invert(100%)">Filter</button>
+    <button onclick="myFunction()" id="dropbtn" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/dropdowngraphic.png">Filter</button>
     
     <?php if(find_file() != '/projects') { echo('
     <a href="/projects">
-        <button style="margin-bottom: 25px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png" style="filter: invert(100%)">Remove Filter</button>
+        <button style="margin-bottom: 25px;" class="dropbtn"><img class="dropdowngraphic" src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/closemenugraphic.png">Remove Filter</button>
     </a>
     ');}
     ?>

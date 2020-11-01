@@ -79,10 +79,10 @@
             
             .navbar ul li a {
                 display: block;
-                color: white;
                 text-align: center;
                 padding: 10px 2.6vw 12px 2.6vw;
                 text-decoration: none;
+
             }
             
             .navbar ul li a:hover {
@@ -110,6 +110,7 @@
             
             .navbar {
                 width: 65%;
+                    
             }
             
             .navbar ul {
@@ -134,10 +135,10 @@
             
             .navbar ul li a {
                 display: block;
-                color: white;
                 text-align: center;
                 padding: 10px 2.7vw 12px 2.7vw;
                 text-decoration: none;
+                color: black;
             }
             
             .navbar ul li a:hover {
@@ -710,6 +711,7 @@
                 li {
                     font-size: 12px;
                     padding-top: 5px;
+                    color: black;
                 }
                 .slideshow-container {
                     padding-top: 20px;
@@ -801,5 +803,8 @@
                 }
                 .sidenavbutton {
                     color: white;
+                }
+                .navbar ul li a {
+                    color: black;
                 }
             }

@@ -32,7 +32,6 @@
     color: black;
     padding: 11px 30px 11px 30px;
     font-size: 14px;
-    color: white;
     border: none;
     cursor: pointer;
     background-color: lightgrey;
@@ -323,6 +322,8 @@ hr {
     }
     li {
         font-size: 14px;
+        color: black;
+        
     }
     .tagcontainer h2 {
         margin: 5px;
@@ -462,6 +463,10 @@ hr {
 
     .dropbtn, .see_more_btn {
         background-color: #3c3c3c;
+        color: white;
+    }
+    .dropdowngraphic {
+        filter: invert(100%)
     }
     .dropdownhover:hover, .dropdownhover a:hover {
         background-color: #808080;
