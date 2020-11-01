@@ -7,23 +7,10 @@
     
     .error {
         color: darkred;
-        font-size: 16px;
-        font-weight: 300;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
     }
     
-    .btn {
-        all: unset;
-        padding: 8px 20px;
-        margin-right: 15px;
-        background-color: lightgrey;
-        color: white;
-        border: none;
-        font-size: 16px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 400;
-    }
     /* For SmartPhones---------------------------------------------------------------------------------------------- */
     
     @media only screen and (max-width: 500px) {

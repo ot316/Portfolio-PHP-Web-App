@@ -116,13 +116,13 @@ function test_input($data)
                     }
                 }
                 ?>
-                <p style="margin: 7px;">Name</p> <input type="text" name="name">
-                <span class="error">* <?php echo $nameErr; ?></span>
-                <p style="margin: 7px;">Email</p> <input type="text" name="email">
-                <span class="error">* <?php echo $emailErr; ?></span>
-                <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
+                <p style="margin: 7px;">Name</p> <input style="margin-left: 7px; margin-bottom: 7px;" type="text" name="name">
+                <span class="error"> * <?php echo $nameErr; ?></span>
+                <p style="margin: 7px;">Email</p> <input style="margin-left: 7px; margin-bottom: 7px;" type="text" name="email">
+                <span class="error"> * <?php echo $emailErr; ?></span>
+                <p style="margin: 7px;">Message</p><textarea style="margin-left: 7px; margin-bottom: 7px;" name="message" rows="6" cols="35"></textarea><br />
                 <br>
-                <input class="dropbtn" style="margin-right: 10px" type="submit" value="Send"><input class="dropbtn" type="reset" value="Clear">
+                <input class="dropbtn" style="margin-left: 7px; margin-right: 10px" type="submit" value="Send"><input class="dropbtn" type="reset" value="Clear">
             </form>
         </div>
         <h3 style="padding-top: 90px;">Software Competencies</h3>
