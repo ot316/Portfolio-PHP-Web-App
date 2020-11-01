@@ -6,7 +6,7 @@
     <title>Medical Percussion</title>
 </head>
 
-<div class="bachground" ;>
+<div class="bachground">
     <?php include('partials/banner.php') ?>
     <div class="wrapper">
         <div>
