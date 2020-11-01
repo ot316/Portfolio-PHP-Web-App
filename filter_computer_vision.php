@@ -17,9 +17,10 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/baxter_robot.php') ?>
                 <?php include('project_partials/smart_mirror.php') ?>
-                <?php include('project_partials/autonomous_drone.php') ?>
+                <?php include('project_partials/big_data.php') ?>
             </div>
             <div class="picwrapper" id="picwrapper">
+                <?php include('project_partials/autonomous_drone.php') ?>
                 <?php include('project_partials/gizmo.php') ?>
             </div>
         </div>

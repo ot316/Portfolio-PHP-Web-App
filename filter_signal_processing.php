@@ -16,6 +16,7 @@
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
             <?php include('project_partials/illumuitar.php') ?>
+            <?php include('project_partials/autonomous_drone.php') ?>
             </div>
         </div>
     </div>
