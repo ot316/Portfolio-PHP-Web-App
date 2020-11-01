@@ -14,7 +14,7 @@
     <div class="wrapper" style="max-width: 900px;">
         <h2 class="highlights">Highlights</h2>
         <div style="overflow:auto; clear:both;">
-            <button onclick="window.location.href='/projects';" class="see_more_btn">See more projects ></button>
+            <button onclick="window.location.href='/projects';" class="see_more_btn">See all projects ></button>
             <p style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist and I love bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at university.</p>
         </div>
         <div class="big_featured_wrapper" id="bigpicwrapper" style="padding-top: 10px;">
@@ -25,7 +25,7 @@
             <hr class="home_rule">
             <?php include('featured_project_partials/medical_percussion.php') ?>
             <hr class="home_rule">
-            <button onclick="window.location.href='/projects';" class="see_more_btn" style="transform: none;">See more projects ></button>
+            <button onclick="window.location.href='/projects';" class="see_more_btn" style="transform: none;">See all projects ></button>
         </div>
     </div>
     <?php include('partials/footer.php') ?>
