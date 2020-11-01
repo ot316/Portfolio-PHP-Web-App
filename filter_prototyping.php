@@ -23,10 +23,12 @@
             <div class="picwrapper" id="picwrapper">
             <?php include('project_partials/perfume_bracelet.php') ?>
             <?php include('project_partials/embla.php') ?>
-            <?php include('project_partials/submarine_interior.php') ?>
+            <?php include('project_partials/medical_percussion.php') ?>
+           
             </div>
             <div class="picwrapper" id="picwrapper">
             <?php include('project_partials/programmable_pet_feeder.php') ?>
+            <?php include('project_partials/submarine_interior.php') ?>
             </div>
             
         </div>
