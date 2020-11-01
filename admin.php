@@ -6,6 +6,7 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>Admin Page</title>
+    <link rel="stylesheet" href="css/gameoflife.css">
 </head>
 
 <?php
