@@ -5,6 +5,7 @@
     <?php include('partials/head.php') ?>
     <title>Login Page</title>
     <link rel="stylesheet" href="./css/aboutme.css">
+    <link rel="stylesheet" href="./css/stylehomepage.css">
 </head>
 
 <?php
@@ -51,7 +52,7 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
             <br>
             <br>
             <?php echo ($loginerror) ?>
-            <button class="btn" type="submit">Sign in</button>
+            <button class="dropdownbtn" type="submit">Sign in</button>
         </form>
         <br>
         <br>
