@@ -15,12 +15,13 @@
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/illumuitar.php') ?>
+                <?php include('project_partials/medical_percussion.php') ?>
+                <?php include('project_partials/autonomous_drone.php') ?>
                 <?php include('project_partials/baxter_robot.php') ?>
-                <?php include('project_partials/matlab_robotic_arm.php') ?>
+                
             </div>
             <div class="picwrapper" id="picwrapper">
-                <?php include('project_partials/autonomous_drone.php') ?>
+                <?php include('project_partials/matlab_robotic_arm.php') ?>
                 <?php include('project_partials/gizmo.php') ?>
                 <?php include('project_partials/empty.php') ?>
             </div>

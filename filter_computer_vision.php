@@ -22,6 +22,7 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/autonomous_drone.php') ?>
                 <?php include('project_partials/gizmo.php') ?>
+                <?php include('project_partials/empty.php') ?>
             </div>
         </div>
     </div>

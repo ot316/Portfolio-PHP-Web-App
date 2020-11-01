@@ -24,6 +24,7 @@
             <div class="picwrapper" id="picwrapper">
                 <?php include('project_partials/perfume_bracelet.php') ?>
                 <?php include('project_partials/gyrocopter_chassis.php') ?>
+                <?php include('project_partials/medical_percussion.php') ?>
                 <?php include('project_partials/landing_pad.php') ?>
             </div>
         </div>
