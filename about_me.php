@@ -4,6 +4,7 @@
 <head>
     <?php include('partials/head.php') ?>
     <title>About Me</title>
+    <link rel="stylesheet" href="./css/stylehomepage.css">
     <link rel="stylesheet" href="./css/aboutme.css">
 </head>
 
@@ -121,7 +122,7 @@ function test_input($data)
                 <span class="error">* <?php echo $emailErr; ?></span>
                 <p style="margin: 7px;">Message</p><textarea name="message" rows="6" cols="35"></textarea><br />
                 <br>
-                <input class="btn" type="submit" value="Send"><input class="btn" type="reset" value="Clear">
+                <input class="dropbtn" style="margin-right: 10px" type="submit" value="Send"><input class="dropbtn" type="reset" value="Clear">
             </form>
         </div>
         <h3 style="padding-top: 90px;">Software Competencies</h3>
