@@ -12,13 +12,19 @@
     <?php include('partials/loader.php') ?>
     <?php include('partials/banner.php') ?>
     <div class="wrapper" style="max-width: 900px;">
-        <h2 style="margin-bottom: 20px; font-size: 24px">Highlights</h2>
-        <p style="margin-top: 0px; padding-bottom: 15px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist who is particularly interested in bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at University.</p>
-        <button onclick="window.location.href='/projects';" class="see_more_btn">See more projects ></button>
+        <h2 class="highlights">Highlights</h2>
+        <div style="overflow:auto; clear:both;">
+            <button onclick="window.location.href='/projects';" class="see_more_btn">See more projects ></button>
+            <p style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;" class="mobilehidetext">I am a Design Engineer and Computer Scientist and I love bringing value to users through digital and physical products. Below are some project highlights from my time in industry and at University.</p>
+        </div>
         <div class="big_featured_wrapper" id="bigpicwrapper" style="padding-top: 10px;">
+            <hr class="home_rule">
             <?php include('featured_project_partials/voxel.php') ?>
+            <hr class="home_rule">
             <?php include('featured_project_partials/magic_of_things.php') ?>
+            <hr class="home_rule">
             <?php include('featured_project_partials/medical_percussion.php') ?>
+            <hr class="home_rule">
             <button onclick="window.location.href='/projects';" class="see_more_btn" style="transform: none;">See more projects ></button>
         </div>
     </div>
@@ -27,4 +33,5 @@
 <script src="../javascript/pic_wrapper.js"></script>
 <script src="../javascript/navbar.js"></script>
 <script src="../javascript/loader.js"></script>
+
 </html>

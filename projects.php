@@ -17,22 +17,22 @@
         <!-- Project Pictures -->
         <div class="bigpicwrapper" id="bigpicwrapper">
             <div class="picwrapper">
-                <?php include('project_partials/zero_gravity_garden.php') ?>
                 <?php include('project_partials/smart_mirror.php') ?>
+                <?php include('project_partials/medical_percussion.php') ?>
                 <?php include('project_partials/baxter_robot.php') ?>
             </div>
 
 
             <div class="picwrapper">
-                <?php include('project_partials/medical_percussion.php') ?>
+                <?php include('project_partials/zero_gravity_garden.php') ?>
                 <?php include('project_partials/illumuitar.php') ?>
-                <?php include('project_partials/ball_launcher.php') ?>
+                <?php include('project_partials/autonomous_drone.php') ?>
             </div>
 
 
             <div class="picwrapper">
                 <?php include('project_partials/rollercoaster_optimisation.php') ?>
-                <?php include('project_partials/autonomous_drone.php') ?>
+                <?php include('project_partials/ball_launcher.php') ?>
                 <?php include('project_partials/matlab_robotic_arm.php') ?>
             </div>
 
