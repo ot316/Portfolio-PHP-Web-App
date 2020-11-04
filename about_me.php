@@ -68,7 +68,9 @@ function test_input($data)
         <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">
         <h2 style="padding: 0px; text-align:left;">About Me</h2>
         <br>
-        <p style="display: block; margin-top: 0px;"> I am currently studying for an MSc in Computing Science at Imperial College London, having recently graduated with an MEng in Design Engineering (also at Imperial). Design Engineering is a course that combines traditional engineering skills with innovation and entrepreneurship. I am looking to pursue a career in product management, software engineering or related roles.</p>
+        <p style="display: block; margin-top: 0px;"> I am currently studying for an MSc in Computing Science at Imperial College London, having recently graduated with an MEng in Design Engineering (also at Imperial). Design Engineering is a course that combines traditional engineering skills with innovation and entrepreneurship. </p>
+        
+        <p style="display: block">I am looking to pursue a career in product management, software engineering or related roles.</p>
         
         <p style="display: block">In my spare time I have always looked to broaden and deepen my knowledge through self-directed study and personal project work. During my internship at the Magic of Things ltd I was responsible for designing interactive products from initial concept and research through A/B testing, validation and roll-out. For me there is nothing more satisfying than taking a project through ideation, user experience and software to a final product and beyond. Design engineering taught me that everything begins and ends with the user.</p>
 
