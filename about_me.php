@@ -62,7 +62,7 @@ function test_input($data)
     <?php include('partials/banner.php') ?>
     <br>
     <br>
-    <div class="wrapper">
+    <div class="wrapper" style="max-width: 50vw">
         <!-- Heading -->
 
         <img src="https://olithompson.s3.eu-west-2.amazonaws.com/Media/Misc/aboutmepic.png" style=" float: left; padding-right: 25px; padding-bottom: 15px; width: 22%; max-width: 200px;">

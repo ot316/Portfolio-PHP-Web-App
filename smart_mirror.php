@@ -174,7 +174,7 @@ for (var i = 0; i < uniquetimes.length; i++) {
             <span class="dot" onclick="currentSlide(6)"></span>
             <span class="dot" onclick="currentSlide(7)"></span>
         </div>
-        <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/rollercoaster_optimisation/FinalReport_Group9.pdf" target="_blank">
+        <a href="https://olithompson.s3.eu-west-2.amazonaws.com/Media/smart_mirror/OliThompsonReport.pdf" target="_blank">
             <h2 class="link">Click here to download full report</h2>
         </a>
     </div>
